@@ -64,7 +64,7 @@ export function AnimatedSection({
 
   return (
     <motion.section
-      ref={ref as any}
+      ref={ref}
       id={id}
       className={cn(className)}
       initial={getInitialPosition()}
