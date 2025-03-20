@@ -230,15 +230,15 @@ export default function BlogPage() {
           {/* ページネーション */}
           <div className="flex justify-center mt-10">
             <nav className="inline-flex">
-              <a href="#" className="px-3 py-2 border rounded-l-md bg-primary text-white">1</a>
-              <a href="#" className="px-3 py-2 border-t border-b border-r text-gray-700 hover:bg-gray-100">2</a>
-              <a href="#" className="px-3 py-2 border-t border-b border-r text-gray-700 hover:bg-gray-100">3</a>
-              <a href="#" className="px-3 py-2 border-t border-b border-r rounded-r-md text-gray-700 hover:bg-gray-100">
+              <Link href="/blog?page=1" className="px-3 py-2 border rounded-l-md bg-primary text-white">1</Link>
+              <Link href="/blog?page=2" className="px-3 py-2 border-t border-b border-r text-gray-700 hover:bg-gray-100">2</Link>
+              <Link href="/blog?page=3" className="px-3 py-2 border-t border-b border-r text-gray-700 hover:bg-gray-100">3</Link>
+              <Link href="/blog?page=2" className="px-3 py-2 border-t border-b border-r rounded-r-md text-gray-700 hover:bg-gray-100">
                 <span className="sr-only">Next</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                 </svg>
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -257,25 +257,25 @@ export default function BlogPage() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/parents" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
                   <span>保護者向けコラム</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">8</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/activity-report" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
                   <span>教室活動レポート</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">15</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/student-interview" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
                   <span>生徒インタビュー</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">6</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/event-info" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
                   <span>イベント情報</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">4</span>
                 </Link>
@@ -319,37 +319,6 @@ export default function BlogPage() {
                   </Link>
                   <p className="text-xs text-gray-500 mt-1">2025年3月10日</p>
                 </div>
-              </li>
-            </ul>
-          </div>
-          
-          {/* アーカイブ */}
-          <div className="bg-white rounded-lg shadow-md p-4 mb-6">
-            <h3 className="text-lg font-bold mb-3">アーカイブ</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/blog/archive/2025-03" className="flex justify-between hover:text-primary">
-                  <span>2025年3月</span>
-                  <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">8</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/archive/2025-02" className="flex justify-between hover:text-primary">
-                  <span>2025年2月</span>
-                  <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">12</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/archive/2025-01" className="flex justify-between hover:text-primary">
-                  <span>2025年1月</span>
-                  <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">10</span>
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog/archive/2024-12" className="flex justify-between hover:text-primary">
-                  <span>2024年12月</span>
-                  <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">15</span>
-                </Link>
               </li>
             </ul>
           </div>
