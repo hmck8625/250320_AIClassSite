@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -8,11 +9,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* 会社情報 */}
           <div>
-            <h3 className="text-xl font-bold mb-4">AI創造ラボ</h3>
-            <p className="mb-2">〒106-0032</p>
-            <p className="mb-2">東京都港区六本木1-2-3</p>
-            <p className="mb-2">○○ビル 5F</p>
-            <p>TEL: 03-1234-5678</p>
+            <div className="flex items-center space-x-2 mb-4">
+              <div className="relative w-8 h-8">
+                <Image 
+                  src="/icons/site_icon.png"
+                  alt="AI創造ラボ"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold">AI創造ラボ</h3>
+            </div>
+            <p className="mb-2">【オープン準備中】</p>
           </div>
           
           {/* サイトマップ */}
@@ -42,7 +50,7 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">LINE公式アカウント</h3>
             <p className="mb-4">最新の体験会情報やAI教育に関する情報をお届けします</p>
             <Link 
-              href="https://lin.ee/yourlineurl" 
+              href="https://lin.ee/kehl7g7" 
               target="_blank"
               className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded inline-block"
             >

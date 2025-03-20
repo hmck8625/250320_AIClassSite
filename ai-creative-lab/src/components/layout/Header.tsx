@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function Header() {
@@ -7,8 +8,16 @@ export default function Header() {
       <div className="container mx-auto py-4">
         <div className="flex justify-between items-center">
           {/* ロゴ */}
-          <Link href="/" className="font-bold text-xl">
-            AI創造ラボ
+          <Link href="/" className="flex items-center space-x-2">
+            <div className="relative w-8 h-8">
+              <Image 
+                src="/icons/site_icon.png"
+                alt="AI創造ラボ"
+                fill
+                className="object-contain"
+              />
+            </div>
+            <span className="font-bold text-xl">AI創造ラボ</span>
           </Link>
           
           {/* グローバルナビゲーション - PC */}
@@ -23,7 +32,7 @@ export default function Header() {
           
           {/* LINE登録ボタン */}
           <Button size="sm" className="hidden md:block bg-green-500 hover:bg-green-600">
-            <Link href="https://lin.ee/yourlineurl" target="_blank">
+            <Link href="https://lin.ee/kehl7g7" target="_blank">
               LINE登録
             </Link>
           </Button>
@@ -47,7 +56,7 @@ export default function Header() {
           <Link href="/blog" className="hover:text-primary">ブログ</Link>
           <Link href="/contact" className="hover:text-primary">お問い合わせ</Link>
           <Button size="sm" className="bg-green-500 hover:bg-green-600 w-full">
-            <Link href="https://lin.ee/yourlineurl" target="_blank">
+            <Link href="https://lin.ee/kehl7g7" target="_blank">
               LINE登録
             </Link>
           </Button>

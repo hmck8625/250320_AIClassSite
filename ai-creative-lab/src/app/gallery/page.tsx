@@ -48,8 +48,8 @@ export default function GalleryPage() {
               AIを使って、自分が想像する未来の街並みを描きました。
               環境に優しい建物や空飛ぶ車など、自分のアイデアを形にしています。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/future-city">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
@@ -73,8 +73,8 @@ export default function GalleryPage() {
               AIを活用してキャラクターや背景を作成し、宇宙を探検するゲームを開発しました。
               惑星ごとに異なるミッションがあり、クリアしていく冒険ゲームです。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/space-explorer">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
@@ -98,8 +98,8 @@ export default function GalleryPage() {
               AIを使って自分のメロディーを発展させ、短い交響曲を作曲しました。
               四季をテーマにした4つの楽章からなる作品です。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/ai-symphony">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
@@ -123,8 +123,8 @@ export default function GalleryPage() {
               AIを活用した植物識別機能を持つ観察記録アプリを開発しました。
               写真を撮るだけで植物の名前や特徴を教えてくれる便利なツールです。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/plant-app">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
@@ -148,8 +148,8 @@ export default function GalleryPage() {
               AIを搭載した小型ロボットを開発しました。
               簡単な音声指示に反応して、物を運んだり、メッセージを伝えたりする機能を実装しています。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/helper-robot">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
@@ -173,62 +173,13 @@ export default function GalleryPage() {
               AIを活用して短編アニメーションを制作しました。
               自分で書いたストーリーをもとに、キャラクターデザインから動きまでAIと協力して作り上げています。
             </p>
-            <Button variant="outline" size="sm" className="w-full">
-              <Link href="/gallery/ai-animation">作品詳細を見る</Link>
+            <Button variant="outline" size="sm" className="w-full" disabled>
+              準備中
             </Button>
           </div>
         </div>
       </div>
       
-      {/* 成功事例紹介 */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">成功事例紹介</h2>
-        
-        <div className="bg-gray-50 rounded-lg p-8 mb-8">
-          <div className="grid md:grid-cols-3 gap-8 items-center">
-            <div className="md:col-span-1">
-              <div className="w-40 h-40 bg-gray-200 rounded-full mx-auto flex items-center justify-center">
-                <p className="text-gray-500">写真</p>
-              </div>
-            </div>
-            <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold mb-2">佐藤 健太さん（16歳）</h3>
-              <p className="text-gray-600 mb-4">AIアプリ開発コース卒業生</p>
-              <p className="mb-4">
-                「AI創造ラボで学んだことをきっかけに、プログラミングの面白さに目覚めました。
-                自分で開発したAI翻訳アプリが学生コンテストで優秀賞を受賞し、
-                現在は高校の課題研究でさらに発展させています。」
-              </p>
-              <p className="text-sm text-gray-500">
-                ※ 佐藤さんは中学2年生からAI創造ラボに通い、高校1年生で卒業しました。
-                開発したアプリは「全国学生AIアプリコンテスト2024」で優秀賞を受賞。
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div className="bg-gray-50 rounded-lg p-8">
-          <div className="grid md:grid-cols-3 gap-8 items-center">
-            <div className="md:col-span-1">
-              <div className="w-40 h-40 bg-gray-200 rounded-full mx-auto flex items-center justify-center">
-                <p className="text-gray-500">写真</p>
-              </div>
-            </div>
-            <div className="md:col-span-2">
-              <h3 className="text-2xl font-bold mb-2">田中 美咲さん（12歳）</h3>
-              <p className="text-gray-600 mb-4">AIアート探検コース卒業生</p>
-              <p className="mb-4">
-                「絵を描くのが好きでしたが、AIを使うことで自分のイメージをもっと自由に表現できるようになりました。
-                AI創造ラボで作った作品集が認められて、地元のギャラリーで展示会を開催することができました。」
-              </p>
-              <p className="text-sm text-gray-500">
-                ※ 田中さんは小学4年生からAI創造ラボに通い、6年生で卒業。
-                「AIと子どもの創造力展2024」に作品が選出され、地元ギャラリーでの個展開催につながりました。
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       
       {/* CTA */}
       <div className="bg-gray-900 text-white p-8 rounded-lg text-center">

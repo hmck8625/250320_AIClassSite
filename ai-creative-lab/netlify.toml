@@ -12,3 +12,40 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+
+# コース詳細ページへのリダイレクト
+[[redirects]]
+  from = "/courses/ai-art"
+  to = "/courses/ai-art/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/game-creator"
+  to = "/courses/game-creator/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/app-dev"
+  to = "/courses/app-dev/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/music"
+  to = "/courses/music/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/robotics"
+  to = "/courses/robotics/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/video"
+  to = "/courses/video/index.html"
+  status = 200
+
+# その他のページは通常のSPAリダイレクト
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

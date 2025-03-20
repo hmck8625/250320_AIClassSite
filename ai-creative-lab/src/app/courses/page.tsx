@@ -21,7 +21,7 @@ export default function CoursesPage() {
           <div className="border rounded-lg overflow-hidden shadow-md">
             <div className="h-48 bg-gray-200 relative overflow-hidden">
               <Image 
-                src="/images/sample/parakeets-9190236_1280.jpg"
+                src="/images/sample/top/image_art_icon.jpg"
                 alt="AIアート探検コース"
                 fill
                 className="object-cover"
@@ -45,8 +45,13 @@ export default function CoursesPage() {
           
           {/* コース2 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/top/image_game_icon.jpg"
+                alt="AIゲームクリエイターコース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-green-100 text-green-800 text-xs font-semibold px-2 py-1 rounded mb-2">小中学生向け</span>
@@ -66,8 +71,13 @@ export default function CoursesPage() {
           
           {/* コース3 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/top/image_engneer_icon.jpg"
+                alt="AIアプリ開発コース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-2 py-1 rounded mb-2">中高生向け</span>
@@ -87,8 +97,13 @@ export default function CoursesPage() {
           
           {/* コース4 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/top/image_music_icon.jpg"
+                alt="AI音楽作曲コース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-red-100 text-red-800 text-xs font-semibold px-2 py-1 rounded mb-2">小学生向け</span>
@@ -108,8 +123,13 @@ export default function CoursesPage() {
           
           {/* コース5 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/top/image_boy_idea.jpg"
+                alt="AIロボティクスコース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-yellow-100 text-yellow-800 text-xs font-semibold px-2 py-1 rounded mb-2">小中学生向け</span>
@@ -129,8 +149,13 @@ export default function CoursesPage() {
           
           {/* コース6 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/top/image_story_icon.jpg"
+                alt="AI映像制作コース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-indigo-100 text-indigo-800 text-xs font-semibold px-2 py-1 rounded mb-2">中高生向け</span>

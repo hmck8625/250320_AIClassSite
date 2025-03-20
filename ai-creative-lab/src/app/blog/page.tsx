@@ -245,18 +245,6 @@ export default function BlogPage() {
         
         {/* サイドバー */}
         <div>
-          {/* 検索ボックス */}
-          <div className="bg-white rounded-lg shadow-md p-4 mb-6">
-            <h3 className="text-lg font-bold mb-3">記事を検索</h3>
-            <div className="flex">
-              <input type="text" className="flex-grow border rounded-l-md px-3 py-2" placeholder="キーワードを入力" />
-              <button className="bg-primary text-white px-4 py-2 rounded-r-md">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </button>
-            </div>
-          </div>
           
           {/* カテゴリー一覧 */}
           <div className="bg-white rounded-lg shadow-md p-4 mb-6">

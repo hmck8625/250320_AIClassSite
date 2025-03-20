@@ -1,1 +1,10 @@
+# コース詳細ページへのリダイレクト
+/courses/ai-art      /courses/ai-art/index.html      200
+/courses/game-creator      /courses/game-creator/index.html      200
+/courses/app-dev      /courses/app-dev/index.html      200
+/courses/music      /courses/music/index.html      200
+/courses/robotics      /courses/robotics/index.html      200
+/courses/video      /courses/video/index.html      200
+
+# その他のページは通常のSPAリダイレクト
 /*    /index.html   200
