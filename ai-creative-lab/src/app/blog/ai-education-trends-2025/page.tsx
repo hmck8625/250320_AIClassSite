@@ -103,9 +103,9 @@ export default function BlogPostPage() {
           普及が進んでいます。
         </p>
         
-        <h3>カナダの事例：「Teacher's AI Companion」</h3>
+        <h3>カナダの事例：「Teacher&apos;s AI Companion」</h3>
         <p>
-          カナダのオンタリオ州で導入されている「Teacher's AI Companion」は、
+          カナダのオンタリオ州で導入されている「Teacher&apos;s AI Companion」は、
           教材作成、授業計画、評価、個別指導など、教師の多様な業務をサポートします。
           例えば、生徒の学習データを分析し、つまずきやすいポイントを特定して
           補足教材を自動生成したり、授業中の生徒の反応をリアルタイムで分析して
