@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">情報</h3>
             <ul className="space-y-2">
-              <li><Link href="/trial" className="hover:text-primary-300">体験会申込</Link></li>
+              {/* 体験会申込は非表示 */}
               <li><Link href="/blog" className="hover:text-primary-300">ブログ/教育コラム</Link></li>
               <li><Link href="/contact" className="hover:text-primary-300">お問い合わせ</Link></li>
               <li><Link href="/faq" className="hover:text-primary-300">よくある質問</Link></li>

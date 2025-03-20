@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
@@ -208,7 +207,7 @@ export default function ContactPage() {
               <Link href="/faq">よくある質問一覧</Link>
             </Button>
             <Button className="bg-primary">
-              <Link href="/trial">無料体験会に申し込む</Link>
+              <Link href="/contact">お問い合わせする</Link>
             </Button>
           </div>
         </div>

@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function GalleryPage() {
@@ -28,10 +28,13 @@ export default function GalleryPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
         {/* 作品1 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-64 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">作品画像</p>
-            </div>
+          <div className="h-64 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/sample/parakeets-9190236_1280.jpg"
+              alt="AIが描く未来の街"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-6">
             <div className="flex justify-between items-start mb-3">
@@ -235,7 +238,7 @@ export default function GalleryPage() {
           まずは無料体験会にお越しください。
         </p>
         <Button size="lg" className="bg-primary">
-          <Link href="/trial">無料体験会に申し込む</Link>
+          <Link href="/contact">お問い合わせ</Link>
         </Button>
       </div>
     </div>

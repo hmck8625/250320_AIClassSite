@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function BlogPage() {
@@ -29,10 +29,13 @@ export default function BlogPage() {
           {/* 特集記事 */}
           <div className="mb-12">
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="h-80 bg-gray-200 relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <p className="text-gray-500">特集記事画像</p>
-                </div>
+              <div className="h-80 bg-gray-200 relative overflow-hidden">
+                <Image 
+                  src="/images/sample/parakeets-9190236_1280.jpg"
+                  alt="AI時代の教育とは？"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-6">
                 <div className="flex items-center mb-3">
@@ -60,10 +63,13 @@ export default function BlogPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {/* 記事1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-200 relative">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <p className="text-gray-500">記事画像</p>
-                </div>
+              <div className="h-48 bg-gray-200 relative overflow-hidden">
+                <Image 
+                  src="/images/sample/parakeets-9190236_1280.jpg"
+                  alt="子ども向けAIツール5選"
+                  fill
+                  className="object-cover"
+                />
               </div>
               <div className="p-4">
                 <div className="flex items-center mb-2">

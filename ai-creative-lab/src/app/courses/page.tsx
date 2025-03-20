@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function CoursesPage() {
@@ -19,8 +19,13 @@ export default function CoursesPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* コース1 */}
           <div className="border rounded-lg overflow-hidden shadow-md">
-            <div className="h-48 bg-gray-200 flex items-center justify-center">
-              <p className="text-gray-500">コース画像</p>
+            <div className="h-48 bg-gray-200 relative overflow-hidden">
+              <Image 
+                src="/images/sample/parakeets-9190236_1280.jpg"
+                alt="AIアート探検コース"
+                fill
+                className="object-cover"
+              />
             </div>
             <div className="p-6">
               <span className="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-1 rounded mb-2">小学生向け</span>
@@ -263,9 +268,6 @@ export default function CoursesPage() {
           お子様の興味や適性を見ながら、最適なコースをご提案いたします。
         </p>
         <div className="flex justify-center gap-4">
-          <Button size="lg" className="bg-primary">
-            <Link href="/trial">無料体験会に申し込む</Link>
-          </Button>
           <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900">
             <Link href="/contact">お問い合わせ</Link>
           </Button>

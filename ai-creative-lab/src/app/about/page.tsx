@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export default function AboutPage() {
@@ -17,8 +17,13 @@ export default function AboutPage() {
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-center">教育理念</h2>
         <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div className="bg-gray-200 h-80 flex items-center justify-center">
-            <p className="text-gray-500">画像エリア（後で実装）</p>
+          <div className="bg-gray-200 h-80 relative overflow-hidden">
+            <Image 
+              src="/images/sample/parakeets-9190236_1280.jpg"
+              alt="AI創造ラボの教育理念"
+              fill
+              className="object-cover"
+            />
           </div>
           <div>
             <h3 className="text-2xl font-bold mb-4">AIは目的ではなく、創造の入口</h3>
@@ -121,7 +126,7 @@ export default function AboutPage() {
           まずは無料体験会にお越しください。お子様の興味や適性を見ながら、最適なコースをご提案します。
         </p>
         <Button size="lg" className="bg-primary">
-          <Link href="/trial">無料体験会に申し込む</Link>
+          <Link href="/">AI創造ラボについてもっと知る</Link>
         </Button>
       </div>
     </div>
