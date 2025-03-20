@@ -5,114 +5,60 @@ import { Button } from '@/components/ui/button'
 import { AnimatedSection } from '@/components/ui/animated-section'
 import { AnimatedCard } from '@/components/ui/animated-card'
 import { HeroAnimation, HeroItem } from '@/components/ui/hero-animation'
+import { ImageSlideshow } from '@/components/ui/image-slideshow'
 import { motion } from 'framer-motion'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      {/* ヘッダー/ファーストビュー - 強化版 */}
-      <div className="relative w-full bg-gradient-to-r from-gray-900 via-blue-900 to-gray-900 text-white py-20 md:py-24 overflow-hidden">
-        {/* 背景効果（オプション） */}
-        <div className="absolute inset-0 opacity-20">
-          <div className="h-full bg-[url('/images/sample/top/ai-creative-bg.jpg')] bg-cover bg-center"></div>
+      {/* ヘッダー/ファーストビュー - 画像スライドショー背景 */}
+      <div className="relative w-full h-screen text-white overflow-hidden">
+        {/* 背景画像スライドショー */}
+        <div className="absolute inset-0">
+          <ImageSlideshow 
+            images={[
+              '/images/sample/top/image_boy_idea.jpg',
+              '/images/sample/top/image_art_icon.jpg',
+              '/images/sample/top/image_game_icon.jpg',
+              '/images/sample/top/image_music_icon.jpg',
+              '/images/sample/top/image_story_icon.jpg'
+            ]}
+            interval={4000}
+          />
+          {/* オーバーレイ */}
+          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
         
-        <div className="container mx-auto text-center relative z-10">
+        <div className="container mx-auto relative z-10 h-full flex items-end justify-start pb-16">
           <HeroAnimation>
             <HeroItem>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                世界は進む、<br className="hidden sm:block" />
-                日本の子どもたちの才能を解き放つ時
-              </h1>
-            </HeroItem>
-            <HeroItem>
-              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
-                シリコンバレーやシンガポールでは、小学生がAIで創造する時代。<br />
-                多くの日本の子どもたちは、まだ眠れる才能に気づいていません。
-              </p>
-            </HeroItem>
-            
-            {/* CTA ボタン */}
-            <HeroItem>
-              <div className="flex flex-wrap justify-center gap-4 mb-8">
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button size="lg" className="bg-secondary">
-                    <Link href="https://lin.ee/kehl7g7" target="_blank" className="w-full h-full inline-flex items-center justify-center">
-                      無料体験授業に申し込む
-                    </Link>
-                  </Button>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-gray-900">
-                    <a href="#creative-fields">AIで広がる創造性を見る</a>
-                  </Button>
-                </motion.div>
-              </div>
-            </HeroItem>
-            
-            {/* 5つの創造分野ハイライト */}
-            <HeroItem>
-              <motion.div 
-                className="grid grid-cols-1 md:grid-cols-5 gap-2 md:gap-4 px-4 py-6 bg-black/30 backdrop-blur-sm rounded-xl mb-6"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.8, duration: 0.6 }}
-              >
-                <div className="text-center p-3">
-                  <div className="text-3xl mb-2">🎵</div>
-                  <h3 className="font-bold">音楽制作</h3>
-                  <p className="text-xs md:text-sm opacity-80">AIと共にオリジナル曲作曲</p>
-                </div>
-                <div className="text-center p-3">
-                  <div className="text-3xl mb-2">🎨</div>
-                  <h3 className="font-bold">ビジュアル創作</h3>
-                  <p className="text-xs md:text-sm opacity-80">言葉から画像、独自表現へ</p>
-                </div>
-                <div className="text-center p-3">
-                  <div className="text-3xl mb-2">🎮</div>
-                  <h3 className="font-bold">ゲーム開発</h3>
-                  <p className="text-xs md:text-sm opacity-80">自分だけの世界を創造</p>
-                </div>
-                <div className="text-center p-3">
-                  <div className="text-3xl mb-2">💻</div>
-                  <h3 className="font-bold">Web制作</h3>
-                  <p className="text-xs md:text-sm opacity-80">アイデアを形に、世界へ発信</p>
-                </div>
-                <div className="text-center p-3">
-                  <div className="text-3xl mb-2">📚</div>
-                  <h3 className="font-bold">物語創作</h3>
-                  <p className="text-xs md:text-sm opacity-80">AIと紡ぐストーリーテリング</p>
-                </div>
-              </motion.div>
-            </HeroItem>
-            
-            {/* 価値提案と信頼性要素 */}
-            <HeroItem>
-              <div className="flex flex-wrap justify-center gap-6 text-center">
-                <div className="flex items-center">
-                  <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center mr-2">
-                    <span className="text-lg">👨‍👩‍👧‍👦</span>
-                  </div>
-                  <span className="text-sm md:text-base">親子で学べる</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center mr-2">
-                    <span className="text-lg">🌐</span>
-                  </div>
-                  <span className="text-sm md:text-base">オンライン対応</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center mr-2">
-                    <span className="text-lg">🔄</span>
-                  </div>
-                  <span className="text-sm md:text-base">AIから本格創作へ</span>
-                </div>
+              <div className="mb-8 mx-4 max-w-xl bg-white bg-opacity-90 p-4 sm:p-6 rounded-lg shadow-lg">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-black">
+                  テクノロジーと創造性の出会い。<br className="hidden sm:block" />
+                  子どもたちの好奇心が広がる場所
+                </h1>
               </div>
             </HeroItem>
           </HeroAnimation>
-          
         </div>
       </div>
+      
+      {/* AI創造スタジオについて */}
+      <section className="w-full py-12 sm:py-16 md:py-20 bg-gradient-to-r from-gray-50 to-gray-100">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 sm:mb-10">AI創造スタジオについて</h2>
+          <div className="grid md:grid-cols-2 gap-6 sm:gap-10 items-center">
+            <div className="order-2 md:order-1">
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed">
+                最新のAI・LLMを用いて、楽しみながら音楽、アート、プログラミングなど様々な創作活動が体験できる教室
+              </p>
+            </div>
+            <div className="order-1 md:order-2 bg-white p-4 rounded-lg shadow-lg overflow-hidden mb-6 md:mb-0">
+              <img src="/images/sample/top/image_art_icon.jpg" alt="AI創造スタジオ" className="w-full h-auto rounded object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
       
       {/* AI創造教育の価値提案セクション */}
       <motion.section 
@@ -121,61 +67,61 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.8 }}
       >
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">
-              AI時代の勝者は、AIを使いこなして創造できる人
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-6 sm:mb-8">
+            AIは道具、大切なのは創造する楽しさと学ぶ力
             </h2>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
               <motion.div 
-                className="bg-white p-6 rounded-lg shadow-md"
+                className="bg-white p-4 sm:p-6 rounded-lg shadow-md"
                 whileHover={{ y: -5, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <h3 className="font-bold text-xl mb-3 text-gray-800 flex items-center">
-                  <span className="w-8 h-8 bg-red-100 text-red-600 rounded-full flex items-center justify-center mr-2 text-sm">1</span>
-                  課題
+                <h3 className="font-bold text-xl sm:text-2xl mb-3 text-gray-800 flex items-start sm:items-center">
+                  <span className="w-8 h-8 sm:w-10 sm:h-10 bg-red-100 text-red-600 rounded-full flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-lg flex-shrink-0 mt-1 sm:mt-0">1</span>
+                  <span>子どもたちが出会う新しい学びの風景</span>
                 </h3>
-                <p className="text-gray-700">
-                  AIネイティブが活躍する時代が急速に到来。日本の教育は対応が遅れ、子どもたちの才能が埋もれています。単なるAI利用者ではなく、AIと共に創造できる力が未来を決めます。
+                <p className="text-gray-700 text-base sm:text-lg">
+                AIは子どもたちの日常にもなりつつある新しい技術。この変化を前向きに捉え、創造力を育む機会として活用することが大切です。
                 </p>
               </motion.div>
               
               <motion.div 
-                className="bg-white p-6 rounded-lg shadow-md"
+                className="bg-white p-4 sm:p-6 rounded-lg shadow-md"
                 whileHover={{ y: -5, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <h3 className="font-bold text-xl mb-3 text-gray-800 flex items-center">
-                  <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-2 text-sm">2</span>
-                  サービス
+                <h3 className="font-bold text-xl sm:text-2xl mb-3 text-gray-800 flex items-start sm:items-center">
+                  <span className="w-8 h-8 sm:w-10 sm:h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-lg flex-shrink-0 mt-1 sm:mt-0">2</span>
+                  <span>遊びながら学ぶ、創作の世界</span>
                 </h3>
-                <p className="text-gray-700">
-                  LLMを活用した作品制作を体験。音楽、アート、ゲーム、Web、物語創作を通じて、AIの可能性を最大限に引き出し、創造の楽しさを発見します。親子での参加も可能です。
+                <p className="text-gray-700 text-base sm:text-lg">
+                AIを使って、音楽やアート、ゲーム、物語などを作る体験を通して、創造することの楽しさを発見します。子どもたちのペースに合わせた学びで、自信と興味を育みます。
                 </p>
               </motion.div>
               
               <motion.div 
-                className="bg-white p-6 rounded-lg shadow-md"
+                className="bg-white p-4 sm:p-6 rounded-lg shadow-md"
                 whileHover={{ y: -5, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
               >
-                <h3 className="font-bold text-xl mb-3 text-gray-800 flex items-center">
-                  <span className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-2 text-sm">3</span>
-                  効果
+                <h3 className="font-bold text-xl sm:text-2xl mb-3 text-gray-800 flex items-start sm:items-center">
+                  <span className="w-8 h-8 sm:w-10 sm:h-10 bg-green-100 text-green-600 rounded-full flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-lg flex-shrink-0 mt-1 sm:mt-0">3</span>
+                  <span>広がる興味と育つ創造力</span>
                 </h3>
-                <p className="text-gray-700">
-                  AIリテラシーと創造力が同時に身につき、多様な分野への興味関心が広がります。「この子にはこんな才能があった」と驚く保護者様の声も多数。未来の選択肢が大きく広がります。
+                <p className="text-gray-700 text-base sm:text-lg">
+                AIという新しい道具を使う経験から、子どもたちは様々な分野に興味を持ち始めます。「こんなこと、楽しい！」という発見が、未来の可能性を豊かにします。
                 </p>
               </motion.div>
             </div>
             
           <motion.div 
-            className="mt-10 text-center"
+            className="mt-8 sm:mt-10 text-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
           >
-            <p className="text-lg font-medium text-gray-700 italic">
-              &quot;AIは新しい読み書きそろばん。しかし真の違いは、AIで何を創れるかにあります。&quot;
+            <p className="text-xl font-medium text-gray-700 italic">
+              &quot;AIは道具、大切なのは使う人の創造力。子どもたちの『やってみたい』を応援します。&quot;
             </p>
           </motion.div>
           </div>

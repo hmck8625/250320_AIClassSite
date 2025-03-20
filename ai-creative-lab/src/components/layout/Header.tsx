@@ -12,12 +12,12 @@ export default function Header() {
             <div className="relative w-8 h-8">
               <Image 
                 src="/icons/site_icon.png"
-                alt="AI創造ラボ"
+                alt="AI創造スタジオ"
                 fill
                 className="object-contain"
               />
             </div>
-            <span className="font-bold text-xl">AI創造ラボ</span>
+            <span className="font-bold text-xl">AI創造スタジオ</span>
           </Link>
           
           {/* グローバルナビゲーション - PC */}
