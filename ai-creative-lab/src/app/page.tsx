@@ -168,16 +168,16 @@ export default function Home() {
               </motion.div>
             </div>
             
-            <motion.div 
-              className="mt-10 text-center"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.8, duration: 0.8 }}
-            >
-              <p className="text-lg font-medium text-gray-700 italic">
-                "AIは新しい読み書きそろばん。しかし真の違いは、AIで何を創れるかにあります。"
-              </p>
-            </motion.div>
+          <motion.div 
+            className="mt-10 text-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8, duration: 0.8 }}
+          >
+            <p className="text-lg font-medium text-gray-700 italic">
+              &quot;AIは新しい読み書きそろばん。しかし真の違いは、AIで何を創れるかにあります。&quot;
+            </p>
+          </motion.div>
           </div>
         </div>
       </motion.section>
