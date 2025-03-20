@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import Head from 'next/head';
 
 export const metadata = {
   title: 'AI時代の教育とは？子どもたちに必要な力と親ができるサポート | AI創造ラボ',

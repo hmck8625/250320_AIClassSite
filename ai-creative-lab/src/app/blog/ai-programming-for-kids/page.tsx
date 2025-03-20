@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import Head from 'next/head';
 
 export const metadata = {
   title: 'AI時代の子供プログラミング：創造力を育む新しいアプローチ | AI創造ラボ',

@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import Head from 'next/head';
 
 export const metadata = {
   title: '2025年のAI教育トレンド：世界の最新事例から学ぶ | AI創造ラボ',

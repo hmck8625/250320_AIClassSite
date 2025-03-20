@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import Head from 'next/head';
 
 export const metadata = {
   title: '子どもの創造性を育む5つの習慣：日常生活でできること | AI創造ラボ',
