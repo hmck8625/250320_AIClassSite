@@ -201,9 +201,16 @@ const featuredArticle = {
   slug: "ai-education-future"
 };
 
-export default function BlogPage({ searchParams }: { searchParams: { page?: string } }) {
+// Next.jsのApp Routerでのページコンポーネントの型定義
+type Props = {
+  params: {};
+  searchParams: { [key: string]: string | string[] | undefined };
+};
+
+export default function BlogPage({ params, searchParams }: Props) {
   // ページ番号を取得（デフォルトは1）
-  const currentPage = searchParams.page ? parseInt(searchParams.page) : 1;
+  const pageParam = searchParams.page;
+  const currentPage = pageParam ? parseInt(pageParam as string) : 1;
   
   // 現在のページの記事データを取得
   const currentArticles = pageData[currentPage as keyof typeof pageData] || pageData[1];
