@@ -203,11 +203,11 @@ const featuredArticle = {
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
 type Props = {
-  params: {};
+  params: Record<string, never>;
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-export default function BlogPage({ params, searchParams }: Props) {
+export default function BlogPage({ searchParams }: Props) {
   // ページ番号を取得（デフォルトは1）
   const pageParam = searchParams.page;
   const currentPage = pageParam ? parseInt(pageParam as string) : 1;
@@ -227,11 +227,12 @@ export default function BlogPage({ params, searchParams }: Props) {
       
       {/* カテゴリーフィルター */}
       <div className="flex flex-wrap justify-center gap-3 mb-10">
-        <button className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">すべて</button>
-        <button className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">AI教育最新情報</button>
-        <button className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">保護者向けコラム</button>
-        <button className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">教室活動レポート</button>
-        <button className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">生徒インタビュー</button>
+        <Link href="/blog" className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">すべて</Link>
+        <Link href="/blog/category/ai-education" className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">AI教育最新情報</Link>
+        <Link href="/blog/category/parent-column" className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">保護者向けコラム</Link>
+        <Link href="/blog/category/classroom-report" className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">教室活動レポート</Link>
+        <Link href="/blog/category/student-interview" className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">生徒インタビュー</Link>
+        <Link href="/blog/category/event-info" className="bg-gray-200 hover:bg-gray-300 px-4 py-2 rounded-full text-sm font-medium">イベント情報</Link>
       </div>
       
       {/* メイン記事とサイドバー */}
@@ -360,25 +361,25 @@ export default function BlogPage({ params, searchParams }: Props) {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/parent-column" className="flex justify-between hover:text-primary">
                   <span>保護者向けコラム</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">8</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/classroom-report" className="flex justify-between hover:text-primary">
                   <span>教室活動レポート</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">15</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/student-interview" className="flex justify-between hover:text-primary">
                   <span>生徒インタビュー</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">6</span>
                 </Link>
               </li>
               <li>
-                <Link href="/blog/category/ai-education" className="flex justify-between hover:text-primary">
+                <Link href="/blog/category/event-info" className="flex justify-between hover:text-primary">
                   <span>イベント情報</span>
                   <span className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">4</span>
                 </Link>

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { AnimatedSection } from '@/components/ui/animated-section'
 import { AnimatedCard } from '@/components/ui/animated-card'
@@ -54,7 +55,13 @@ export default function Home() {
               </p>
             </div>
             <div className="order-1 md:order-2 bg-white p-4 rounded-lg shadow-lg overflow-hidden mb-6 md:mb-0">
-              <img src="/images/sample/top/image_art_icon.jpg" alt="東京AI創造スタジオ" className="w-full h-auto rounded object-cover" />
+              <Image 
+                src="/images/sample/top/image_art_icon.jpg" 
+                alt="東京AI創造スタジオ" 
+                width={600}
+                height={400}
+                className="w-full h-auto rounded object-cover" 
+              />
             </div>
           </div>
         </div>
@@ -175,7 +182,12 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <img src="/images/sample/top/image_boy_idea.jpg" alt="コンセプト図解" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <Image 
+                src="/images/sample/top/image_boy_idea.jpg" 
+                alt="コンセプト図解" 
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-500" 
+              />
             </motion.div>
           </div>
         </div>
@@ -289,35 +301,60 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={0}>
               <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/images/sample/top/image_music_icon.jpg" alt="音楽" className="w-full h-full object-cover" />
+                <Image 
+                  src="/images/sample/top/image_music_icon.jpg" 
+                  alt="音楽" 
+                  fill
+                  className="object-cover" 
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">音楽</h3>
               <p>AIで作曲の基礎を学び、音楽制作の世界へ。メロディ、リズム、ハーモニーの理解から始まる音楽創作の旅。</p>
             </AnimatedCard>
             <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={1}>
               <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/images/sample/top/image_art_icon.jpg" alt="芸術" className="w-full h-full object-cover" />
+                <Image 
+                  src="/images/sample/top/image_art_icon.jpg" 
+                  alt="芸術" 
+                  fill
+                  className="object-cover" 
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">芸術</h3>
               <p>AIアートから本格的なデジタル/アナログ表現へ。視覚的創造性を育み、自分だけの表現方法を見つける。</p>
             </AnimatedCard>
             <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={2}>
               <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/images/sample/top/image_game_icon.jpg" alt="ゲーム開発" className="w-full h-full object-cover" />
+                <Image 
+                  src="/images/sample/top/image_game_icon.jpg" 
+                  alt="ゲーム開発" 
+                  fill
+                  className="object-cover" 
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">ゲーム開発</h3>
               <p>AIを活用したゲームデザインから独自ゲーム制作へ。ゲームの仕組みを理解し、自分のアイデアを形にする。</p>
             </AnimatedCard>
             <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={3}>
               <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/images/sample/top/image_story_icon.jpg" alt="物語創作" className="w-full h-full object-cover" />
+                <Image 
+                  src="/images/sample/top/image_story_icon.jpg" 
+                  alt="物語創作" 
+                  fill
+                  className="object-cover" 
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">物語創作</h3>
               <p>AIで物語の構造を学び、創作表現力を磨く。キャラクター、プロット、世界観の構築から始まる物語づくり。</p>
             </AnimatedCard>
             <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={4}>
               <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <img src="/images/sample/top/image_engneer_icon.jpg" alt="エンジニアリング" className="w-full h-full object-cover" />
+                <Image 
+                  src="/images/sample/top/image_engneer_icon.jpg" 
+                  alt="エンジニアリング" 
+                  fill
+                  className="object-cover" 
+                />
               </div>
               <h3 className="text-xl font-bold mb-2">エンジニアリング</h3>
               <p>AIモデル理解から本格的プログラミングへ。論理的思考力を養い、テクノロジーの可能性を広げる。</p>
