@@ -46,7 +46,7 @@ export default function Home() {
       {/* AI創造スタジオについて */}
       <section className="w-full py-12 sm:py-16 md:py-20 bg-gradient-to-r from-gray-50 to-gray-100">
         <div className="container mx-auto px-4 sm:px-6">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 sm:mb-10">AI創造スタジオについて</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-6 sm:mb-10">東京AI創造スタジオについて</h2>
           <div className="grid md:grid-cols-2 gap-6 sm:gap-10 items-center">
             <div className="order-2 md:order-1">
               <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl leading-relaxed">
@@ -54,7 +54,7 @@ export default function Home() {
               </p>
             </div>
             <div className="order-1 md:order-2 bg-white p-4 rounded-lg shadow-lg overflow-hidden mb-6 md:mb-0">
-              <img src="/images/sample/top/image_art_icon.jpg" alt="AI創造スタジオ" className="w-full h-auto rounded object-cover" />
+              <img src="/images/sample/top/image_art_icon.jpg" alt="東京AI創造スタジオ" className="w-full h-auto rounded object-cover" />
             </div>
           </div>
         </div>
@@ -160,7 +160,7 @@ export default function Home() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <p className="text-lg mb-6">
-                AI創造ラボは、AIというツールを通じて、創造性・好奇心を引き出す探究型学習を提供します。
+                東京AI創造スタジオは、AIというツールを通じて、創造性・好奇心を引き出す探究型学習を提供します。
                 AI・LLMに精通する講師が、最新のAIを用いた創作活動をお子様へレクチャーします。
                 「AIで簡単に作る」から「自分で本格的に作る」へのシームレスな成長をサポートします。
               </p>

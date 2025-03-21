@@ -13,12 +13,12 @@ export default function Footer() {
               <div className="relative w-8 h-8">
                 <Image 
                   src="/icons/site_icon.png"
-                  alt="AI創造スタジオ"
+                  alt="東京AI創造スタジオ"
                   fill
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-xl font-bold">AI創造スタジオ</h3>
+              <h3 className="text-xl font-bold">東京AI創造スタジオ</h3>
             </div>
             <p className="mb-2">【オープン準備中】</p>
           </div>
@@ -62,7 +62,7 @@ export default function Footer() {
         {/* コピーライトと補助リンク */}
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} AI創造スタジオ All Rights Reserved.
+            &copy; {new Date().getFullYear()} 東京AI創造スタジオ All Rights Reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-400">
             <Link href="/privacy" className="hover:text-white">プライバシーポリシー</Link>
