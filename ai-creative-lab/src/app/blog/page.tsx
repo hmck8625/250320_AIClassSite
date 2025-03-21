@@ -204,13 +204,14 @@ const featuredArticle = {
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
 export default function BlogPage(props: any) {
-  // searchParamsにアクセス
+  // 以下同じ
   const searchParams = props.searchParams || {};
   const pageParam = searchParams.page;
   const currentPage = pageParam ? parseInt(pageParam as string) : 1;
   
   // 現在のページの記事データを取得
   const currentArticles = pageData[currentPage as keyof typeof pageData] || pageData[1];
+
 
   return (
     <div className="container mx-auto py-12">
