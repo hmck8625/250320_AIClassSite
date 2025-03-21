@@ -203,10 +203,6 @@ const featuredArticle = {
 };
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
-type Props = {
-  params: Record<string, never>;
-};
-
 export default function BlogPage({ 
     searchParams 
   }: { 
