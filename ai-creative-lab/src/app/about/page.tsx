@@ -9,18 +9,18 @@ export default function AboutPage() {
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">教室について</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          AIを創造の入口として、子どもたちの可能性を広げる教育理念と3ステップメソッド
+          最新のAIやLLMを創造の入口として、子どもたちの可能性を広げるAI教室
         </p>
       </div>
       
       {/* 教育理念 */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">教育理念</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center">コンセプト</h2>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="bg-gray-200 h-80 relative overflow-hidden">
             <Image 
-              src="/images/sample/parakeets-9190236_1280.jpg"
-              alt="AI創造ラボの教育理念"
+              src="/images/sample/top/image_boy_idea.jpg"
+              alt="AI創造スタジオの教育理念"
               fill
               className="object-cover"
             />
@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div>
             <h3 className="text-2xl font-bold mb-4">AIは目的ではなく、創造の入口</h3>
             <p className="mb-4">
-              AI創造ラボでは、AIを学ぶことそのものを目的とはしていません。
+              AIを学ぶことそのものを目的とはしていません。
               AIは子どもたちが自分の「好き」や「才能」を見つけるための入口であり、
               創造性を広げるためのツールです。
             </p>
@@ -77,56 +77,14 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* 講師紹介 */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center">講師紹介</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* 講師1 */}
-          <div className="text-center">
-            <div className="w-40 h-40 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-              <p className="text-gray-500">写真</p>
-            </div>
-            <h3 className="text-xl font-bold mb-2">山田 太郎</h3>
-            <p className="text-gray-600 mb-2">代表 / AIエンジニア</p>
-            <p className="text-sm">
-              大手IT企業でAI開発に10年従事。子どものプログラミング教育にも5年以上の経験を持つ。
-            </p>
-          </div>
-          
-          {/* 講師2 */}
-          <div className="text-center">
-            <div className="w-40 h-40 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-              <p className="text-gray-500">写真</p>
-            </div>
-            <h3 className="text-xl font-bold mb-2">佐藤 花子</h3>
-            <p className="text-gray-600 mb-2">教育ディレクター</p>
-            <p className="text-sm">
-              教育学修士。小学校教諭としての経験を活かし、子どもの発達段階に合わせたカリキュラムを開発。
-            </p>
-          </div>
-          
-          {/* 講師3 */}
-          <div className="text-center">
-            <div className="w-40 h-40 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
-              <p className="text-gray-500">写真</p>
-            </div>
-            <h3 className="text-xl font-bold mb-2">鈴木 一郎</h3>
-            <p className="text-gray-600 mb-2">クリエイティブディレクター</p>
-            <p className="text-sm">
-              デジタルアートとゲーム開発の専門家。子どもたちの創造性を引き出すワークショップを多数開催。
-            </p>
-          </div>
-        </div>
-      </section>
-      
       {/* CTA */}
       <div className="bg-gray-900 text-white p-8 rounded-lg text-center">
-        <h2 className="text-2xl font-bold mb-4">AI創造ラボで、お子様の可能性を広げませんか？</h2>
+        <h2 className="text-2xl font-bold mb-4">東京AI創造スタジオで、お子様の可能性を広げませんか？</h2>
         <p className="mb-6 max-w-2xl mx-auto">
           まずは無料体験会にお越しください。お子様の興味や適性を見ながら、最適なコースをご提案します。
         </p>
         <Button size="lg" className="bg-primary">
-          <Link href="/">AI創造ラボについてもっと知る</Link>
+          <Link href="/">東京AI創造スタジオについてもっと知る</Link>
         </Button>
       </div>
     </div>
