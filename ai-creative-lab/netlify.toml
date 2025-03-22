@@ -1,9 +1,17 @@
 [build]
   command = "npm run build"
-  publish = "out"
+  publish = ".next"
 
 [build.environment]
   NODE_VERSION = "20"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[functions]
+  external_node_modules = ["@node-rs/*"]
+  included_files = ["node_modules/@node-rs/**/*"]
 
 [[headers]]
   for = "/*"

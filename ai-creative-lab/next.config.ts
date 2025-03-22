@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Netlifyでのデプロイに最適化
-  output: "export", // 静的エクスポートを有効化
+  output: "standalone", // SSRモードを有効化
   images: {
-    unoptimized: true, // Netlifyでの画像最適化を無効化（Netlifyの独自最適化を使用）
+    domains: ['localhost', 'tokyo-ai-classschool.netlify.app'], // 必要に応じてドメインを追加
+    unoptimized: false, // 画像最適化を有効化
   },
-  // 必要に応じて他の設定を追加
 };
 
 export default nextConfig;
