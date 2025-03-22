@@ -56,7 +56,7 @@ export default function Home() {
             </div>
             <div className="order-1 md:order-2 bg-white p-4 rounded-lg shadow-lg overflow-hidden mb-6 md:mb-0">
               <Image 
-                src="/images/sample/top/image_art_icon.jpg" 
+                src="/images/blog/EYE-ai-tools-for-kids.jpg" 
                 alt="東京AI創造スタジオ" 
                 width={600}
                 height={400}
@@ -176,7 +176,7 @@ export default function Home() {
               </p>
             </motion.div>
             <motion.div 
-              className="bg-gray-200 h-80 flex items-center justify-center overflow-hidden rounded-lg shadow-lg"
+              className="bg-gray-200 h-80 flex items-center justify-center overflow-hidden rounded-lg shadow-lg relative"
               initial={{ opacity: 0, scale: 0.9 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -294,72 +294,73 @@ export default function Home() {
         </div>
       </AnimatedSection>
 
-      {/* 創造分野への架け橋セクション */}
-      <AnimatedSection id="creative-fields" className="py-16 w-full" direction="up">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-10">AIから広がる5つの創造分野</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={0}>
-              <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src="/images/sample/top/image_music_icon.jpg" 
-                  alt="音楽" 
-                  fill
-                  className="object-cover" 
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">音楽</h3>
-              <p>AIで作曲の基礎を学び、音楽制作の世界へ。メロディ、リズム、ハーモニーの理解から始まる音楽創作の旅。</p>
-            </AnimatedCard>
-            <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={1}>
-              <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src="/images/sample/top/image_art_icon.jpg" 
-                  alt="芸術" 
-                  fill
-                  className="object-cover" 
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">芸術</h3>
-              <p>AIアートから本格的なデジタル/アナログ表現へ。視覚的創造性を育み、自分だけの表現方法を見つける。</p>
-            </AnimatedCard>
-            <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={2}>
-              <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src="/images/sample/top/image_game_icon.jpg" 
-                  alt="ゲーム開発" 
-                  fill
-                  className="object-cover" 
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">ゲーム開発</h3>
-              <p>AIを活用したゲームデザインから独自ゲーム制作へ。ゲームの仕組みを理解し、自分のアイデアを形にする。</p>
-            </AnimatedCard>
-            <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={3}>
-              <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src="/images/sample/top/image_story_icon.jpg" 
-                  alt="物語創作" 
-                  fill
-                  className="object-cover" 
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">物語創作</h3>
-              <p>AIで物語の構造を学び、創作表現力を磨く。キャラクター、プロット、世界観の構築から始まる物語づくり。</p>
-            </AnimatedCard>
-            <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={4}>
-              <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden">
-                <Image 
-                  src="/images/sample/top/image_engneer_icon.jpg" 
-                  alt="エンジニアリング" 
-                  fill
-                  className="object-cover" 
-                />
-              </div>
-              <h3 className="text-xl font-bold mb-2">エンジニアリング</h3>
-              <p>AIモデル理解から本格的プログラミングへ。論理的思考力を養い、テクノロジーの可能性を広げる。</p>
-            </AnimatedCard>
+ {/* 創造分野への架け橋セクション */}
+<AnimatedSection id="creative-fields" className="py-16 w-full" direction="up">
+  <div className="container">
+    <h2 className="text-3xl font-bold text-center mb-10">AIから広がる5つの創造分野</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={0}>
+        <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden relative">
+          <Image 
+            src="/images/sample/top/image_music_icon.jpg" 
+            alt="音楽" 
+            fill
+            className="object-cover" 
+          />
+        </div>
+        <h3 className="text-xl font-bold mb-2">音楽</h3>
+        <p>AIで作曲の基礎を学び、音楽制作の世界へ。メロディ、リズム、ハーモニーの理解から始まる音楽創作の旅。</p>
+      </AnimatedCard>
+      <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={1}>
+        <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden relative">
+          <Image 
+            src="/images/sample/top/image_art_icon.jpg" 
+            alt="芸術" 
+            fill
+            className="object-cover" 
+          />
+        </div>
+        <h3 className="text-xl font-bold mb-2">芸術</h3>
+        <p>AIアートから本格的なデジタル/アナログ表現へ。視覚的創造性を育み、自分だけの表現方法を見つける。</p>
+      </AnimatedCard>
+      <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={2}>
+        <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden relative">
+          <Image 
+            src="/images/sample/top/image_game_icon.jpg" 
+            alt="ゲーム開発" 
+            fill
+            className="object-cover" 
+          />
+        </div>
+        <h3 className="text-xl font-bold mb-2">ゲーム開発</h3>
+        <p>AIを活用したゲームデザインから独自ゲーム制作へ。ゲームの仕組みを理解し、自分のアイデアを形にする。</p>
+      </AnimatedCard>
+      <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={3}>
+        <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden relative">
+          <Image 
+            src="/images/sample/top/image_story_icon.jpg" 
+            alt="物語創作" 
+            fill
+            className="object-cover" 
+          />
+        </div>
+        <h3 className="text-xl font-bold mb-2">物語創作</h3>
+        <p>AIで物語の構造を学び、創作表現力を磨く。キャラクター、プロット、世界観の構築から始まる物語づくり。</p>
+      </AnimatedCard>
+      <AnimatedCard className="bg-white p-6 rounded-lg shadow-md" index={4}>
+        <div className="w-16 h-16 rounded-full mb-4 flex items-center justify-center overflow-hidden relative">
+          <Image 
+            src="/images/sample/top/image_engneer_icon.jpg" 
+            alt="エンジニアリング" 
+            fill
+            className="object-cover" 
+          />
+        </div>
+        <h3 className="text-xl font-bold mb-2">エンジニアリング</h3>
+        <p>AIモデル理解から本格的プログラミングへ。論理的思考力を養い、テクノロジーの可能性を広げる。</p>
+      </AnimatedCard>
           </div>
+          
           <motion.div 
             className="mt-12 bg-gray-200 p-6 rounded-lg"
             initial={{ opacity: 0, y: 30 }}
@@ -367,31 +368,51 @@ export default function Home() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <h3 className="text-xl font-bold mb-4 text-center">子供たちの作品例</h3>
+            <h3 className="text-xl font-bold mb-4 text-center">コンセプトイメージ</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="bg-white p-2 rounded">
-                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2">
-                  <p className="text-sm text-gray-500">AI作品</p>
+                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2 relative">
+                  <Image 
+                    src="/images/sample/top/2-game.jpg" 
+                    alt="AIで作った音楽" 
+                    fill
+                    className="object-cover rounded" 
+                  />
                 </div>
-                <p className="text-xs text-center">AIで作った音楽</p>
+                <p className="text-xs text-center">ゲーム作り</p>
               </div>
               <div className="bg-white p-2 rounded">
-                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2">
-                  <p className="text-sm text-gray-500">自作品</p>
+                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2 relative">
+                  <Image 
+                    src="/images/sample/top/2-art.jpg" 
+                    alt="自分で作った音楽" 
+                    fill
+                    className="object-cover rounded" 
+                  />
                 </div>
-                <p className="text-xs text-center">自分で作った音楽</p>
+                <p className="text-xs text-center">アート</p>
               </div>
               <div className="bg-white p-2 rounded">
-                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2">
-                  <p className="text-sm text-gray-500">AI作品</p>
+                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2 relative">
+                  <Image 
+                    src="/images/sample/top/2-robot.jpg" 
+                    alt="AIで作ったアート" 
+                    fill
+                    className="object-cover rounded" 
+                  />
                 </div>
-                <p className="text-xs text-center">AIで作ったアート</p>
+                <p className="text-xs text-center">エンジニアリング</p>
               </div>
               <div className="bg-white p-2 rounded">
-                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2">
-                  <p className="text-sm text-gray-500">自作品</p>
+                <div className="aspect-square bg-gray-100 flex items-center justify-center mb-2 relative">
+                  <Image 
+                    src="/images/sample/top/2-engi.jpg" 
+                    alt="自分で作ったアート" 
+                    fill
+                    className="object-cover rounded" 
+                  />
                 </div>
-                <p className="text-xs text-center">自分で作ったアート</p>
+                <p className="text-xs text-center">プログラミング</p>
               </div>
             </div>
           </motion.div>
