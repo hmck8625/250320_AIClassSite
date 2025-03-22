@@ -202,8 +202,6 @@ const featuredArticle = {
   slug: "ai-education-future"
 };
 
-export const dynamic = 'force-dynamic';
-
 // Next.jsのApp Routerでのページコンポーネントの型定義
 export default function BlogPage(props: any) {
   
