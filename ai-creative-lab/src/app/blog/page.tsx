@@ -140,14 +140,12 @@ const featuredArticle: FeaturedArticle = {
   slug: "ai-education-future"
 };
 
-// 正しい型定義を使用
-type Props = {
-  params: { slug: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
-
-export default function BlogPage({ searchParams }: Props) {
-  const pageParam = searchParams.page as string | undefined;
+export default function BlogPage({ 
+  searchParams 
+}: { 
+  searchParams?: { [key: string]: string | string[] | undefined } 
+}) {
+  const pageParam = searchParams?.page as string | undefined;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
 
   // 現在のページの記事データを取得
