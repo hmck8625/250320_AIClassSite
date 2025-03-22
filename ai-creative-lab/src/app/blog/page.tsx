@@ -141,17 +141,18 @@ const featuredArticle: FeaturedArticle = {
 };
 
 // 完全に型定義を見直し、Next.js 15.2.3のApp Router形式に合わせる
-export default async function BlogPage({
-  searchParams,
-}: {
-  searchParams?: { [key: string]: string | string[] | undefined }
+export default function BlogPage({ 
+  searchParams 
+}: { 
+  searchParams?: { [key: string]: string | string[] | undefined } 
 }) {
+  
   // 文字列として処理するために型変換を調整
   const pageParam = searchParams && 'page' in searchParams 
     ? String(searchParams.page)
     : undefined;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
-  
+
   // 現在のページの記事データを取得
   const currentArticles = pageData[currentPage] || pageData[1];
 
