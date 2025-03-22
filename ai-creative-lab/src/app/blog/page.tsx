@@ -141,12 +141,16 @@ const featuredArticle: FeaturedArticle = {
 };
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
+type SearchParams = { [key: string]: string | string[] | undefined }
+
+// 標準的なNext.js App Routerのページ型定義
 export default async function BlogPage({
   searchParams,
 }: {
-  searchParams?: { page?: string }
+  searchParams: SearchParams
 }) {
-  const pageParam = searchParams?.page;
+  // 文字列または文字列の配列、またはundefinedの可能性があるため、型の安全な処理が必要
+  const pageParam = typeof searchParams.page === 'string' ? searchParams.page : undefined;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
   
   // 現在のページの記事データを取得
