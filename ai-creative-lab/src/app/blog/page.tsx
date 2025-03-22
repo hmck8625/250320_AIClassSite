@@ -141,11 +141,12 @@ const featuredArticle: FeaturedArticle = {
 };
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
-export default async function BlogPage(props: { 
-  searchParams?: { page?: string } 
+export default async function BlogPage({
+  searchParams,
+}: {
+  searchParams?: { page?: string }
 }) {
-  const searchParams = props.searchParams || {};
-  const pageParam = searchParams.page;
+  const pageParam = searchParams?.page;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
   
   // 現在のページの記事データを取得
