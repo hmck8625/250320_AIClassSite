@@ -2,9 +2,20 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
+// ページごとの記事データの型定義
+type ArticleData = {
+  id: number;
+  title: string;
+  excerpt: string;
+  category: string;
+  categoryColor: string;
+  date: string;
+  image: string | null;
+  slug: string;
+};
 
 // ページごとの記事データ
-const pageData = {
+const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
@@ -25,16 +36,6 @@ const pageData = {
       date: "2025年3月5日",
       image: "/images/blog/EYE-creativity-development.jpg",
       slug: "creativity-development"
-    },
-    {
-      id: 3,
-      title: "冬休み特別ワークショップレポート：AIで作る未来の街",
-      excerpt: "冬休みに開催した特別ワークショップの様子をレポートします。子どもたちがAIを使って描いた「未来の街」の作品をご紹介します。",
-      category: "教室活動レポート",
-      categoryColor: "yellow",
-      date: "2025年2月28日",
-      image: null,
-      slug: "winter-workshop-report"
     },
     {
       id: 4,
@@ -65,126 +66,73 @@ const pageData = {
       date: "2025年2月10日",
       image: "/images/blog/EYE-screen-time-balance.jpg",
       slug: "screen-time-balance"
-    }
-  ],
-  2: [
+    },
+    {
+      id: 7,
+      title: "AIアートで子どもの創造性を育む：デジタル時代の芸術教育",
+      excerpt: "AIツールを使った芸術教育の可能性を探ります。子どもたちの創造性と技術的スキルを同時に伸ばす新しい学習アプローチを紹介します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月20日",
+      image: "/images/blog/EYE-art.jpg",
+      slug: "ai-art-education"
+    },
     {
       id: 8,
-      title: "親子で楽しむAIアート：週末の創作活動アイデア",
-      excerpt: "AIアートツールを使って親子で楽しめる創作活動のアイデアを紹介。想像力を育みながら、テクノロジーへの理解も深まります。",
+      title: "家族で学ぶAI：親子で楽しむテクノロジー体験",
+      excerpt: "AIを家族で学ぶことの意義と、楽しみながら学べる具体的な方法を紹介。テクノロジーを通じて家族の絆を深める新しい学習スタイルです。",
       category: "保護者向けコラム",
       categoryColor: "green",
-      date: "2025年1月30日",
-      image: "/images/sample/top/image_art_icon.jpg",
-      slug: "ai-art-family-activities"
+      date: "2025年3月18日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "ai-family-learning"
     },
     {
       id: 9,
-      title: "春の特別講座「AIと音楽」参加者募集中",
-      excerpt: "春休み期間中に開催する特別講座のご案内。AIを使った作曲体験ができる人気講座です。初心者でも安心して参加できます。",
-      category: "イベント情報",
-      categoryColor: "orange",
-      date: "2025年1月25日",
-      image: "/images/sample/top/image_music_icon.jpg",
-      slug: "spring-music-workshop"
+      title: "AIと音楽創作：子どもの音楽的想像力を解き放つ",
+      excerpt: "AIツールを使った音楽創作の可能性を探ります。子どもたちが自由に音楽を生み出す新しい学習方法を紹介します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月16日",
+      image: "/images/blog/EYE-music.jpg",
+      slug: "ai-music-creation"
     },
     {
       id: 10,
-      title: "教育現場でのAI活用事例：先生たちの声",
-      excerpt: "学校教育の現場でAIをどう活用しているか、現役の先生たちにインタビュー。成功事例と課題点を率直に語っていただきました。",
-      category: "AI教育最新情報",
-      categoryColor: "blue",
-      date: "2025年1月20日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "ai-in-schools-teacher-interviews"
+      title: "港区の創造性教育：地域で育むAI時代の学び",
+      excerpt: "港区における先進的な創造性教育の取り組みを紹介。地域全体で子どもたちの未来を支える教育モデルを解説します。",
+      category: "教室活動レポート",
+      categoryColor: "yellow",
+      date: "2025年3月17日",
+      image: "/images/blog/EYE-programing.jpg",
+      slug: "minatoku-creativity-education"
     },
     {
       id: 11,
-      title: "生徒作品展示会レポート：AIと人間の共創",
-      excerpt: "先月開催した生徒作品展示会の様子をお届けします。AIツールを活用した作品の数々に、来場者からも驚きの声が上がりました。",
-      category: "教室活動レポート",
-      categoryColor: "yellow",
-      date: "2025年1月15日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "student-exhibition-report"
-    },
-    {
-      id: 12,
-      title: "子どもの好奇心を育てる質問の仕方",
-      excerpt: "子どもの「なぜ？」に対する答え方で、好奇心や探究心は大きく変わります。AI時代に必要な思考力を育む会話術を解説します。",
-      category: "保護者向けコラム",
-      categoryColor: "green",
-      date: "2025年1月10日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "nurturing-curiosity"
+      title: "港区のAI教育最前線：未来を見据えた学びの革新",
+      excerpt: "港区における最新のAI教育の取り組みと、子どもたちの学びを変革する革新的なアプローチを詳しく解説します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月19日",
+      image: "/images/blog/EYE-game.jpg",
+      slug: "minatoku-education"
     }
   ],
-  3: [
-    {
-      id: 13,
-      title: "2025年注目のAI教育ツール10選",
-      excerpt: "今年注目すべきAI教育ツールを厳選して紹介。子どもの年齢や興味に合わせた選び方のポイントも解説します。",
-      category: "AI教育最新情報",
-      categoryColor: "blue",
-      date: "2025年1月5日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "top-ai-education-tools-2025"
-    },
-    {
-      id: 14,
-      title: "生徒インタビュー：高校生ミカさんのAIアート作品集",
-      excerpt: "AIアートコースに通う高校生ミカさんの作品と創作プロセスを紹介。彼女がAIをどう活用して独自の表現を見つけたかを語ります。",
-      category: "生徒インタビュー",
-      categoryColor: "purple",
-      date: "2024年12月25日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "student-interview-mika"
-    },
-    {
-      id: 15,
-      title: "冬休みの自宅学習におすすめのAIプロジェクト",
-      excerpt: "冬休み期間中に自宅で取り組める、楽しいAIプロジェクトのアイデアを紹介。家にあるもので簡単に始められます。",
-      category: "保護者向けコラム",
-      categoryColor: "green",
-      date: "2024年12月20日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "winter-break-ai-projects"
-    },
-    {
-      id: 16,
-      title: "クリスマスイベントレポート：AIサンタと未来のおもちゃ工房",
-      excerpt: "先週開催したクリスマス特別イベントの様子をレポート。子どもたちがAIと一緒に未来のおもちゃをデザインしました。",
-      category: "教室活動レポート",
-      categoryColor: "yellow",
-      date: "2024年12月15日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "christmas-event-report"
-    },
-    {
-      id: 17,
-      title: "AIと著作権：子どもに教えたい創作とルール",
-      excerpt: "AIを使った創作活動における著作権の基本と、子どもに教えておきたい倫理観について解説します。",
-      category: "AI教育最新情報",
-      categoryColor: "blue",
-      date: "2024年12月10日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "ai-copyright-ethics"
-    },
-    {
-      id: 18,
-      title: "新年特別ワークショップのお知らせ",
-      excerpt: "1月に開催する新年特別ワークショップの詳細をお知らせします。今回は「AIと未来の職業」をテーマに開催します。",
-      category: "イベント情報",
-      categoryColor: "orange",
-      date: "2024年12月5日",
-      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
-      slug: "new-year-workshop-announcement"
-    }
-  ]
+  2: [],
+  3: []
+};
+
+// 特集記事データの型定義
+type FeaturedArticle = {
+  title: string;
+  excerpt: string;
+  date: string;
+  image: string;
+  slug: string;
 };
 
 // 特集記事データ
-const featuredArticle = {
+const featuredArticle: FeaturedArticle = {
   title: "AI時代の教育とは？子どもたちに必要な力と親ができるサポート",
   excerpt: "AIの急速な発展により、子どもたちが将来必要とするスキルも変化しています。本記事では、AI時代に子どもたちが身につけるべき能力と、それを育むために家庭でできるサポート方法について解説します。",
   date: "2025年3月15日",
@@ -193,15 +141,13 @@ const featuredArticle = {
 };
 
 // Next.jsのApp Routerでのページコンポーネントの型定義
-export default function BlogPage(props: any) {
-  
+export default function BlogPage(props: { searchParams?: { page?: string } }) {
   const searchParams = props.searchParams || {};
   const pageParam = searchParams.page;
-  const currentPage = pageParam ? parseInt(pageParam as string) : 1;
+  const currentPage = pageParam ? parseInt(pageParam) : 1;
   
   // 現在のページの記事データを取得
-  const currentArticles = pageData[currentPage as keyof typeof pageData] || pageData[1];
-
+  const currentArticles = pageData[currentPage] || pageData[1];
 
   return (
     <div className="container mx-auto py-12">
