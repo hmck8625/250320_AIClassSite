@@ -1,5 +1,3 @@
-'use client'
-
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
@@ -142,13 +140,12 @@ const featuredArticle: FeaturedArticle = {
   slug: "ai-education-future"
 };
 
-import { useSearchParams } from 'next/navigation';
-
 // Next.jsのApp Routerでのページコンポーネントの型定義
-export default function BlogPage() {
-  // searchParamsを使用するためにuseSearchParamsフックを使う
-  const searchParams = useSearchParams();
-  const pageParam = searchParams.get('page');
+export default async function BlogPage(props: { 
+  searchParams?: { page?: string } 
+}) {
+  const searchParams = props.searchParams || {};
+  const pageParam = searchParams.page;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
   
   // 現在のページの記事データを取得
