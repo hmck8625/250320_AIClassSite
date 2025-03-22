@@ -136,6 +136,16 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年3月22日",
       image: "/images/blog/EYE-music.jpg",
       slug: "intro-musicClass"
+    },
+    {
+      id: 14,
+      title: "AI時代の子育てと教育",
+      excerpt: "AIが急速に発展する現代社会で、子どもたちに必要な力とは？港区の先進的な教育・子育て支援の取り組み事例と、家庭でできるAIリテラシー教育のポイントを解説します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月22日",
+      image: "/images/blog/EYE-ai-tools-for-kids.jpg",
+      slug: "ai-era-education"
     }
   ],
   2: [],
