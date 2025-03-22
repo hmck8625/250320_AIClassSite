@@ -140,19 +140,16 @@ const featuredArticle: FeaturedArticle = {
   slug: "ai-education-future"
 };
 
-// Next.jsのApp Routerでのページコンポーネントの型定義
-type SearchParams = { [key: string]: string | string[] | undefined }
+// 正しい型定義を使用
+type Props = {
+  params: { slug: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
 
-// 標準的なNext.js App Routerのページ型定義
-export default async function BlogPage({
-  searchParams,
-}: {
-  searchParams: SearchParams
-}) {
-  // 文字列または文字列の配列、またはundefinedの可能性があるため、型の安全な処理が必要
-  const pageParam = typeof searchParams.page === 'string' ? searchParams.page : undefined;
+export default function BlogPage({ searchParams }: Props) {
+  const pageParam = searchParams.page as string | undefined;
   const currentPage = pageParam ? parseInt(pageParam) : 1;
-  
+
   // 現在のページの記事データを取得
   const currentArticles = pageData[currentPage] || pageData[1];
 
