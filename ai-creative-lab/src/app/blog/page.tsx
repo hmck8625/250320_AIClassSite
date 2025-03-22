@@ -13,7 +13,7 @@ const pageData = {
       category: "AI教育最新情報",
       categoryColor: "blue",
       date: "2025年3月10日",
-      image: "/images/sample/parakeets-9190236_1280.jpg",
+      image: "/images/blog/EYE-ai-tools-for-kids.jpg",
       slug: "ai-tools-for-kids"
     },
     {
@@ -23,7 +23,7 @@ const pageData = {
       category: "保護者向けコラム",
       categoryColor: "green",
       date: "2025年3月5日",
-      image: null,
+      image: "/images/blog/EYE-creativity-development.jpg",
       slug: "creativity-development"
     },
     {
@@ -38,13 +38,13 @@ const pageData = {
     },
     {
       id: 4,
-      title: "生徒インタビュー：中学2年生ユウキくんの成長ストーリー",
-      excerpt: "AIゲームクリエイターコースに通うユウキくんにインタビュー。プログラミングが苦手だった彼が、AIを活用してゲーム開発に目覚めるまでの道のり。",
-      category: "生徒インタビュー",
-      categoryColor: "purple",
-      date: "2025年2月20日",
-      image: null,
-      slug: "student-interview-yuki"
+      title: "子ども向けプログラミング入門：AIを活用した学習法",
+      excerpt: "プログラミング初心者の子どもでも楽しく学べるAI活用法を紹介。コードを書く前に概念を理解する新しいアプローチです。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年2月5日",
+      image: "/images/sample/top/image_engneer_icon.jpg",
+      slug: "ai-programming-for-kids"
     },
     {
       id: 5,
@@ -53,7 +53,7 @@ const pageData = {
       category: "AI教育最新情報",
       categoryColor: "blue",
       date: "2025年2月15日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "ai-education-trends-2025"
     },
     {
@@ -63,21 +63,11 @@ const pageData = {
       category: "保護者向けコラム",
       categoryColor: "green",
       date: "2025年2月10日",
-      image: null,
+      image: "/images/blog/EYE-screen-time-balance.jpg",
       slug: "screen-time-balance"
     }
   ],
   2: [
-    {
-      id: 7,
-      title: "子ども向けプログラミング入門：AIを活用した学習法",
-      excerpt: "プログラミング初心者の子どもでも楽しく学べるAI活用法を紹介。コードを書く前に概念を理解する新しいアプローチです。",
-      category: "AI教育最新情報",
-      categoryColor: "blue",
-      date: "2025年2月5日",
-      image: null,
-      slug: "ai-programming-for-kids"
-    },
     {
       id: 8,
       title: "親子で楽しむAIアート：週末の創作活動アイデア",
@@ -85,7 +75,7 @@ const pageData = {
       category: "保護者向けコラム",
       categoryColor: "green",
       date: "2025年1月30日",
-      image: null,
+      image: "/images/sample/top/image_art_icon.jpg",
       slug: "ai-art-family-activities"
     },
     {
@@ -95,7 +85,7 @@ const pageData = {
       category: "イベント情報",
       categoryColor: "orange",
       date: "2025年1月25日",
-      image: null,
+      image: "/images/sample/top/image_music_icon.jpg",
       slug: "spring-music-workshop"
     },
     {
@@ -105,7 +95,7 @@ const pageData = {
       category: "AI教育最新情報",
       categoryColor: "blue",
       date: "2025年1月20日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "ai-in-schools-teacher-interviews"
     },
     {
@@ -115,7 +105,7 @@ const pageData = {
       category: "教室活動レポート",
       categoryColor: "yellow",
       date: "2025年1月15日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "student-exhibition-report"
     },
     {
@@ -125,7 +115,7 @@ const pageData = {
       category: "保護者向けコラム",
       categoryColor: "green",
       date: "2025年1月10日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "nurturing-curiosity"
     }
   ],
@@ -137,7 +127,7 @@ const pageData = {
       category: "AI教育最新情報",
       categoryColor: "blue",
       date: "2025年1月5日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "top-ai-education-tools-2025"
     },
     {
@@ -147,7 +137,7 @@ const pageData = {
       category: "生徒インタビュー",
       categoryColor: "purple",
       date: "2024年12月25日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "student-interview-mika"
     },
     {
@@ -157,7 +147,7 @@ const pageData = {
       category: "保護者向けコラム",
       categoryColor: "green",
       date: "2024年12月20日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "winter-break-ai-projects"
     },
     {
@@ -167,7 +157,7 @@ const pageData = {
       category: "教室活動レポート",
       categoryColor: "yellow",
       date: "2024年12月15日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "christmas-event-report"
     },
     {
@@ -177,7 +167,7 @@ const pageData = {
       category: "AI教育最新情報",
       categoryColor: "blue",
       date: "2024年12月10日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "ai-copyright-ethics"
     },
     {
@@ -187,7 +177,7 @@ const pageData = {
       category: "イベント情報",
       categoryColor: "orange",
       date: "2024年12月5日",
-      image: null,
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "new-year-workshop-announcement"
     }
   ]
@@ -198,7 +188,7 @@ const featuredArticle = {
   title: "AI時代の教育とは？子どもたちに必要な力と親ができるサポート",
   excerpt: "AIの急速な発展により、子どもたちが将来必要とするスキルも変化しています。本記事では、AI時代に子どもたちが身につけるべき能力と、それを育むために家庭でできるサポート方法について解説します。",
   date: "2025年3月15日",
-  image: "/images/sample/parakeets-9190236_1280.jpg",
+  image: "/images/blog/EYE-ai-education-future.jpg",
   slug: "ai-education-future"
 };
 
@@ -390,8 +380,13 @@ export default function BlogPage(props: any) {
             <h3 className="text-lg font-bold mb-3">人気記事</h3>
             <ul className="space-y-4">
               <li className="flex gap-3">
-                <div className="w-16 h-16 bg-gray-200 flex-shrink-0 flex items-center justify-center">
-                  <p className="text-gray-500 text-xs">画像</p>
+                <div className="w-16 h-16 relative flex-shrink-0">
+                  <Image 
+                    src="/images/blog/EYE-ai-education-future.jpg"
+                    alt="AI時代の教育"
+                    fill
+                    className="object-cover rounded"
+                  />
                 </div>
                 <div>
                   <Link href="/blog/ai-education-future" className="text-sm font-medium hover:text-primary">
@@ -401,8 +396,13 @@ export default function BlogPage(props: any) {
                 </div>
               </li>
               <li className="flex gap-3">
-                <div className="w-16 h-16 bg-gray-200 flex-shrink-0 flex items-center justify-center">
-                  <p className="text-gray-500 text-xs">画像</p>
+                <div className="w-16 h-16 relative flex-shrink-0">
+                  <Image 
+                    src="/images/blog/EYE-creativity-development.jpg"
+                    alt="子どもの創造性を育む"
+                    fill
+                    className="object-cover rounded"
+                  />
                 </div>
                 <div>
                   <Link href="/blog/creativity-development" className="text-sm font-medium hover:text-primary">
@@ -412,8 +412,13 @@ export default function BlogPage(props: any) {
                 </div>
               </li>
               <li className="flex gap-3">
-                <div className="w-16 h-16 bg-gray-200 flex-shrink-0 flex items-center justify-center">
-                  <p className="text-gray-500 text-xs">画像</p>
+                <div className="w-16 h-16 relative flex-shrink-0">
+                  <Image 
+                    src="/images/blog/EYE-ai-tools-for-kids.jpg"
+                    alt="子ども向けAIツール"
+                    fill
+                    className="object-cover rounded"
+                  />
                 </div>
                 <div>
                   <Link href="/blog/ai-tools-for-kids" className="text-sm font-medium hover:text-primary">

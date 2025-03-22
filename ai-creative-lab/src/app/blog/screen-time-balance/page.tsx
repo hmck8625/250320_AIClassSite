@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'デジタルとリアルのバランス：子どものスクリーンタイムを考える',
     description: 'AI時代における子どものスクリーンタイム管理の考え方と、デジタルとリアルを融合させた健全な子育てのヒント。',
-    images: [{ url: '/images/sample/parakeets-9190236_1280.jpg' }],
+    images: [{ url: '/images/blog/EYE-screen-time-balance.jpg' }],
   }
 };
 
@@ -36,7 +36,7 @@ export default function ScreenTimeBalancePage() {
       {/* アイキャッチ画像 */}
       <div className="relative h-[500px] mb-10 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/images/sample/parakeets-9190236_1280.jpg"
+          src="/images/blog/EYE-screen-time-balance.jpg"
           alt="デジタルとリアルのバランス：子どものスクリーンタイムを考える"
           fill
           priority
@@ -184,7 +184,7 @@ export default function ScreenTimeBalancePage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_boy_idea.jpg"
+                src="/images/blog/EYE-ai-education-future.jpg"
                 alt="AI時代の教育"
                 fill
                 className="object-cover"
@@ -206,7 +206,7 @@ export default function ScreenTimeBalancePage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_game_icon.jpg"
+                src="/images/blog/EYE-creativity-development.jpg"
                 alt="子どもの創造性"
                 fill
                 className="object-cover"
@@ -228,7 +228,7 @@ export default function ScreenTimeBalancePage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_art_icon.jpg"
+                src="/images/blog/EYE-ai-tools-for-kids.jpg"
                 alt="子ども向けAIツール"
                 fill
                 className="object-cover"

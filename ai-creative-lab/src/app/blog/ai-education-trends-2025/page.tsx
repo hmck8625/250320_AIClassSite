@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: '2025年のAI教育トレンド：世界の最新事例から学ぶ',
     description: '世界各国で展開されている先進的なAI教育の事例から、2025年の最新トレンドと日本での応用可能性を考察します。',
-    images: [{ url: '/images/sample/parakeets-9190236_1280.jpg' }],
+    images: [{ url: '/images/blog/EYE-ai-education-trends-2025.jpg' }],
   }
 };
 
@@ -36,7 +36,7 @@ export default function AIEducationTrendsPage() {
       {/* アイキャッチ画像 */}
       <div className="relative h-[500px] mb-10 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/images/sample/parakeets-9190236_1280.jpg"
+          src="/images/blog/EYE-ai-education-trends-2025.jpg"
           alt="2025年のAI教育トレンド"
           fill
           priority
@@ -208,7 +208,7 @@ export default function AIEducationTrendsPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_boy_idea.jpg"
+                src="/images/blog/EYE-ai-education-future.jpg"
                 alt="AI時代の教育"
                 fill
                 className="object-cover"
@@ -230,7 +230,7 @@ export default function AIEducationTrendsPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_game_icon.jpg"
+                src="/images/blog/EYE-creativity-development.jpg"
                 alt="子どもの創造性"
                 fill
                 className="object-cover"
@@ -252,7 +252,7 @@ export default function AIEducationTrendsPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_art_icon.jpg"
+                src="/images/blog/EYE-ai-tools-for-kids.jpg"
                 alt="子ども向けAIツール"
                 fill
                 className="object-cover"

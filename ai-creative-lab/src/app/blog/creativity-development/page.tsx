@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: '子どもの創造性を育む5つの習慣：日常生活でできること',
     description: 'AI時代を生きる子どもたちの創造性を育むための、日常生活で実践できる5つの簡単な習慣を紹介します。',
-    images: [{ url: '/images/sample/top/image_boy_idea.jpg' }],
+    images: [{ url: '/images/blog/EYE-creativity-development.jpg' }],
   }
 };
 
@@ -36,7 +36,7 @@ export default function BlogPostPage() {
       {/* アイキャッチ画像 */}
       <div className="relative h-[500px] mb-10 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/images/sample/top/image_boy_idea.jpg"
+          src="/images/blog/EYE-creativity-development.jpg"
           alt="子どもの創造性を育む5つの習慣"
           fill
           priority
@@ -210,7 +210,7 @@ export default function BlogPostPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/parakeets-9190236_1280.jpg"
+                src="/images/blog/EYE-ai-education-future.jpg"
                 alt="AI時代の教育"
                 fill
                 className="object-cover"
@@ -232,7 +232,7 @@ export default function BlogPostPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_game_icon.jpg"
+                src="/images/blog/EYE-screen-time-balance.jpg"
                 alt="スクリーンタイム"
                 fill
                 className="object-cover"
@@ -254,7 +254,7 @@ export default function BlogPostPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_art_icon.jpg"
+                src="/images/blog/EYE-ai-tools-for-kids.jpg"
                 alt="子ども向けAIツール"
                 fill
                 className="object-cover"

@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'AI時代の教育とは？子どもたちに必要な力と親ができるサポート',
     description: '急速に進化するAI技術時代に子どもたちが身につけるべき創造性や批判的思考力などの能力と、それを育むために親ができる具体的なサポート方法を解説します。',
-    images: [{ url: '/images/sample/parakeets-9190236_1280.jpg' }],
+    images: [{ url: '/images/blog/EYE-ai-education-future.jpg' }],
   }
 };
 
@@ -36,7 +36,7 @@ export default function BlogPostPage() {
       {/* アイキャッチ画像 */}
       <div className="relative h-[500px] mb-10 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/images/sample/parakeets-9190236_1280.jpg"
+          src="/images/blog/EYE-ai-education-future.jpg"
           alt="AI時代の教育とは？子どもたちに必要な力と親ができるサポート"
           fill
           priority
