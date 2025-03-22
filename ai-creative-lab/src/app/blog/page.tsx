@@ -116,6 +116,26 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年3月19日",
       image: "/images/blog/EYE-game.jpg",
       slug: "minatoku-education"
+    },
+    {
+      id: 12,
+      title: "子どもの絵画教室選びガイド",
+      excerpt: "港区周辺の子ども向け絵画教室の比較や選び方、年齢別の才能開発法、家庭でできる創造性育成のポイントまで。子どもの芸術的才能を見つけ、伸ばすための総合ガイド",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月22日",
+      image: "/images/blog/EYE-art.jpg",
+      slug: "how-to-choice-minatokuArtClass"
+    },
+    {
+      id: 13,
+      title: "子どものための音楽教育入門",
+      excerpt: "港区周辺の子ども向け音楽教室の比較や選び方、家庭でできる音感育成法、AIを活用した音楽創作まで。子どもの音楽的才能を見つけ、伸ばすための総合ガイド",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月22日",
+      image: "/images/blog/EYE-music.jpg",
+      slug: "intro-musicClass"
     }
   ],
   2: [],
