@@ -21,6 +21,18 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
 
+# サイトマップのContent-Type設定
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Content-Type = "application/xml"
+
+# robots.txtのContent-Type設定
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Content-Type = "text/plain"
+
 # コース詳細ページへのリダイレクト
 [[redirects]]
   from = "/courses/ai-art"
