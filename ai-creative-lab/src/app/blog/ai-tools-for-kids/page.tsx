@@ -71,212 +71,212 @@ export default function BlogPostPage() {
           これらのポイントを踏まえて、当編集部が実際に試用し、<Link href="/blog/digital-literacy-for-kids" className="text-primary hover:underline">子どものデジタルリテラシー</Link>育成にも役立つと判断した5つのAIツールを紹介します。
         </p>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">1. KidArt AI - 子どもの絵をAIが発展させる描画ツール</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">1. Qubena（キュビナ） - AIが子どもの進捗にペースを合わせるEラーニング学習ツール</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.kidartai.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">KidArt AI</a>は、子どもの描いた絵をもとに、AIがそれを発展させたり、アニメーション化したりできるツールです。シンプルなインターフェースで操作が簡単なため、<Link href="/blog/digital-tools-elementary" className="text-primary hover:underline">小学校低学年の子ども</Link>でも使いこなせます。
+              <a href="https://qubena.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Qubena</a>は、AIのサポートにより、子どもたちのペースに合わせて最適化した学習を実現する算数・数学にターゲットをしぼったEラーニング学習ツールです。シンプルなインターフェースで操作が簡単なため、<Link href="/blog/digital-tools-elementary" className="text-primary hover:underline">小学校低学年の子ども</Link>でも使いこなせます。
             </p>
             
             <p>
-              特筆すべきは、有害なコンテンツを生成しないよう厳格なフィルタリングが施されていることです。また、子どもの創造性を尊重し、AIによる変換後も元の絵の特徴や雰囲気を残す工夫がされています。
+              特筆すべきは、個人に最適化する人工知能が「解くべき問題」を自動的に出題する点です。また、子どもの学習進度を尊重し、一人一人の学習フローを最適化するシステムを採用しています。
             </p>
             
             <div className="bg-green-50 p-4 rounded-lg my-4">
-              <h4 className="font-bold text-green-800 mb-2">KidArt AIの主な機能</h4>
+              <h4 className="font-bold text-green-800 mb-2">Qubenaの主な機能</h4>
               <ul className="list-disc pl-6 space-y-1 text-green-800">
-                <li>子どもの手描き絵をデジタル化・クリーンアップ</li>
-                <li>描いた絵を様々なスタイル（水彩画、漫画など）に変換</li>
-                <li>静止画をアニメーション化する機能</li>
-                <li>描いた絵のキャラクターを3Dモデル化</li>
-                <li>作品をデジタルギャラリーとして保存・共有</li>
+                <li>子どものペースに合わせた個別最適化学習</li>
+                <li>AIによる「解くべき問題」の自動出題</li>
+                <li>小学1年生から高校IIIまで対応した幅広いカリキュラム</li>
+                <li>特許取得の「パーソナライズ学習システム」</li>
+                <li>家庭向け学習アプリ「Qubena Wiz Lite」の提供</li>
               </ul>
             </div>
             
             <p>
-              <Link href="/blog/art-education-digital-age" className="text-primary hover:underline">デジタル時代の美術教育</Link>において、KidArt AIは子どもの創作意欲を刺激し、「もっと描きたい」という気持ちを育みます。また、AIの助けを借りることで、自分の想像したイメージと実際に描けるものとのギャップを埋め、<Link href="/blog/art-confidence-building" className="text-primary hover:underline">芸術的自信</Link>を育てる効果も期待できます。
+              <Link href="/blog/art-education-digital-age" className="text-primary hover:underline">デジタル時代の教育</Link>において、Qubenaは子どもの学習意欲を刺激し、「もっと学びたい」という気持ちを育みます。また、AIの助けを借りることで、つまずきやすいポイントを効率的に克服し、<Link href="/blog/art-confidence-building" className="text-primary hover:underline">学習への自信</Link>を育てる効果も期待できます。
             </p>
           </div>
           
           <div className="bg-blue-50 p-5 rounded-lg shadow-sm">
-            <h4 className="text-lg font-bold text-blue-800 mb-3">KidArt AI 基本情報</h4>
+            <h4 className="text-lg font-bold text-blue-800 mb-3">Qubena 基本情報</h4>
             <ul className="space-y-2">
-              <li><span className="font-bold">対象年齢</span>：4歳〜12歳</li>
-              <li><span className="font-bold">料金</span>：基本機能無料、プレミアム機能は月額980円〜</li>
+              <li><span className="font-bold">対象年齢</span>：小学1年生〜高校生</li>
+              <li><span className="font-bold">料金</span>：Qubena Wiz Lite 月額1,950円〜</li>
               <li><span className="font-bold">対応デバイス</span>：iOS、Android、Web</li>
               <li><span className="font-bold">日本語対応</span>：あり</li>
-              <li><span className="font-bold">保護者管理機能</span>：あり（使用時間制限、作品確認など）</li>
+              <li><span className="font-bold">保護者管理機能</span>：あり</li>
               <li><span className="font-bold">オフライン使用</span>：一部機能のみ</li>
-              <li className="pt-2"><a href="https://www.kidartai.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
+              <li className="pt-2"><a href="https://qubena.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
             </ul>
           </div>
         </div>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">2. StoryBuddy - AIと一緒に物語を創作するツール</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">2. 英語学習AIロボMusio - 毎日進化するロボットとおしゃべりを楽しみながら英会話もぐんぐん上達！</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.storybuddyapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">StoryBuddy</a>は、子どもが考えたストーリーの設定やキャラクターをもとに、AIが物語を展開するお手伝いをするツールです。「次はどうなると思う？」といった質問を投げかけることで、子どもの想像力を刺激しながら物語創作を楽しむことができます。
+              <a href="https://www.museumbox.jp/musio/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Musio</a>は、AIを搭載した英会話学習ロボットです。自然な英会話ができる点が最大の特徴で、会話の意味を理解した上で、微妙な感情までも表情にしながら会話してくれるため、<Link href="/blog/collaborative-storytelling" className="text-primary hover:underline">実践的な会話練習</Link>が可能です。
             </p>
             
             <p>
-              このツールの優れている点は、AIが一方的に物語を作るのではなく、子どもとの対話を通じて<Link href="/blog/collaborative-storytelling" className="text-primary hover:underline">共同創作</Link>を促す設計になっていることです。子どもが主導権を持ちながら、AIがアイデアの広がりをサポートします。
+              このツールの優れている点は、子どもと一緒に話せば話すほど、AIの学習能力により会話をおぼえていくことです。子どもが主導権を持ちながら、自然な英会話スキルを身につけられます。
             </p>
             
             <div className="bg-purple-50 p-4 rounded-lg my-4">
-              <h4 className="font-bold text-purple-800 mb-2">StoryBuddyの主な機能</h4>
+              <h4 className="font-bold text-purple-800 mb-2">Musioの主な機能</h4>
               <ul className="list-disc pl-6 space-y-1 text-purple-800">
-                <li>対話形式での物語創作（音声入力対応）</li>
-                <li>キャラクターやシーンのAIイラスト生成</li>
-                <li>年齢に合わせた語彙・内容のカスタマイズ</li>
-                <li>作成した物語の電子書籍化・印刷機能</li>
-                <li>物語の音声読み上げ（複数言語対応）</li>
+                <li>自然な英会話が可能なAIロボット</li>
+                <li>子どもと一緒に話せば話すほど、AIの学習能力により会話をおぼえる</li>
+                <li>英語の学習だけでなく生涯思い出に残る友だちになる</li>
+                <li>文字を読み取れる英語学習ロボットSophyとの連携</li>
+                <li>年齢や英語レベルに合わせた会話内容の調整</li>
               </ul>
             </div>
             
             <p>
-              StoryBuddyは<Link href="/blog/language-development-ai" className="text-primary hover:underline">言語能力の発達</Link>や<Link href="/blog/narrative-skills-children" className="text-primary hover:underline">物語構成力</Link>の向上にも効果的です。また、自分の考えたストーリーが形になる体験は、子どもの自己効力感を高め、創作への意欲を育みます。
+              Musioは<Link href="/blog/language-development-ai" className="text-primary hover:underline">言語能力の発達</Link>や<Link href="/blog/narrative-skills-children" className="text-primary hover:underline">コミュニケーション能力</Link>の向上にも効果的です。また、ロボットとの自然な対話体験は、子どもの英語への興味を高め、学習意欲を育みます。
             </p>
           </div>
           
           <div className="bg-purple-50 p-5 rounded-lg shadow-sm">
-            <h4 className="text-lg font-bold text-purple-800 mb-3">StoryBuddy 基本情報</h4>
+            <h4 className="text-lg font-bold text-purple-800 mb-3">Musio 基本情報</h4>
             <ul className="space-y-2">
-              <li><span className="font-bold">対象年齢</span>：5歳〜13歳</li>
-              <li><span className="font-bold">料金</span>：14日間無料トライアル、その後月額1,200円〜</li>
-              <li><span className="font-bold">対応デバイス</span>：iOS、Android、Web</li>
-              <li><span className="font-bold">日本語対応</span>：あり（ベータ版）</li>
-              <li><span className="font-bold">保護者管理機能</span>：あり（コンテンツフィルター、使用時間管理）</li>
-              <li><span className="font-bold">オフライン使用</span>：保存済みストーリーの閲覧のみ</li>
-              <li className="pt-2"><a href="https://www.storybuddyapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
+              <li><span className="font-bold">対象年齢</span>：幼児〜中学生</li>
+              <li><span className="font-bold">料金</span>：本体価格 + 月額利用料</li>
+              <li><span className="font-bold">対応デバイス</span>：専用ロボット</li>
+              <li><span className="font-bold">日本語対応</span>：あり</li>
+              <li><span className="font-bold">保護者管理機能</span>：あり</li>
+              <li><span className="font-bold">オフライン使用</span>：基本機能利用可能</li>
+              <li className="pt-2"><a href="https://www.museumbox.jp/musio/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
             </ul>
           </div>
         </div>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">3. MusicMaker Jr. - 子どものための音楽創作AIツール</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">3. codey rocky - 子どもの成長に合わせて長く使える長く遊べる学習用ロボット</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.musicmakerjr.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">MusicMaker Jr.</a>は、簡単な操作で音楽を作れるAIツールです。子どもが選んだ楽器や雰囲気をもとに、AIが曲の構成を提案。子どもはそれを編集したり、自分の声を録音して追加したりできます。
+              <a href="https://www.makeblock.com/jp/steam-kits/codey-rocky" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">codey rocky</a>は、AI対応のSTEM教育ロボットです。論理的思考、問題解決能力、創造力/想像力がプログラミング学習によって得られるように設計されており、<Link href="/blog/music-education-basics" className="text-primary hover:underline">STEM教育</Link>の入門として最適です。
             </p>
             
             <p>
-              専門的な<Link href="/blog/music-education-basics" className="text-primary hover:underline">音楽知識</Link>がなくても、直感的な操作で本格的な音楽創作を体験できる点が魅力です。また、作曲の基本原理を視覚的に学べる教育モードも備えており、<Link href="/blog/music-theory-for-kids" className="text-primary hover:underline">音楽理論の入門</Link>としても活用できます。
+              専門的な知識がなくても、直感的な操作で本格的なプログラミングを体験できる点が魅力です。また、子どもの成長に合わせてプログラミングも高度化していける設計になっています。
             </p>
             
             <div className="bg-yellow-50 p-4 rounded-lg my-4">
-              <h4 className="font-bold text-yellow-800 mb-2">MusicMaker Jr.の主な機能</h4>
+              <h4 className="font-bold text-yellow-800 mb-2">codey rockyの主な機能</h4>
               <ul className="list-disc pl-6 space-y-1 text-yellow-800">
-                <li>感情や雰囲気からのAI作曲支援</li>
-                <li>ドラッグ＆ドロップでの直感的な音楽編集</li>
-                <li>声や環境音の録音・編集機能</li>
-                <li>視覚的に学べる音楽理論モード</li>
-                <li>作品の共有・コラボレーション機能</li>
+                <li>ブロックコーディングによるビジュアルプログラミング言語から、Pythonまで対応</li>
+                <li>音声認識、顔認識、気分検出などの楽しいAI体験</li>
+                <li>子どもの成長に合わせてプログラミングも高度化</li>
+                <li>36種類以上のプログラム可能な電子モジュール</li>
+                <li>豊富な学習教材とサンプルプログラム</li>
               </ul>
             </div>
             
             <p>
-              MusicMaker Jr.は<Link href="/blog/musical-intelligence-development" className="text-primary hover:underline">音楽的知性</Link>の発達だけでなく、感情表現や創造的思考の育成にも効果的です。自分だけのオリジナル曲を作る体験は、子どもの自己表現力と創造的自信を育みます。
+              codey rockyは<Link href="/blog/musical-intelligence-development" className="text-primary hover:underline">論理的思考力</Link>の発達だけでなく、問題解決能力や創造的思考の育成にも効果的です。自分でプログラムしたロボットが動く体験は、子どもの自己効力感と創造的自信を育みます。
             </p>
           </div>
           
           <div className="bg-yellow-50 p-5 rounded-lg shadow-sm">
-            <h4 className="text-lg font-bold text-yellow-800 mb-3">MusicMaker Jr. 基本情報</h4>
+            <h4 className="text-lg font-bold text-yellow-800 mb-3">codey rocky 基本情報</h4>
             <ul className="space-y-2">
-              <li><span className="font-bold">対象年齢</span>：6歳〜15歳</li>
-              <li><span className="font-bold">料金</span>：基本機能無料、プレミアム機能は月額1,500円</li>
-              <li><span className="font-bold">対応デバイス</span>：iOS、Android、Windows、Mac</li>
+              <li><span className="font-bold">対象年齢</span>：小学生〜中学生</li>
+              <li><span className="font-bold">料金</span>：本体価格</li>
+              <li><span className="font-bold">対応デバイス</span>：専用ロボット + PC/タブレット</li>
               <li><span className="font-bold">日本語対応</span>：あり</li>
-              <li><span className="font-bold">保護者管理機能</span>：あり（コンテンツ共有の承認など）</li>
-              <li><span className="font-bold">オフライン使用</span>：一部機能利用可能</li>
-              <li className="pt-2"><a href="https://www.musicmakerjr.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
+              <li><span className="font-bold">保護者管理機能</span>：なし</li>
+              <li><span className="font-bold">オフライン使用</span>：基本機能利用可能</li>
+              <li className="pt-2"><a href="https://www.makeblock.com/jp/steam-kits/codey-rocky" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
             </ul>
           </div>
         </div>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">4. CodePal - 対話型AIプログラミング学習ツール</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">4. Coder Mindz - ボードゲームでAIの考え方を学習できる！</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.codepalapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">CodePal</a>は、<Link href="/blog/programming-education-children" className="text-primary hover:underline">プログラミング学習</Link>をサポートするAIツールです。子どもが自然言語で「猫が動くゲームを作りたい」などと入力すると、それに合わせたコードの例を示し、解説してくれます。つまずいたときには質問することもでき、対話形式で学習を進められます。
+              <a href="https://www.amazon.co.jp/Coder-Mindz-AI-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E3%81%8C%E5%AD%A6%E3%81%B9%E3%82%8B-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%AD%A3%E8%A6%8F%E5%93%81-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E4%BB%98%E3%81%8D/dp/B07Z5NCN3D/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Coder Mindz</a>は、9歳のアメリカ人少女が開発したAI学習ツールです。<Link href="/blog/programming-education-children" className="text-primary hover:underline">プログラミング学習</Link>をボードゲームという形で提供する画期的なアプローチが特徴です。
             </p>
             
             <p>
-              CodePalの特徴は、子どもの興味や理解度に合わせて学習内容を調整する<Link href="/blog/adaptive-learning-systems" className="text-primary hover:underline">アダプティブラーニング</Link>機能です。また、視覚的なブロックプログラミングからテキストベースのコーディングまで、段階的に学べる設計になっています。
+              Coder Mindzのユニークな点は、AI学習ツールなのにロボットもパソコンもタブロイドも使わず、電源すら必要とせず、紙のボード上でゲームをしながら、AIの考え方が身についていくところにあります。
             </p>
             
             <div className="bg-green-50 p-4 rounded-lg my-4">
-              <h4 className="font-bold text-green-800 mb-2">CodePalの主な機能</h4>
+              <h4 className="font-bold text-green-800 mb-2">Coder Mindzの主な機能</h4>
               <ul className="list-disc pl-6 space-y-1 text-green-800">
-                <li>自然言語での対話型プログラミング学習</li>
-                <li>視覚的ブロックからテキストコードへの段階的移行</li>
-                <li>子どもの関心に合わせたプロジェクト提案</li>
-                <li>リアルタイムのコード実行・デバッグ環境</li>
-                <li>学習進捗の可視化と次のステップ提案</li>
+                <li>ボードゲームでAIの基本概念を学習</li>
+                <li>カードに書かれたプログラミング通りにロボットのコマを進める</li>
+                <li>日本語マニュアル付き商品も販売</li>
+                <li>デジタルデバイスなしでAIの考え方を学べる</li>
+                <li>家族や友達と一緒に楽しめる協力型ゲーム</li>
               </ul>
             </div>
             
             <p>
-              CodePalは<Link href="/blog/computational-thinking-skills" className="text-primary hover:underline">計算論的思考</Link>や<Link href="/blog/problem-solving-for-kids" className="text-primary hover:underline">問題解決能力</Link>の育成に効果的です。また、自分のアイデアをコードで実現する体験は、デジタル時代を生きる子どもたちにとって重要な<Link href="/blog/digital-creation-skills" className="text-primary hover:underline">デジタル創造スキル</Link>を育みます。
+              Coder Mindzは<Link href="/blog/computational-thinking-skills" className="text-primary hover:underline">計算論的思考</Link>や<Link href="/blog/problem-solving-for-kids" className="text-primary hover:underline">問題解決能力</Link>の育成に効果的です。また、デジタルデバイスに依存せずにAIの基本概念を学べるため、スクリーンタイムを気にする家庭にも最適な<Link href="/blog/digital-creation-skills" className="text-primary hover:underline">学習ツール</Link>です。
             </p>
           </div>
           
           <div className="bg-green-50 p-5 rounded-lg shadow-sm">
-            <h4 className="text-lg font-bold text-green-800 mb-3">CodePal 基本情報</h4>
+            <h4 className="text-lg font-bold text-green-800 mb-3">Coder Mindz 基本情報</h4>
             <ul className="space-y-2">
-              <li><span className="font-bold">対象年齢</span>：7歳〜16歳</li>
-              <li><span className="font-bold">料金</span>：基本コース無料、発展コース月額1,800円</li>
-              <li><span className="font-bold">対応デバイス</span>：iOS、Android、Windows、Mac、Web</li>
-              <li><span className="font-bold">日本語対応</span>：あり</li>
-              <li><span className="font-bold">保護者管理機能</span>：あり（進捗確認、課題設定など）</li>
-              <li><span className="font-bold">オフライン使用</span>：一部レッスンのみ</li>
-              <li className="pt-2"><a href="https://www.codepalapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
+              <li><span className="font-bold">対象年齢</span>：6歳以上</li>
+              <li><span className="font-bold">料金</span>：ボードゲーム本体価格</li>
+              <li><span className="font-bold">対応デバイス</span>：不要（ボードゲーム）</li>
+              <li><span className="font-bold">日本語対応</span>：あり（日本語マニュアル付き）</li>
+              <li><span className="font-bold">保護者管理機能</span>：不要</li>
+              <li><span className="font-bold">オフライン使用</span>：完全オフライン</li>
+              <li className="pt-2"><a href="https://www.amazon.co.jp/Coder-Mindz-AI-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E3%81%8C%E5%AD%A6%E3%81%B9%E3%82%8B-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%AD%A3%E8%A6%8F%E5%93%81-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E4%BB%98%E3%81%8D/dp/B07Z5NCN3D/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Amazonで見る →</a></li>
             </ul>
           </div>
         </div>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">5. ScienceExplorer - 子ども向け科学探究AIアシスタント</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">5. Duolingo - AIと言語科学を組み合わせた子どもも楽しく学べる言語学習アプリ</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.scienceexplorerapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ScienceExplorer</a>は、科学的な疑問に答えてくれるAIツールです。「なぜ空は青いの？」「恐竜はなぜ絶滅したの？」といった質問に、子どもの年齢に合わせた説明をしてくれます。また、家庭でできる簡単な<Link href="/blog/home-science-experiments" className="text-primary hover:underline">科学実験</Link>も提案してくれるため、好奇心を実際の体験につなげられます。
+              <a href="https://ja.duolingo.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Duolingo</a>は、世界で最もダウンロードされている語学アプリで、<Link href="/blog/scientific-inquiry-process" className="text-primary hover:underline">科学的アプローチ</Link>に基づいた言語学習を提供しています。AIと言語科学の長所を組み合わせたレッスンは、一人ひとりの学習状況によって常に変化するため、誰もが最適なレベルとペースで学習することができます。
             </p>
             
             <p>
-              ScienceExplorerの特徴は、単なる質疑応答にとどまらず、子どもの<Link href="/blog/scientific-inquiry-process" className="text-primary hover:underline">科学的探究プロセス</Link>を促す設計になっていることです。「どうしてそうなるのだろう？」「それを確かめるにはどうしたらいい？」といった思考を引き出し、科学的思考法の基礎を育みます。
+              Duolingoの特徴は、科学に裏付けられた指導法と楽しいコンテンツを組み合わせて、成果をもたらす学習体験を実現していることです。研究によると、Duolingoのたった5つのセクションで、大学の5学期分に相当する内容を学べることが明らかになっています。
             </p>
             
             <div className="bg-blue-50 p-4 rounded-lg my-4">
-              <h4 className="font-bold text-blue-800 mb-2">ScienceExplorerの主な機能</h4>
+              <h4 className="font-bold text-blue-800 mb-2">Duolingoの主な機能</h4>
               <ul className="list-disc pl-6 space-y-1 text-blue-800">
-                <li>年齢に合わせた科学的質問への回答</li>
-                <li>家庭でできる安全な科学実験の提案</li>
-                <li>AR（拡張現実）を活用した科学現象の可視化</li>
-                <li>科学的思考を促す対話型学習</li>
-                <li>学習進捗の記録と興味分野の分析</li>
+                <li>AIによるパーソナライズドラーニング（個人最適化学習）</li>
+                <li>ゲーム感覚で楽しく学べるインターフェース</li>
+                <li>40以上の言語に対応</li>
+                <li>3〜8歳の子ども向け「Duolingo ABC」アプリ</li>
+                <li>生成AIを活用した「リリーとビデオ通話」機能（英会話練習）</li>
               </ul>
             </div>
             
             <p>
-              ScienceExplorerは<Link href="/blog/scientific-literacy-importance" className="text-primary hover:underline">科学リテラシー</Link>の育成だけでなく、<Link href="/blog/curiosity-driven-learning" className="text-primary hover:underline">好奇心駆動型の学習</Link>を促進します。子どもの「なぜ？」という問いを大切にし、探究心を育てる家庭学習ツールとして最適です。
+              Duolingoは<Link href="/blog/scientific-literacy-importance" className="text-primary hover:underline">言語リテラシー</Link>の育成だけでなく、<Link href="/blog/curiosity-driven-learning" className="text-primary hover:underline">好奇心駆動型の学習</Link>を促進します。特に子ども向けには「Duolingo ABC」という専用アプリがあり、3歳から8歳の子供を対象にデザインされており、単語のつづりと発音を関連付けながら読み方が学べる楽しいフォーマットになっています。
             </p>
           </div>
           
           <div className="bg-blue-50 p-5 rounded-lg shadow-sm">
-            <h4 className="text-lg font-bold text-blue-800 mb-3">ScienceExplorer 基本情報</h4>
+            <h4 className="text-lg font-bold text-blue-800 mb-3">Duolingo 基本情報</h4>
             <ul className="space-y-2">
-              <li><span className="font-bold">対象年齢</span>：5歳〜14歳</li>
-              <li><span className="font-bold">料金</span>：基本機能無料、プレミアム機能は月額1,200円</li>
+              <li><span className="font-bold">対象年齢</span>：3歳〜（Duolingo ABC）、13歳〜（通常版）</li>
+              <li><span className="font-bold">料金</span>：基本機能無料、プレミアム機能は月額制</li>
               <li><span className="font-bold">対応デバイス</span>：iOS、Android、Web</li>
               <li><span className="font-bold">日本語対応</span>：あり</li>
-              <li><span className="font-bold">保護者管理機能</span>：あり（質問履歴確認、トピック制限など）</li>
-              <li><span className="font-bold">オフライン使用</span>：保存済みコンテンツのみ</li>
-              <li className="pt-2"><a href="https://www.scienceexplorerapp.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
+              <li><span className="font-bold">保護者管理機能</span>：あり</li>
+              <li><span className="font-bold">オフライン使用</span>：一部機能利用可能</li>
+              <li className="pt-2"><a href="https://ja.duolingo.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">公式サイトを見る →</a></li>
             </ul>
           </div>
         </div>
@@ -322,11 +322,11 @@ export default function BlogPostPage() {
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
           <h3 className="text-2xl font-bold mb-4 text-gray-800">AI創造スタジオの特徴的なプログラム</h3>
           <ul className="list-disc pl-6 space-y-2">
-            <li><Link href="/courses/ai-art" className="text-primary hover:underline"><span className="font-bold">AIアートコース</span></Link>：KidArt AIなどのツールを活用し、デジタルからアナログ表現へと発展させる創作活動</li>
-            <li><Link href="/courses/ai-storytelling" className="text-primary hover:underline"><span className="font-bold">AIストーリーテリングコース</span></Link>：StoryBuddyを活用した物語創作と発表活動</li>
-            <li><Link href="/courses/ai-music" className="text-primary hover:underline"><span className="font-bold">AI音楽創作コース</span></Link>：MusicMaker Jr.を使った作曲体験と音楽理論学習</li>
-            <li><Link href="/courses/ai-programming" className="text-primary hover:underline"><span className="font-bold">AIプログラミングコース</span></Link>：CodePalを活用したプログラミング基礎からゲーム開発まで</li>
-            <li><Link href="/courses/ai-science" className="text-primary hover:underline"><span className="font-bold">AI科学探究コース</span></Link>：ScienceExplorerを使った科学実験と探究活動</li>
+            <li><Link href="/courses/ai-art" className="text-primary hover:underline"><span className="font-bold">AIアートコース</span></Link>：最新のAIアートツールを活用し、デジタルからアナログ表現へと発展させる創作活動</li>
+            <li><Link href="/courses/ai-storytelling" className="text-primary hover:underline"><span className="font-bold">AIストーリーテリングコース</span></Link>：AIを活用した物語創作と発表活動</li>
+            <li><Link href="/courses/ai-music" className="text-primary hover:underline"><span className="font-bold">AI音楽創作コース</span></Link>：AIを使った作曲体験と音楽理論学習</li>
+            <li><Link href="/courses/ai-programming" className="text-primary hover:underline"><span className="font-bold">AIプログラミングコース</span></Link>：Qubenaやcodey rockyを活用したプログラミング基礎からゲーム開発まで</li>
+            <li><Link href="/courses/ai-language" className="text-primary hover:underline"><span className="font-bold">AI言語学習コース</span></Link>：DuolingoやMusioを使った実践的な言語学習</li>
           </ul>
           <p className="mt-4">
             各コースでは、AIツールを「入口」として活用し、徐々に本格的な創作活動へと導いていきます。AIに依存するのではなく、AIを創造的に使いこなす力を育てることを重視しています。

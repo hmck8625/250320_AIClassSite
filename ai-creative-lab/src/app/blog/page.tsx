@@ -166,6 +166,15 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年3月22日",
       image: "/images/blog/EYE-ai-tools-for-kids.jpg",
       slug: "how-to-choice-minatokuHobbies"
+    },{
+      id: 17,
+      title: "steam-education",
+      excerpt: "steam-education",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月25日",
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
+      slug: "steam-education"
     }
   ],
   2: [],
