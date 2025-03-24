@@ -146,6 +146,26 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年3月22日",
       image: "/images/blog/EYE-ai-tools-for-kids.jpg",
       slug: "ai-era-education"
+    },
+    {
+      id: 15,
+      title: "港区のプログラミング教室選び完全ガイド",
+      excerpt: "港区周辺の子ども向けプログラミング教室の比較や選び方、年齢別の学習法、家庭でできるプログラミング教育まで。子どものIT才能を見つけ、伸ばすための総合ガイド。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月22日",
+      image: "/images/blog/EYE-programing.jpg",
+      slug: "how-to-choice-minatokuProgramingClass"
+    },
+    {
+      id: 16,
+      title: "港区の子供向け習い事完全ガイド",
+      excerpt: "港区周辺の子ども向け習い事の比較や選び方、年齢別のおすすめ習い事、子どもの才能を伸ばすポイントまで。子どもの可能性を広げる習い事選びの総合ガイド。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年3月22日",
+      image: "/images/blog/EYE-ai-tools-for-kids.jpg",
+      slug: "how-to-choice-minatokuHobbies"
     }
   ],
   2: [],
