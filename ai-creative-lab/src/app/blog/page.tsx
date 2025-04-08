@@ -19,6 +19,16 @@ const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
+      title: "AI教育クラスルーム活動ガイド：創造性を育む実践的アプローチ",
+      excerpt: "小中学生向けAI教育の実践的な授業活動アイデアを紹介。創造性と批判的思考を育むグループワークやプロジェクトベースの学習方法を解説します。",
+      category: "教室活動レポート",
+      categoryColor: "yellow",
+      date: "2025年4月8日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "ai-classroom-activities"
+    },
+    {
+      id: 2,
       title: "子ども向けAIツール5選：安全に使える創作支援ツール",
       excerpt: "子どもでも安全に使えるAIツールを厳選して紹介します。アート制作、作文サポート、音楽作曲など、創造力を育むツールばかりです。",
       category: "AI教育最新情報",
@@ -28,7 +38,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-tools-for-kids"
     },
     {
-      id: 2,
+      id: 3,
       title: "子どもの創造性を育む5つの習慣：日常生活でできること",
       excerpt: "創造性は、これからの時代を生きる子どもたちにとって重要なスキルです。家庭で簡単に取り入れられる、創造性を育む習慣について解説します。",
       category: "保護者向けコラム",
@@ -175,6 +185,36 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年3月25日",
       image: "/images/blog/EYE-ai-education-trends-2025.jpg",
       slug: "steam-education"
+    },
+    {
+      id: 18,
+      title: "AI教育のメリットとデメリット：バランスの取れた視点からの考察",
+      excerpt: "教育現場でのAI活用の長所と短所を詳しく解説。子どもの発達に与える影響や適切な導入方法について、エビデンスに基づいた考察を提供します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年4月12日",
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
+      slug: "ai-education-pros-cons"
+    },
+    {
+      id: 19,
+      title: "AI教育の活用事例：国内外の成功例から学ぶ実践ポイント",
+      excerpt: "世界各国の教育機関におけるAI活用の成功事例を紹介。具体的な導入方法や成果、課題解決のヒントまで、実践に役立つ情報を詳しく解説します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年4月15日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "ai-education-use-cases"
+    },
+    {
+      id: 20,
+      title: "2025年AI教育の現状：最新動向と今後の展望",
+      excerpt: "教育分野におけるAI技術の導入状況と最新動向を分析。専門家による洞察と共に、これからの教育現場における変化と準備すべきポイントを解説します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年4月19日",
+      image: "/images/blog/EYE-ai-tools-for-kids.jpg",
+      slug: "ai-education-current-state"
     }
   ],
   2: [],
@@ -388,6 +428,22 @@ export default function BlogPage(props: any) {
                 <div className="w-16 h-16 relative flex-shrink-0">
                   <Image 
                     src="/images/blog/EYE-ai-education-future.jpg"
+                    alt="AI教育クラスルーム活動ガイド"
+                    fill
+                    className="object-cover rounded"
+                  />
+                </div>
+                <div>
+                  <Link href="/blog/ai-classroom-activities" className="text-sm font-medium hover:text-primary">
+                    AI教育クラスルーム活動ガイド：創造性を育む実践的アプローチ
+                  </Link>
+                  <p className="text-xs text-gray-500 mt-1">2025年4月8日</p>
+                </div>
+              </li>
+              <li className="flex gap-3">
+                <div className="w-16 h-16 relative flex-shrink-0">
+                  <Image 
+                    src="/images/blog/EYE-ai-education-future.jpg"
                     alt="AI時代の教育"
                     fill
                     className="object-cover rounded"
@@ -414,22 +470,6 @@ export default function BlogPage(props: any) {
                     子どもの創造性を育む5つの習慣：日常生活でできること
                   </Link>
                   <p className="text-xs text-gray-500 mt-1">2025年3月5日</p>
-                </div>
-              </li>
-              <li className="flex gap-3">
-                <div className="w-16 h-16 relative flex-shrink-0">
-                  <Image 
-                    src="/images/blog/EYE-ai-tools-for-kids.jpg"
-                    alt="子ども向けAIツール"
-                    fill
-                    className="object-cover rounded"
-                  />
-                </div>
-                <div>
-                  <Link href="/blog/ai-tools-for-kids" className="text-sm font-medium hover:text-primary">
-                    子ども向けAIツール5選：安全に使える創作支援ツール
-                  </Link>
-                  <p className="text-xs text-gray-500 mt-1">2025年3月10日</p>
                 </div>
               </li>
             </ul>
