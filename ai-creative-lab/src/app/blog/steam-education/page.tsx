@@ -1,546 +1,610 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'STEAM教育とAI：未来を生きる子どもたちのための新しい学びのカタチ | AI創造ラボ',
-  description: 'STEAM教育とAIを融合した新しい教育アプローチ。科学・技術・工学・芸術・数学を横断的に学び、創造性と問題解決能力を育む効果的な方法と実践例を紹介します。',
-  keywords: 'STEAM教育, AI教育, STEM, 創造性教育, プロジェクト学習, 子ども向けプログラミング, 港区, AI創造ラボ',
+  title: 'STEAM教育とは？定義・事例・メリットを徹底解説 | AI創造ラボ',
+  description: 'STEAM教育（Science, Technology, Engineering, Arts, Mathematics）の定義、歴史的背景、教育的メリット、具体的な実践例を専門家が解説。日本での導入事例や家庭でできるSTEAM教育アクティビティも紹介します。',
+  keywords: 'STEAM教育, STEM教育, STEAM とは, アート教育, プロジェクト学習, 21世紀型スキル, 創造性教育, 探究学習',
   openGraph: {
-    title: 'STEAM教育とAI：未来を生きる子どもたちのための新しい学びのカタチ',
-    description: 'STEAM教育とAIを融合した新しい教育アプローチ。科学・技術・工学・芸術・数学を横断的に学び、創造性と問題解決能力を育む効果的な方法と実践例を紹介します。',
-    images: [{ url: '/images/steam-education-hero.jpg' }],
+    title: 'STEAM教育とは？定義・事例・メリットを徹底解説',
+    description: 'STEAM教育（Science, Technology, Engineering, Arts, Mathematics）の定義、歴史的背景、教育的メリット、具体的な実践例を専門家が解説。日本での導入事例や家庭でできるSTEAM教育アクティビティも紹介します。',
+    images: [{ url: '/images/blog/steam-education-main.jpg' }],
   }
 };
 
-export default function SteamEducationPage() {
+export default function SteamEducationBlogPage() {
   return (
-    <div className="container mx-auto py-12 px-4">
-      {/* ヒーローセクション */}
-      <section className="mb-16">
-        <div className="grid md:grid-cols-2 gap-10 items-center">
-          <div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight text-gray-900">
-              <span className="text-primary">STEAM教育</span>とAIで育む<br />未来を創る力
-            </h1>
-            <p className="text-xl leading-relaxed mb-8">
-              科学・技術・工学・芸術・数学を横断的に学ぶSTEAM教育に、最新のAI技術を融合。港区の子どもたちの創造性と問題解決能力を育む、次世代の学びをご提供します。
-            </p>
-            <div className="flex flex-wrap gap-4">
-              <Button className="bg-primary hover:bg-primary/90 text-white px-6 py-3 text-lg">
-                <Link href="/trial">無料体験に申し込む</Link>
-              </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-6 py-3 text-lg">
-                <Link href="/courses">コース一覧を見る</Link>
-              </Button>
-            </div>
-          </div>
-          <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
-            <Image 
-              src="/images/steam-education-hero.jpg"
-              alt="STEAM教育の様子"
-              fill
-              priority
-              className="object-cover"
-            />
-          </div>
+    <div className="container mx-auto py-12 px-4 max-w-4xl">
+      {/* 記事ヘッダー */}
+      <div className="mb-10">
+        <div className="flex items-center mb-4">
+          <span className="bg-blue-100 text-blue-800 text-xs px-3 py-1.5 rounded-md mr-3 font-medium">教育コラム</span>
+          <span className="text-gray-600 text-sm">2025年4月5日</span>
         </div>
-      </section>
-      
-      {/* STEAM教育とは */}
-      <section className="mb-16" id="what-is-steam">
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 rounded-2xl">
-          <h2 className="text-3xl font-bold mb-6 text-gray-900">STEAM教育とは</h2>
-          <div className="grid md:grid-cols-5 gap-6 text-center mb-8">
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-blue-600 text-2xl font-bold">S</span>
-              </div>
-              <h3 className="font-bold mb-2">Science</h3>
-              <p className="text-gray-700">科学</p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-green-600 text-2xl font-bold">T</span>
-              </div>
-              <h3 className="font-bold mb-2">Technology</h3>
-              <p className="text-gray-700">技術</p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-yellow-600 text-2xl font-bold">E</span>
-              </div>
-              <h3 className="font-bold mb-2">Engineering</h3>
-              <p className="text-gray-700">工学</p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-red-600 text-2xl font-bold">A</span>
-              </div>
-              <h3 className="font-bold mb-2">Arts</h3>
-              <p className="text-gray-700">芸術</p>
-            </div>
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-purple-600 text-2xl font-bold">M</span>
-              </div>
-              <h3 className="font-bold mb-2">Mathematics</h3>
-              <p className="text-gray-700">数学</p>
-            </div>
-          </div>
-          
-          <div className="prose prose-lg max-w-none">
-            <p>
-              STEAM教育は、従来の教科の枠を超えた学際的な教育アプローチです。単なる知識の習得ではなく、<strong>実践的な問題解決を通じて総合的な能力を育む</strong>ことを目指しています。
-            </p>
-            <p>
-              STEMに「A（Arts：芸術）」が加わったSTEAM教育は、論理的思考だけでなく、創造性やデザイン思考も重視。AI時代に必要とされる「人間ならではの創造力」を育む教育として、世界中で注目されています。
-            </p>
-          </div>
+        <h1 className="text-3xl md:text-5xl font-bold mb-6 leading-tight text-gray-900">
+          STEAM教育とは？<br className="hidden md:block" />
+          <span className="text-blue-600">5つの分野を融合した</span>次世代の教育アプローチ
+        </h1>
+        <div className="flex items-center text-sm text-gray-600">
+          <span className="mr-4 font-medium">著者: 山田 明子（教育工学研究者）</span>
+          <Link href="/blog/category/education" className="text-blue-600 hover:underline">
+            カテゴリー: 教育
+          </Link>
         </div>
-      </section>
+      </div>
       
-      {/* STEAM教育の重要性 */}
-      <section className="mb-16" id="importance">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          なぜ今、STEAM教育が重要なのか
-        </h2>
-        
-        <div className="grid md:grid-cols-2 gap-10">
-          <div className="relative h-[400px] rounded-xl overflow-hidden shadow-lg">
-            <Image 
-              src="/images/steam-importance.jpg"
-              alt="STEAM教育の重要性"
-              fill
-              className="object-cover"
-            />
-          </div>
-          
-          <div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-800">AI時代を生きる力を育む</h3>
-            <p className="mb-4 text-lg">
-              AIが急速に発展する現代社会において、単純な知識の暗記や反復作業はAIに代替される可能性が高まっています。これからの時代に求められるのは、<span className="font-bold text-primary">AIと協働しながら創造的な価値を生み出せる人材</span>です。
-            </p>
-            
-            <h3 className="text-2xl font-bold mb-4 mt-8 text-gray-800">複雑な問題解決能力の育成</h3>
-            <p className="mb-4 text-lg">
-              現実世界の課題は一つの学問分野だけでは解決できません。STEAM教育は多角的な視点から問題にアプローチする力を育み、子どもたちの問題解決能力を高めます。
-            </p>
-            
-            <h3 className="text-2xl font-bold mb-4 mt-8 text-gray-800">創造性と批判的思考の両立</h3>
-            <p className="text-lg">
-              STEAM教育の中核は「創造すること」と「批判的に考えること」の融合。AIツールの活用を通じて、子どもたちは技術の可能性と限界を体験的に学び、自分なりの解決策を生み出す力を身につけます。
-            </p>
-          </div>
+      {/* アイキャッチ画像 */}
+      <div className="relative h-[400px] mb-10 rounded-xl overflow-hidden shadow-lg">
+        <Image 
+          src="/images/blog/steam-education-main.jpg"
+          alt="STEAM教育の様子"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-6">
+          <p className="text-white text-sm">
+            STEAM教育では、子どもたちの好奇心を引き出す体験型学習が重視されます
+          </p>
         </div>
-      </section>
+      </div>
       
-      {/* AI×STEAM教育の特徴 */}
-      <section className="mb-16" id="ai-steam-features">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          AI創造ラボが提供するSTEAM教育の特徴
-        </h2>
-        
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-            <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-4 text-gray-800">AIを入口とした多様な創造活動</h3>
-            <p className="text-gray-700">
-              AIをゴールではなく「入口」として位置づけ、子どもたちの興味関心に合わせて音楽、アート、ゲーム開発など多様な創造分野への探究を促します。AIが生み出す「驚き」をきっかけに、子どもたちの好奇心を引き出します。
-            </p>
-          </div>
-          
-          <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-            <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-4 text-gray-800">少人数制グループプロジェクト</h3>
-            <p className="text-gray-700">
-              4〜5人の少人数グループで実践するプロジェクト型学習を採用。チームでの協働を通じて、コミュニケーション能力や多様な視点を尊重する姿勢を養います。AIと人間の強みを生かし合う共創の経験を提供します。
-            </p>
-          </div>
-          
-          <div className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-            <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mb-6">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-4 text-gray-800">子どもの才能発見・育成サポート</h3>
-            <p className="text-gray-700">
-              STEAM教育の幅広い活動を通して子どもの潜在的な才能や興味を発見。専門的な探究に適した質の高い提携先教室への橋渡しを行い、子どもの才能を継続的に育む教育パスを提案します。
-            </p>
-          </div>
+      {/* 記事本文 */}
+      <article className="prose prose-lg max-w-none mb-16">
+        <div className="bg-blue-50 p-6 rounded-lg mb-8">
+          <h2 className="text-xl font-bold text-gray-900 mb-3 mt-0">この記事でわかること</h2>
+          <ul className="space-y-2 mb-0">
+            <li>STEAM教育の正確な定義と各分野の関連性</li>
+            <li>STEMからSTEAMへ発展した歴史的背景</li>
+            <li>アート（A）が加わったことの教育的意義</li>
+            <li>日本と世界のSTEAM教育実践例</li>
+            <li>家庭で取り入れられるSTEAM教育アクティビティ</li>
+          </ul>
         </div>
-      </section>
-      
-      {/* 年齢別 STEAM教育プログラム */}
-      <section className="mb-16" id="programs">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          年齢別 STEAM教育プログラム
-        </h2>
-        
-        <div className="space-y-8">
-          <div className="bg-blue-50 rounded-xl overflow-hidden shadow-md">
-            <div className="grid md:grid-cols-3">
-              <div className="p-8 md:col-span-2">
-                <h3 className="text-2xl font-bold mb-4 text-blue-700">
-                  小学校低学年向け | STEAMディスカバリーコース
-                </h3>
-                <p className="mb-6 text-lg">
-                  遊びを通してSTEAMの基礎概念に触れる入門コース。AIと一緒にお絵かきをしたり、簡単なロボットを動かしたりしながら、科学や技術の面白さを体験します。
-                </p>
-                <h4 className="font-bold text-lg mb-2">学べる力:</h4>
-                <ul className="mb-6 space-y-2">
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>好奇心と探究心</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>グループ活動でのコミュニケーション力</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-blue-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>創造的な自己表現</span>
-                  </li>
-                </ul>
-                <Button className="bg-blue-600 hover:bg-blue-700 text-white">
-                  <Link href="/courses/discovery">コース詳細を見る</Link>
-                </Button>
-              </div>
-              <div className="relative md:h-auto">
-                <Image 
-                  src="/images/steam-elementary-lower.jpg"
-                  alt="小学校低学年向けSTEAM教育"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-green-50 rounded-xl overflow-hidden shadow-md">
-            <div className="grid md:grid-cols-3">
-              <div className="relative md:h-auto">
-                <Image 
-                  src="/images/steam-elementary-upper.jpg"
-                  alt="小学校高学年向けSTEAM教育"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="p-8 md:col-span-2">
-                <h3 className="text-2xl font-bold mb-4 text-green-700">
-                  小学校高学年向け | STEAMクリエイターコース
-                </h3>
-                <p className="mb-6 text-lg">
-                  AIツールを活用した創作活動を通して、STEAMの各分野を横断的に学びます。物語創作、簡単なゲーム開発、デジタルアート制作など、多様なプロジェクトに挑戦します。
-                </p>
-                <h4 className="font-bold text-lg mb-2">学べる力:</h4>
-                <ul className="mb-6 space-y-2">
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-green-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>プロジェクト設計・実行力</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-green-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>批判的思考と問題解決能力</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-green-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>デジタルツールの創造的活用力</span>
-                  </li>
-                </ul>
-                <Button className="bg-green-600 hover:bg-green-700 text-white">
-                  <Link href="/courses/creator">コース詳細を見る</Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-purple-50 rounded-xl overflow-hidden shadow-md">
-            <div className="grid md:grid-cols-3">
-              <div className="p-8 md:col-span-2">
-                <h3 className="text-2xl font-bold mb-4 text-purple-700">
-                  中学生向け | STEAMイノベーターコース
-                </h3>
-                <p className="mb-6 text-lg">
-                  社会課題の解決を目指すプロジェクト型学習。AIを含む先端テクノロジーを活用しながら、オリジナルのソリューションをチームで開発します。専門家メンターによる指導も実施。
-                </p>
-                <h4 className="font-bold text-lg mb-2">学べる力:</h4>
-                <ul className="mb-6 space-y-2">
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>イノベーション思考と起業家精神</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>高度なテクノロジー理解と活用力</span>
-                  </li>
-                  <li className="flex items-start">
-                    <svg className="h-6 w-6 text-purple-600 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span>リーダーシップとプロジェクト管理能力</span>
-                  </li>
-                </ul>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white">
-                  <Link href="/courses/innovator">コース詳細を見る</Link>
-                </Button>
-              </div>
-              <div className="relative md:h-auto">
-                <Image 
-                  src="/images/steam-junior-high.jpg"
-                  alt="中学生向けSTEAM教育"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* STEAM教育の効果 */}
-      <section className="mb-16" id="effects">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          STEAM教育で育まれる7つの力
-        </h2>
-        
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-red-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">創造的思考力</h3>
-            <p className="text-gray-700">
-              既存の枠組みにとらわれず、新しいアイデアやソリューションを生み出す力。AIツールを活用した創造的なプロジェクトを通じて育まれます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-blue-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">批判的思考力</h3>
-            <p className="text-gray-700">
-              情報を多角的に分析し、適切に評価・判断する能力。AIの出力結果を吟味し改善するプロセスを通じて強化されます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-green-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">テクノロジー活用力</h3>
-            <p className="text-gray-700">
-              AIを含む最新テクノロジーの基本原理を理解し、目的に応じて適切に活用する能力。ツールとしてのAIを主体的に使いこなします。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">協働・コミュニケーション力</h3>
-            <p className="text-gray-700">
-              多様な視点や専門性を持つメンバーと協力して課題に取り組む力。チームプロジェクトを通じて培われます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-purple-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">自己効力感と挑戦意欲</h3>
-            <p className="text-gray-700">
-              自分の能力を信じ、新しい課題に積極的に挑戦する姿勢。STEAM教育の多様なプロジェクト経験が自信につながります。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="h-14 w-14 bg-pink-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">学際的思考力</h3>
-            <p className="text-gray-700">
-              複数の学問分野を横断的に捉え、知識を統合して応用する力。STEAMの各分野を融合したプロジェクトで養われます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100 md:col-span-2 lg:col-span-1">
-            <div className="h-14 w-14 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold mb-3 text-gray-800">情報倫理とリテラシー</h3>
-            <p className="text-gray-700">
-              AIを含むテクノロジーの社会的影響や倫理的課題を理解し、責任ある利用を判断できる能力。ディスカッションやケーススタディを通じて育みます。
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      {/* 保護者の声 */}
-      <section className="mb-16" id="testimonials">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          保護者の声
-        </h2>
-        
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-white p-8 rounded-xl shadow-md relative">
-            <div className="absolute top-4 right-4 text-6xl text-gray-200">"</div>
-            <p className="text-lg mb-6 relative z-10">
-              息子は技術に興味がある一方で、図工や音楽も好きな子でした。このAI×STEAM教育では、その両方の才能を伸ばせる環境があり、大変満足しています。特にAIを使った作曲活動がきっかけで、現在は音楽教室にも通い始めました。
-            </p>
-            <div className="flex items-center">
-              <div className="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
-              <div>
-                <p className="font-bold">中村さん（小4男子の保護者）</p>
-                <p className="text-sm text-gray-600">港区在住</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="bg-white p-8 rounded-xl shadow-md relative">
-            <div className="absolute top-4 right-4 text-6xl text-gray-200">"</div>
-            <p className="text-lg mb-6 relative z-10">
-              娘はプログラミングにはあまり興味を示さなかったのですが、AIアートというクリエイティブな切り口から入ったことで、徐々に技術にも関心を持つようになりました。子どもの適性を見極め、様々な分野へと興味を広げてくれる懐の深さが魅力です。
-            </p>
-            <div className="flex items-center">
-              <div className="w-12 h-12 bg-gray-300 rounded-full mr-4"></div>
-              <div>
-                <p className="font-bold">佐藤さん（小6女子の保護者）</p>
-                <p className="text-sm text-gray-600">港区在住</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      {/* よくある質問 */}
-      <section className="mb-16" id="faq">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          よくある質問
-        </h2>
-        
-        <div className="space-y-6">
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold mb-2 text-gray-800">STEAM教育とSTEM教育の違いは何ですか？</h3>
-            <p className="text-gray-700">
-              STEM教育が科学（Science）、技術（Technology）、工学（Engineering）、数学（Mathematics）の4分野を重視するのに対し、STEAM教育ではこれに芸術（Arts）を加えています。芸術の要素を取り入れることで、創造性やデザイン思考、感性といった側面も重視する教育アプローチです。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold mb-2 text-gray-800">プログラミングの経験がない子どもでも参加できますか？</h3>
-            <p className="text-gray-700">
-              はい、まったく経験がなくても参加できます。AI創造ラボのSTEAM教育では、AIツールを活用することで、プログラミングの知識がなくても創造的な活動に参加できるようカリキュラムを設計しています。お子様の興味や適性に合わせて、段階的に技術的な要素も学べる構成になっています。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold mb-2 text-gray-800">STEAM教育は将来どのような進路に役立ちますか？</h3>
-            <p className="text-gray-700">
-              STEAM教育で培われる創造力、批判的思考力、問題解決能力、協働力などは、あらゆる職業や分野で求められる普遍的なスキルです。特にAI時代においては、テクノロジーと創造性を融合できる人材が重宝されます。理系・文系を問わず、変化の激しい未来社会で活躍するための基礎力を育みます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold mb-2 text-gray-800">AIと子どもの創造性は両立するのですか？</h3>
-            <p className="text-gray-700">
-              AIは創造性を奪うものではなく、むしろ新たな創造の可能性を広げるツールです。AI創造ラボでは、AIを「ゴール」ではなく「スタート地点」と位置づけ、AIの出力をさらに発展させる思考プロセスを大切にしています。AIと協働しながら自分なりの創造性を発揮する経験を通じて、AI時代ならではの創造力を育みます。
-            </p>
-          </div>
-          
-          <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-            <h3 className="text-xl font-bold mb-2 text-gray-800">体験レッスンはありますか？</h3>
-            <p className="text-gray-700">
-              はい、無料体験レッスンを実施しています。実際のSTEAM教育のアクティビティを体験できるので、お子様との相性を確認するのに最適です。下部の「無料体験に申し込む」ボタンからお申し込みいただけます。
-            </p>
-          </div>
-        </div>
-      </section>
-      
-      {/* CTA */}
-      <section className="bg-gradient-to-r from-primary/10 to-blue-100 p-10 rounded-2xl shadow-lg text-center mb-16">
-        <h2 className="text-3xl font-bold mb-4 text-gray-900">AI時代を生きる子どもたちの創造力を育む</h2>
-        <p className="text-xl mb-8 max-w-3xl mx-auto">
-          AI創造ラボのSTEAM教育で、テクノロジーと創造性を融合した新しい学びを体験しませんか？
-          港区を中心に、少人数制で質の高い教育環境をご提供しています。
+
+        <p className="text-xl leading-relaxed">
+          近年、教育界で注目を集めている「STEAM教育」。従来の教科の枠を超えた学際的なアプローチとして、
+          世界中の教育関係者から高い関心を集めています。本記事では、STEAM教育とは何か、
+          なぜ今重要とされているのか、具体的にどのような学びが展開されるのかを詳しく解説します。
         </p>
-        <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Button className="bg-primary hover:bg-primary/90 text-white px-8 py-4 text-lg">
-            <Link href="/trial">無料体験に申し込む</Link>
-          </Button>
-          <Button variant="outline" className="border-primary text-primary hover:bg-primary/10 px-8 py-4 text-lg">
-            <Link href="/courses">コース一覧を見る</Link>
-          </Button>
+        
+        <h2 id="definition" className="scroll-mt-20">STEAM教育とは？基本的な定義と概念</h2>
+        
+        <p>
+          STEAM教育とは、「Science（科学）」「Technology（技術）」「Engineering（工学）」「Arts（芸術）」「Mathematics（数学）」
+          の頭文字を取った教育アプローチです。これらの分野を個別に学ぶのではなく、分野横断的・統合的に学ぶことで、
+          実社会の課題解決に必要な能力を育むことを目指しています。
+        </p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 my-8">
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span className="text-red-600 text-xl font-bold">S</span>
+            </div>
+            <h3 className="text-center text-lg font-bold mb-2">Science</h3>
+            <p className="text-center text-sm text-gray-700">自然界の法則や現象を理解し、仮説を立て検証する科学的思考</p>
+          </div>
+          
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+            <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span className="text-blue-600 text-xl font-bold">T</span>
+            </div>
+            <h3 className="text-center text-lg font-bold mb-2">Technology</h3>
+            <p className="text-center text-sm text-gray-700">デジタルツールやテクノロジーの理解と活用能力</p>
+          </div>
+          
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+            <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span className="text-green-600 text-xl font-bold">E</span>
+            </div>
+            <h3 className="text-center text-lg font-bold mb-2">Engineering</h3>
+            <p className="text-center text-sm text-gray-700">設計・開発プロセスを通じた問題解決能力</p>
+          </div>
+          
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+            <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span className="text-purple-600 text-xl font-bold">A</span>
+            </div>
+            <h3 className="text-center text-lg font-bold mb-2">Arts</h3>
+            <p className="text-center text-sm text-gray-700">創造性、美的感覚、表現力を育む芸術的アプローチ</p>
+          </div>
+          
+          <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100">
+            <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-3">
+              <span className="text-yellow-600 text-xl font-bold">M</span>
+            </div>
+            <h3 className="text-center text-lg font-bold mb-2">Mathematics</h3>
+            <p className="text-center text-sm text-gray-700">数的思考、論理的思考、パターン認識能力</p>
+          </div>
         </div>
-      </section>
+        
+        <p>
+          STEAM教育の中核にあるのは「分野横断的な学び」と「問題解決型学習」です。実社会の課題は一つの学問分野だけでは解決できないことが多く、
+          複数の視点や知識を組み合わせる必要があります。STEAM教育では、実際の課題に取り組むプロジェクト型学習を通じて、
+          知識を統合し活用する力を育みます。
+        </p>
+        
+        <h2 id="history" className="scroll-mt-20">STEMからSTEAMへ：歴史と背景</h2>
+        
+        <p>
+          STEAM教育は、もともと「STEM教育」として始まりました。STEM教育は2000年代初頭にアメリカで提唱された概念で、
+          科学技術分野の人材育成を目的としていました。当時のアメリカは、国際的な学力調査で科学や数学の成績が他国に比べて振るわず、
+          科学技術立国としての地位が揺らいでいたことが背景にあります。
+        </p>
+        
+        <div className="bg-gray-50 p-6 rounded-lg my-8 border-l-4 border-blue-500">
+          <h3 className="text-xl font-bold mb-3">STEM教育登場の背景</h3>
+          <ul className="space-y-2">
+            <li>2000年代初頭、国際的な学力調査（PISA, TIMSS）で米国の成績が低下</li>
+            <li>グローバル経済での競争力維持のため、科学技術人材の育成が国家的課題に</li>
+            <li>オバマ政権（2009-2017）がSTEM教育強化を国家戦略として推進</li>
+            <li>教育予算の大幅増額と、STEM分野のカリキュラム開発に注力</li>
+          </ul>
+        </div>
+        
+        <p>
+          しかし、STEM教育が広がるにつれ、「創造性」や「デザイン思考」といった要素の重要性が認識されるようになりました。
+          単に科学技術の知識を持つだけでなく、それを創造的に応用できる人材が求められると考えられるようになったのです。
+          そこで、「Arts（芸術）」の要素を加えて「STEAM教育」という概念が2010年代に広がり始めました。
+        </p>
+        
+        <div className="relative h-[300px] my-8 rounded-lg overflow-hidden">
+          <Image 
+            src="/images/blog/stem-to-steam-evolution.jpg"
+            alt="STEMからSTEAMへの進化"
+            fill
+            className="object-cover"
+          />
+        </div>
+        
+        <p>
+          この変化は単なる頭文字の追加ではなく、教育哲学の大きな転換を意味していました。
+          STEMの「正解を見つける」アプローチに対して、STEAMでは「新しい価値を創造する」ことにも重点が置かれるようになったのです。
+          特に、AIなどのテクノロジーが発展する現代において、機械に代替されない「創造性」の育成が重視されるようになりました。
+        </p>
+        
+        <h2 id="importance" className="scroll-mt-20">なぜ今、STEAM教育が重要なのか</h2>
+        
+        <p>
+          現代社会における STEAM教育の重要性は、大きく分けて以下の3つの観点から説明できます。
+        </p>
+        
+        <h3>1. 変化の激しい未来社会への適応力</h3>
+        
+        <p>
+          私たちの子どもたちが大人になる頃の社会では、現在存在しない職業が多数生まれていると予測されています。
+          AIやロボティクスの発展により、現在の仕事の多くが自動化される可能性も指摘されています。
+          このような予測不能な未来に対応するためには、特定の知識だけでなく、様々な分野の知識を組み合わせて
+          新しい課題に対応できる力が必要です。
+        </p>
+        
+        <div className="bg-yellow-50 p-6 rounded-lg my-6">
+          <p className="text-lg font-semibold mb-2">未来の職業に求められる能力</p>
+          <p className="mb-0">
+            世界経済フォーラム（WEF）の未来の仕事レポートによると、2025年に求められるスキルのトップには
+            「分析的思考と革新」「複雑な問題解決」「批判的思考と分析」「創造性、独自性、イニシアチブ」などが挙げられています。
+            これらはまさにSTEAM教育が育む能力と合致しています。
+          </p>
+        </div>
+        
+        <h3>2. 分野の融合による革新の創出</h3>
+        
+        <p>
+          現代の革新的なイノベーションの多くは、異なる分野の知識が融合することで生まれています。
+          例えば、Appleの成功は技術（Technology）とデザイン（Arts）の見事な融合によるものですし、
+          医療技術の進歩は生物学（Science）とエンジニアリング（Engineering）の協働によるものが少なくありません。
+        </p>
+        
+        <p>
+          STEAM教育は、このような分野の壁を超えた思考を自然と身につけさせる教育手法です。
+          子どもたちは早い段階から、様々な分野の知識を組み合わせて課題を解決する経験を積むことができます。
+        </p>
+        
+        <h3>3. 人間ならではの創造性の育成</h3>
+        
+        <p>
+          AI技術の急速な発展により、定型的な作業や情報処理はますます機械に代替されていく傾向にあります。
+          このような時代において、人間に求められるのは「創造性」「共感力」「芸術的感性」など、
+          機械には容易に模倣できない能力です。
+        </p>
+        
+        <p>
+          STEAM教育に含まれる「Arts（芸術）」の要素は、まさにこれらの能力を育むことに貢献します。
+          論理的思考だけでなく、感性や創造性を備えた人材の育成は、AI時代における人間の付加価値を高めることにつながります。
+        </p>
+        
+        <div className="relative h-[300px] my-8 rounded-lg overflow-hidden">
+          <Image 
+            src="/images/blog/steam-creativity-focus.jpg"
+            alt="STEAM教育での創造性育成"
+            fill
+            className="object-cover"
+          />
+        </div>
+        
+        <h2 id="features" className="scroll-mt-20">STEAM教育の特徴と方法論</h2>
+        
+        <p>
+          STEAM教育は単に5つの分野の内容を教えるだけではありません。
+          その教育手法や学習環境にも大きな特徴があります。ここでは、STEAM教育の主な特徴と方法論について解説します。
+        </p>
+        
+        <h3>1. プロジェクト型・問題解決型学習（PBL）</h3>
+        
+        <p>
+          STEAM教育の中核をなすのが、実社会の課題に取り組む「プロジェクト型学習」です。
+          例えば「地域の環境問題を解決するための装置を設計する」といった課題に対して、
+          子どもたちはチームで協力しながら、科学的知識、技術的スキル、デザイン思考などを総動員して取り組みます。
+        </p>
+        
+        <p>
+          このような学習では、教師は「正解」を教える存在ではなく、子どもたちの探究をサポートする「ファシリテーター」の役割を果たします。
+          子どもたち自身が問いを立て、情報を集め、解決策を考案・検証するプロセスを重視します。
+        </p>
+        
+        <h3>2. 学際的・テーマ型カリキュラム</h3>
+        
+        <p>
+          従来の教育では、科目ごとに分断された学習が行われることが一般的でした。
+          一方、STEAM教育では「水」「エネルギー」「持続可能性」といったテーマを設定し、
+          そのテーマについて科学、技術、工学、芸術、数学の視点から総合的に学ぶアプローチが取られます。
+        </p>
+        
+        <div className="bg-green-50 p-6 rounded-lg my-6">
+          <p className="text-lg font-semibold mb-2">STEAM教育のテーマ例と学習内容</p>
+          <ul className="mb-0 space-y-2">
+            <li><strong>テーマ「水の循環」の場合</strong>：水の科学的性質(S)、浄水技術(T)、ダムや水路の設計(E)、水をテーマにした芸術作品制作(A)、水の使用量計算や降水量の統計分析(M)</li>
+            <li><strong>テーマ「未来の街づくり」の場合</strong>：環境科学(S)、スマートシティ技術(T)、都市設計(E)、都市の美観やパブリックアート(A)、都市計画のための測量や計算(M)</li>
+            <li><strong>テーマ「宇宙探査」の場合</strong>：天体物理学(S)、観測技術(T)、ロケット工学(E)、宇宙をテーマにした創作活動(A)、軌道計算(M)</li>
+          </ul>
+        </div>
+        
+        <h3>3. 失敗を許容する学習環境</h3>
+        
+        <p>
+          STEAM教育では、「正解を素早く見つける」ことよりも「試行錯誤を通じて学ぶ」ことが重視されます。
+          失敗は学習プロセスの自然な一部と捉えられ、むしろ積極的に奨励されることもあります。
+        </p>
+        
+        <p>
+          このような環境では、子どもたちはリスクを恐れず新しいアイデアに挑戦することができます。
+          「まだうまくいっていない」という姿勢で改善を重ねる習慣が、イノベーションの素地となります。
+        </p>
+        
+        <h3>4. 協働学習とコミュニケーション</h3>
+        
+        <p>
+          STEAM教育のプロジェクトは、通常チームで取り組むことが多いです。
+          異なる得意分野を持つ子どもたちが協力することで、より創造的な解決策が生まれます。
+          また、成果を発表し合う活動も重視され、自分たちの考えを効果的に伝えるコミュニケーション能力も育まれます。
+        </p>
+        
+        <h3>5. テクノロジーを活用した学び</h3>
+        
+        <p>
+          STEAM教育では、プログラミング、3Dプリンター、電子工作キットなど、様々なテクノロジーツールが学習の一部として活用されます。
+          これらは単なる「学習の道具」ではなく、子どもたちが自らの創造性を形にするための「表現媒体」として位置づけられています。
+        </p>
+        
+        <p>
+          近年では、AI（人工知能）も重要なSTEAM教育のツールとして注目されています。
+          AIを使った創作活動や問題解決は、未来の社会で求められる「人間とAIの協働」を体験的に学ぶ機会となります。
+        </p>
+        
+        <h2 id="examples" className="scroll-mt-20">STEAM教育の実践例</h2>
+        
+        <p>
+          STEAM教育は世界各国で様々な形で実践されています。ここでは、日本と海外の先進的な実践例を紹介します。
+        </p>
+        
+        <h3>海外の実践例</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">ハイテクハイ（アメリカ）</h4>
+            <p className="text-gray-700 mb-0">
+              サンディエゴにある公立チャータースクール。プロジェクト型学習を中心とした教育で、
+              生徒は実社会の専門家と協働しながら本物の課題に取り組みます。例えば、地元の湾の水質問題を調査し、
+              その結果を市の環境団体に提案するプロジェクトなどが行われています。
+            </p>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">シンガポールのSTEAM教育</h4>
+            <p className="text-gray-700 mb-0">
+              シンガポールでは国家戦略としてSTEAM教育を推進。特に「メーカースペース」と呼ばれる創作空間を
+              全ての学校に設置し、3Dプリンターやレーザーカッターなどを使った物づくり活動を奨励しています。
+              新しいカリキュラムでは、コンピュテーショナル・シンキングとデザイン思考の統合が図られています。
+            </p>
+          </div>
+        </div>
+        
+        <h3>日本での実践例</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">立命館小学校（京都）</h4>
+            <p className="text-gray-700 mb-0">
+              「STEAM TIME」という総合的な学習の時間を設け、学年横断的なプロジェクト学習を実施。
+              例えば「未来の京都」をテーマに、伝統と革新が共存する都市計画を考案するプロジェクトなどがあります。
+              地元企業や大学との連携も活発に行われています。
+            </p>
+          </div>
+          
+          <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">横浜市のYCAMプログラム</h4>
+            <p className="text-gray-700 mb-0">
+              横浜市は「横浜市創造的イノベーション教育」として、アート思考とテクノロジーを融合したSTEAM教育を推進。
+              市内の小中学校で、アーティストやエンジニアが講師となり、メディアアートの制作やプログラミングを通じた
+              表現活動が行われています。
+            </p>
+          </div>
+        </div>
+        
+        <h3>企業との連携による実践例</h3>
+        
+        <p>
+          STEAM教育の推進には、企業との連携も重要な役割を果たしています。以下は、企業が教育機関と連携して行っているSTEAM教育の例です。
+        </p>
+        
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 my-6">
+          <h4 className="font-bold text-lg mb-2">ソニー・グローバルエデュケーション</h4>
+          <p className="text-gray-700">
+            ロボットプログラミング学習キット「KOOV」を開発し、世界各国の教育機関に提供。
+            また、プログラミング教育イベント「Global Math Challenge」を開催し、
+            創造的な数学的思考力を育む取り組みを行っています。
+          </p>
+        </div>
+        
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 my-6">
+          <h4 className="font-bold text-lg mb-2">富士通のSTEAM教育支援</h4>
+          <p className="text-gray-700">
+            「つながる学び」プロジェクトとして、ICTを活用した協働学習プラットフォームを提供。
+            AIやIoTを活用した社会課題解決型のプロジェクト学習を支援しています。
+          </p>
+        </div>
+        
+        <h2 id="home-activities" className="scroll-mt-20">家庭でできるSTEAM教育アクティビティ</h2>
+        
+        <p>
+          STEAM教育は学校だけのものではありません。家庭でも、日常の中でSTEAMの要素を取り入れた活動を行うことができます。
+          以下に、家庭で実践できるSTEAM教育アクティビティのアイデアを年齢別に紹介します。
+        </p>
+        
+        <h3>幼児〜小学校低学年向け</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">自然観察日記</h4>
+            <p className="text-gray-700 mb-3">
+              庭や公園で見つけた植物や虫を観察し、スケッチと共に記録します。
+              定期的に観察することで、季節による変化やパターンを発見できます。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> 科学的観察力(S)、記録技術(T)、描画表現(A)、計測と記録(M)
+            </p>
+          </div>
+          
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">キッチンサイエンス</h4>
+            <p className="text-gray-700 mb-3">
+              料理を通じた科学実験。例えば、ベーキングパウダーとお酢の反応でケーキが膨らむ仕組みなど、
+              調理過程で起こる化学反応を観察し、楽しく科学を学びます。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> 化学反応の理解(S)、調理技術(T)、食の創造性(A)、計量と比率(M)
+            </p>
+          </div>
+        </div>
+        
+        <h3>小学校中高学年向け</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">ミニ橋コンテスト</h4>
+            <p className="text-gray-700 mb-3">
+              紙やストロー、輪ゴムなどの身近な材料で橋を作り、どれだけの重さに耐えられるかを競います。
+              材料の特性や構造の強度について実験しながら学べます。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> 物理学(S)、構造技術(T)、構造設計(E)、美的デザイン(A)、強度計算(M)
+            </p>
+          </div>
+          
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">デジタルストーリーテリング</h4>
+            <p className="text-gray-700 mb-3">
+              タブレットやスマホを使って、自分でストーリーを考え、イラストや写真、音楽を組み合わせて
+              デジタル絵本やショートムービーを作成します。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> デジタルリテラシー(T)、ストーリー構成(A)、タイミングと順序(M)
+            </p>
+          </div>
+        </div>
+        
+        <h3>中学生向け</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-6">
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">スマートホームプロジェクト</h4>
+            <p className="text-gray-700 mb-3">
+              マイクロビットやArduinoなどの電子工作キットを使って、部屋の温度を測定してLEDで表示したり、
+              動きを検知して自動で点灯するライトを作るなど、スマートホームの機能をDIYで実現します。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> 電気・電子工学(S)(E)、プログラミング(T)、インターフェースデザイン(A)、データ処理(M)
+            </p>
+          </div>
+          
+          <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+            <h4 className="font-bold text-lg mb-2">環境モニタリングプロジェクト</h4>
+            <p className="text-gray-700 mb-3">
+              家の周りや地域の環境データ（気温、湿度、騒音レベル、大気汚染など）を定期的に測定・記録し、
+              データを視覚化してパターンや傾向を分析します。結果をもとに環境改善案を考えることもできます。
+            </p>
+            <p className="text-sm text-gray-600 mb-0">
+              <span className="font-bold">育む力：</span> 環境科学(S)、測定技術(T)、データ視覚化(A)、統計分析(M)
+            </p>
+          </div>
+        </div>
+        
+        <div className="bg-yellow-50 p-6 rounded-lg my-8">
+          <h3 className="text-xl font-bold mb-3 mt-0">STEAM教育に役立つおすすめリソース</h3>
+          <ul className="space-y-3 mb-0">
+            <li>
+              <span className="font-bold">Scratch</span>（https://scratch.mit.edu/）<br />
+              MITが開発した子ども向けビジュアルプログラミング環境。アニメーションやゲーム制作を通じてプログラミングの基礎を学べます。
+            </li>
+            <li>
+              <span className="font-bold">Tinkercad</span>（https://www.tinkercad.com/）<br />
+              ブラウザ上で動作する3Dモデリングツール。直感的な操作で3D設計の基礎を学べます。
+            </li>
+            <li>
+              <span className="font-bold">Khan Academy</span>（https://www.khanacademy.org/）<br />
+              数学、科学、プログラミングなどを無料で学べるオンライン学習プラットフォーム。
+            </li>
+            <li>
+              <span className="font-bold">国立科学博物館 科学コミュニケーションサイト</span>（https://www.kahaku.go.jp/learning/）<br />
+              家庭でできる科学実験や観察活動が多数紹介されています。
+            </li>
+          </ul>
+        </div>
+        
+        <h2 id="challenges" className="scroll-mt-20">STEAM教育の課題と展望</h2>
+        
+        <p>
+          STEAM教育は様々な可能性を秘めていますが、その実践にはいくつかの課題も存在します。
+          ここでは、STEAM教育の普及に向けた課題と今後の展望について考察します。
+        </p>
+        
+        <h3>STEAM教育の課題</h3>
+        
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 my-6">
+          <h4 className="font-bold text-lg mb-2">1. 教員の専門性と準備時間</h4>
+          <p className="text-gray-700 mb-0">
+            STEAM教育を効果的に実施するには、複数の分野に通じた教員が必要です。また、
+            プロジェクト型学習の準備には従来の授業よりも多くの時間と労力が必要になります。
+            教員研修や複数教科の教員によるチーム・ティーチングなど、教育現場のサポート体制が課題となっています。
+          </p>
+        </div>
+        
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 my-6">
+          <h4 className="font-bold text-lg mb-2">2. 評価方法の確立</h4>
+          <p className="text-gray-700 mb-0">
+            従来の知識定着度を測るテストでは、STEAM教育で育む創造性や問題解決能力を適切に評価することが難しいです。
+            プロセスを重視した評価方法やルーブリック評価など、新たな評価システムの開発と普及が求められています。
+          </p>
+        </div>
+        
+        <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 my-6">
+          <h4 className="font-bold text-lg mb-2">3. 教育格差の懸念</h4>
+          <p className="text-gray-700 mb-0">
+            先進的なSTEAM教育を実施するには、3Dプリンターやプログラミング教材などの設備投資が必要な場合があります。
+            学校間や地域間で教育の質に差が生じないよう、教育機会の均等化が重要な課題です。
+          </p>
+        </div>
+        
+        <h3>今後の展望</h3>
+        
+        <p>
+          こうした課題がある一方で、STEAM教育は今後さらに発展していくことが予想されます。
+          以下に、STEAM教育の今後の展望について考察します。
+        </p>
+        
+        <div className="bg-blue-50 p-6 rounded-lg my-8">
+          <h4 className="text-xl font-bold mb-3 mt-0">STEAM教育の未来トレンド</h4>
+          <ul className="space-y-3 mb-0">
+            <li>
+              <span className="font-bold">AIとの共創教育</span><br />
+              AIツールを活用して創造活動を行い、人間とAIの役割分担や協働について学ぶ教育が広がっています。
+              生成AIを活用したコンテンツ制作やプログラミング学習などが注目されています。
+            </li>
+            <li>
+              <span className="font-bold">SDGsとの連携</span><br />
+              持続可能な開発目標（SDGs）をテーマとしたSTEAM教育プロジェクトが増加しています。
+              地球規模の課題解決に向けた学びが、STEAM教育の重要な柱となりつつあります。
+            </li>
+            <li>
+              <span className="font-bold">バーチャル・STEAM教育</span><br />
+              VR/ARなどの技術を活用し、物理的な制約を超えた学習体験が可能になります。
+              例えば、遺跡の仮想探検や宇宙空間の体験など、現実では難しい活動が教室内で実現します。
+            </li>
+            <li>
+              <span className="font-bold">地域社会との連携強化</span><br />
+              学校だけでなく、博物館、科学館、企業、NPOなど、地域全体でSTEAM教育を支える「エコシステム」の構築が
+              進んでいます。子どもたちは様々な場所、様々な専門家と交流しながら学ぶ機会を得られるようになります。
+            </li>
+          </ul>
+        </div>
+        
+        <h2 id="conclusion" className="scroll-mt-20">まとめ：STEAM教育が育む未来</h2>
+        
+        <p>
+          STEAM教育は、単なる教育トレンドではなく、急速に変化する世界で子どもたちが生き抜くために
+          必要な力を育む教育アプローチです。科学、技術、工学、芸術、数学の分野を横断的に学ぶことで、
+          創造性、批判的思考力、協働力など、未来社会で求められる能力を総合的に育みます。
+        </p>
+        
+        <p>
+          AIの発展により、単純な知識の習得や反復作業はますます機械に代替される可能性が高まっています。
+          このような時代において、人間ならではの創造性や問題解決能力を育むSTEAM教育の重要性は、
+          今後さらに高まることでしょう。
+        </p>
+        
+        <p>
+          日本においても、新学習指導要領で示された「主体的・対話的で深い学び」の実現や、
+          GIGAスクール構想によるICT環境の整備など、STEAM教育の素地が整いつつあります。
+          学校、家庭、地域社会が連携しながら、子どもたちに豊かなSTEAM教育の機会を提供していくことが
+          求められています。
+        </p>
+        
+        <p>
+          本記事が、STEAM教育に関心を持つ教育関係者や保護者の皆様にとって、
+          理解を深め実践するためのきっかけとなれば幸いです。
+        </p>
+      </article>
       
+      {/* 目次 */}
+      <aside className="hidden lg:block lg:fixed lg:top-32 lg:right-8 lg:w-64 bg-white p-6 rounded-xl shadow-md">
+        <h2 className="text-lg font-bold mb-4 text-gray-900">目次</h2>
+        <ul className="space-y-2 text-sm">
+          <li><a href="#definition" className="text-blue-600 hover:underline">STEAM教育とは？基本的な定義と概念</a></li>
+          <li><a href="#history" className="text-blue-600 hover:underline">STEMからSTEAMへ：歴史と背景</a></li>
+          <li><a href="#importance" className="text-blue-600 hover:underline">なぜ今、STEAM教育が重要なのか</a></li>
+          <li><a href="#features" className="text-blue-600 hover:underline">STEAM教育の特徴と方法論</a></li>
+          <li><a href="#examples" className="text-blue-600 hover:underline">STEAM教育の実践例</a></li>
+          <li><a href="#home-activities" className="text-blue-600 hover:underline">家庭でできるSTEAM教育アクティビティ</a></li>
+          <li><a href="#challenges" className="text-blue-600 hover:underline">STEAM教育の課題と展望</a></li>
+          <li><a href="#conclusion" className="text-blue-600 hover:underline">まとめ：STEAM教育が育む未来</a></li>
+        </ul>
+      </aside>
+      
+
       {/* 関連記事 */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          関連記事
-        </h2>
+        <h2 className="text-2xl font-bold mb-6 text-gray-900">関連記事</h2>
         
         <div className="grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/blog/EYE-ai-education-future.jpg"
-                alt="STEAM教育の未来"
+                src="/images/blog/ai-education-overview.jpg"
+                alt="AI教育の概要"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="p-5">
               <h3 className="font-bold text-lg mb-3 line-clamp-2">
-                <Link href="/blog/steam-education-future" className="hover:text-primary transition-colors">
-                  STEAM教育の未来：2025年以降のトレンドと展望
+                <Link href="/blog/ai-education-overview" className="hover:text-blue-600 transition-colors">
+                  AI教育入門：子どもたちに必要な未来のリテラシー
                 </Link>
               </h3>
-              <p className="text-sm text-gray-600 mb-3">2025年3月15日</p>
+              <p className="text-sm text-gray-600 mb-3">2025年3月10日</p>
               <p className="text-gray-700 line-clamp-3">
-                AIの進化がSTEAM教育にもたらす変革と、未来社会で求められるスキルについて解説。教育のパラダイムシフトを探ります。
+                AI時代に必要となる新しい学びの形と、子どもたちが身につけるべきデジタルリテラシーについて解説します。
               </p>
             </div>
           </div>
@@ -548,21 +612,21 @@ export default function SteamEducationPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/blog/EYE-steam-tools.jpg"
-                alt="STEAM教育ツール"
+                src="/images/blog/creativity-development.jpg"
+                alt="創造性を育む方法"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="p-5">
               <h3 className="font-bold text-lg mb-3 line-clamp-2">
-                <Link href="/blog/steam-tools-for-kids" className="hover:text-primary transition-colors">
-                  子ども向けSTEAM教育ツール10選：家庭でできるSTEAM活動
+                <Link href="/blog/creativity-development" className="hover:text-blue-600 transition-colors">
+                  AI時代の創造性：機械ではなく人間にしかできないこと
                 </Link>
               </h3>
-              <p className="text-sm text-gray-600 mb-3">2025年2月20日</p>
+              <p className="text-sm text-gray-600 mb-3">2025年2月25日</p>
               <p className="text-gray-700 line-clamp-3">
-                家庭でSTEAM教育を実践するための厳選ツールとアクティビティアイデアを紹介。日常生活の中で科学的思考と創造性を育みます。
+                テクノロジーの発展に伴い、人間にしかできない創造性とは何か、そしてそれをどう育むかを考察します。
               </p>
             </div>
           </div>
@@ -570,81 +634,39 @@ export default function SteamEducationPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/blog/EYE-ai-classroom-activities.jpg"
-                alt="クラスルーム活動ガイド"
+                src="/images/blog/education-technologies.jpg"
+                alt="教育テクノロジー"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="p-5">
               <h3 className="font-bold text-lg mb-3 line-clamp-2">
-                <Link href="/blog/ai-classroom-activities" className="hover:text-primary transition-colors">
-                  AI教育クラスルーム活動ガイド：創造性を育む実践的アプローチ
+                <Link href="/blog/education-technologies" className="hover:text-blue-600 transition-colors">
+                  教育テクノロジー最前線：子どもの学びを変える10のツール
                 </Link>
               </h3>
-              <p className="text-sm text-gray-600 mb-3">2025年4月8日</p>
+              <p className="text-sm text-gray-600 mb-3">2025年1月15日</p>
               <p className="text-gray-700 line-clamp-3">
-                小中学生向けAI教育の実践的な授業活動アイデア。創造性と批判的思考を育むグループワークやプロジェクトベースの学習方法を解説します。
+                STEAM教育に役立つ最新のデジタルツールとアプリケーションを紹介。家庭や学校で簡単に活用できる教育テクノロジーを解説します。
               </p>
             </div>
           </div>
         </div>
       </section>
       
-      {/* スクールデータ */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-gray-900 border-l-4 border-primary pl-4">
-          スクール情報
-        </h2>
-        
-        <div className="grid md:grid-cols-2 gap-10">
-          <div>
-            <h3 className="text-xl font-bold mb-4 text-gray-800">AI創造ラボ</h3>
-            <ul className="space-y-3 text-lg">
-              <li className="flex items-start">
-                <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <span>東京都港区芝浦3-4-1 田町駅前ビル5F</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span>営業時間：平日14:00-20:00 / 土日10:00-18:00</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
-                <span>電話：03-1234-5678</span>
-              </li>
-              <li className="flex items-start">
-                <svg className="h-6 w-6 text-primary mr-2 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-                <span>メール：info@ai-creative-lab.jp</span>
-              </li>
-            </ul>
-            
-            <div className="mt-8">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">アクセス</h3>
-              <p className="text-lg mb-2">
-                • JR山手線・京浜東北線「田町駅」東口より徒歩3分<br />
-                • 都営地下鉄浅草線・三田線「三田駅」A4出口より徒歩5分
-              </p>
-            </div>
-          </div>
-          
-          <div className="bg-gray-200 h-80 rounded-xl overflow-hidden shadow-md">
-            {/* Googleマップが入ります */}
-            <div className="w-full h-full flex items-center justify-center">
-              <p className="text-gray-500 text-lg">Googleマップが表示されます</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+      {/* 前後の記事ナビゲーション */}
+      <div className="flex flex-col sm:flex-row justify-between gap-4 mb-16">
+        <a href="#" className="flex-1 bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:border-blue-300 transition-colors">
+          <span className="text-sm text-gray-500">前の記事</span>
+          <h3 className="font-bold text-gray-900 hover:text-blue-600">プログラミング教育と論理的思考：子どもの思考力を鍛える方法</h3>
+        </a>
+        <a href="#" className="flex-1 bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:border-blue-300 transition-colors text-right">
+          <span className="text-sm text-gray-500">次の記事</span>
+          <h3 className="font-bold text-gray-900 hover:text-blue-600">AI時代の教育とは？子どもたちに必要な力と親ができるサポート</h3>
+        </a>
+      </div>
     </div>
   );
 }
