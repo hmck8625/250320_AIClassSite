@@ -9,6 +9,9 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
+[[plugins]]
+  package = "netlify-plugin-image-optim"
+
 [functions]
   external_node_modules = ["@node-rs/*"]
   included_files = ["node_modules/@node-rs/**/*"]

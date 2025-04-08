@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 
 interface ImageSlideshowProps {
   images: string[];
@@ -34,9 +35,14 @@ export function ImageSlideshow({ images, interval = 5000, className = '' }: Imag
           exit={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <div 
-            className="w-full h-full bg-cover bg-center"
-            style={{ backgroundImage: `url(${images[currentIndex]})` }}
+          <Image 
+            src={images[currentIndex]}
+            alt={`Slide ${currentIndex + 1}`}
+            fill
+            priority
+            sizes="100vw"
+            quality={85}
+            className="object-cover"
           />
         </motion.div>
       </AnimatePresence>

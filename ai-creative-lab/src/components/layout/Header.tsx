@@ -13,7 +13,10 @@ export default function Header() {
               <Image 
                 src="/icons/site_icon.png"
                 alt="東京AI創造スタジオ"
-                fill
+                width={32}
+                height={32}
+                sizes="32px"
+                priority
                 className="object-contain"
               />
             </div>
