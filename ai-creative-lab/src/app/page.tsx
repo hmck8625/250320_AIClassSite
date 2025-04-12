@@ -60,8 +60,6 @@ export default function Home() {
                 alt="東京AI創造スタジオ" 
                 width={600}
                 height={400}
-                sizes="(max-width: 768px) 100vw, 600px"
-                quality={85}
                 className="w-full h-auto rounded object-cover" 
               />
             </div>
@@ -187,10 +185,7 @@ export default function Home() {
               <Image 
                 src="/images/sample/top/image_boy_idea.jpg" 
                 alt="コンセプト図解" 
-                width={800}
-                height={600}
-                sizes="(max-width: 768px) 100vw, 800px"
-                quality={85}
+                fill
                 className="object-cover hover:scale-105 transition-transform duration-500" 
               />
             </motion.div>
