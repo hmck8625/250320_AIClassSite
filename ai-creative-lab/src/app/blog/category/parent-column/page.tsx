@@ -14,7 +14,36 @@ export default function CategoryPage() {
       
       {/* 記事一覧 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-        {/* 記事1 */}
+        {/* 記事1 - ChatGPT安全活用ガイド（新着） */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/chatgpt-kids-safety-guide.jpg"
+              alt="ChatGPT子ども安全活用ガイド"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
+              <span className="text-gray-500 text-xs">2025年1月6日</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/chatgpt-safe-guide-for-kids" className="hover:text-primary">
+                ChatGPT子ども安全活用ガイド：小学生の学習を変える正しい使い方【保護者必読】
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              文科省ガイドライン準拠。小学生がChatGPTを安全に学習活用するための保護者必読ガイド。年齢制限、安全設定、具体的活用法を解説。
+            </p>
+            <Link href="/blog/chatgpt-safe-guide-for-kids" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+
+        {/* 記事2 - ロボティクス教室ガイド */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
           <div className="h-48 bg-gray-200 relative overflow-hidden">
             <Image 
@@ -27,7 +56,7 @@ export default function CategoryPage() {
           <div className="p-4">
             <div className="flex items-center mb-2">
               <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
-              <span className="text-gray-500 text-xs">2025年6月1日</span>
+              <span className="text-gray-500 text-xs">2025年1月1日</span>
             </div>
             <h3 className="text-lg font-bold mb-2">
               <Link href="/blog/minato-robotics-classrooms-guide" className="hover:text-primary">

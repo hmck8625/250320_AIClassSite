@@ -97,3 +97,20 @@ When creating educational blog content:
 - Use structured sections with clear headings
 - Add related articles section
 - Include CTA sections linking to trial classes, not consulting services
+
+## Content Writing Guidelines
+
+When creating or editing blog content, **always refer to the comprehensive writing guidelines** located at:
+`/content-planning/writing-guidelines.md`
+
+This file contains:
+- Target audience specifications and personas
+- Writing style and tone guidelines
+- E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) requirements
+- SEO optimization best practices
+- Mobile-first writing considerations
+- AI content generation guidelines
+- Privacy and accessibility standards
+- Quality checklists and KPIs
+
+The writing guidelines are regularly updated and should be consulted for every article to ensure consistency and quality across all content.

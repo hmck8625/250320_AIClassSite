@@ -19,11 +19,41 @@ const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
+      title: "ChatGPT子ども安全活用ガイド：小学生の学習を変える正しい使い方【保護者必読】",
+      excerpt: "文科省ガイドライン準拠。小学生がChatGPTを安全に学習活用するための保護者必読ガイド。年齢制限、安全設定、具体的活用法を港区の教育専門家が解説。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年1月6日",
+      image: "/images/blog/chatgpt-kids-safety-guide.jpg",
+      slug: "chatgpt-safe-guide-for-kids"
+    },
+    {
+      id: 2,
+      title: "子どもがハマるゲーム開発プログラミング教室：ScratchからUnityまで完全ガイド",
+      excerpt: "子どもの興味を引くゲーム開発でプログラミングを学習。Scratch、Unity対応の教室比較から、年齢別学習ロードマップ、人気ジャンル別ガイドまで解説。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年1月6日",
+      image: "/images/blog/game-development-kids-guide.jpg",
+      slug: "game-development-programming-guide"
+    },
+    {
+      id: 3,
+      title: "オンライン vs 対面プログラミング教室：子どもに最適な学習スタイルの選び方【2025年版】",
+      excerpt: "プログラミング教室のオンラインと対面、どちらが子どもに適している？年齢別推奨、メリット・デメリット、ハイブリッド学習まで港区の教育専門家が詳しく解説。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年1月6日",
+      image: "/images/blog/online-vs-offline-programming-classes.jpg",
+      slug: "online-vs-offline-programming-classes"
+    },
+    {
+      id: 4,
       title: "港区ロボティクス教室完全ガイド：選び方から料金まで徹底比較【2025年版】",
       excerpt: "港区のロボティクス教室を徹底比較！ヒューマンアカデミー、クレファス、LITALICOワンダーなど人気教室の料金・特徴・口コミを詳しく解説。",
       category: "保護者向けコラム",
       categoryColor: "green",
-      date: "2025年6月1日",
+      date: "2025年1月1日",
       image: "/images/blog/EYE-robotics-education.jpg",
       slug: "minato-robotics-classrooms-guide"
     },
