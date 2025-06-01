@@ -69,3 +69,31 @@ The site is structured around:
 - Page transitions with proper performance optimization
 
 When making changes, maintain consistency with the established Japanese content structure and ensure animations remain performant across devices.
+
+## Business Guidelines & Content Restrictions
+
+### Services We DO NOT Offer
+- **教育投資コンサルティング (Educational Investment Consulting)**: We do not provide financial consulting or investment advisory services. Remove any content that suggests we offer educational investment consulting, portfolio analysis, ROI analysis, or strategic consulting services with pricing tiers.
+- **Financial Advisory**: No content about investment strategies, portfolio management, or financial planning should be included.
+
+### Services We DO Offer
+- **AI創造教育プログラム (AI Creative Education Programs)**: Programming, art, music, game development, and robotics courses for children
+- **体験教室・相談会 (Trial Classes & Information Sessions)**: Free trial classes and educational consultations about our programs
+- **教育プログラム提供 (Educational Program Provision)**: Actual hands-on learning experiences, not consulting
+
+### Content Authority Guidelines
+When creating educational blog content:
+- Always include proper citations and references from official sources (文部科学省, 総務省, etc.)
+- Use real statistical data from government agencies
+- Include comprehensive reference sections with:
+  - Statistical data sources (統計データ・調査報告)
+  - Educational research (教育・創造性研究) 
+  - Institutional information (教育機関・地域情報)
+- Target audience: 港区 (Minato Ward) high-income families (年収1000万円+)
+
+### Blog Structure Requirements
+- Educational content must be research-backed with proper citations
+- Include metadata for SEO optimization
+- Use structured sections with clear headings
+- Add related articles section
+- Include CTA sections linking to trial classes, not consulting services

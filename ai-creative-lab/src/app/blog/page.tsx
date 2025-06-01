@@ -19,6 +19,36 @@ const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
+      title: "港区で子どもの創造性を育む：麻布・青山・六本木エリア別教育ガイド",
+      excerpt: "港区の麻布、青山、六本木エリアの教育環境を分析し、AI時代に必要な創造性を育む最適な学習環境の選び方を専門家が解説します。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年6月1日",
+      image: "/images/blog/EYE-creativity-development.jpg",
+      slug: "minato-creativity-education-areas"
+    },
+    {
+      id: 2,
+      title: "港区インターナショナルスクール生の保護者が注目するAI教育トレンド",
+      excerpt: "港区のインターナショナルスクール環境でのAI教育の最新動向と、グローバル人材育成のための創造的AI学習アプローチを専門家が解説します。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月1日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "international-school-ai-education"
+    },
+    {
+      id: 3,
+      title: "年収1000万円世帯の教育投資戦略：AI時代に向けた港区での選択肢",
+      excerpt: "年収1000万円以上の港区世帯向けに、AI時代の教育投資戦略と費用対効果の高い教育選択肢を専門家が詳しく解説します。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年6月1日",
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
+      slug: "high-income-education-investment-strategy"
+    },
+    {
+      id: 4,
       title: "AI教育クラスルーム活動ガイド：創造性を育む実践的アプローチ",
       excerpt: "小中学生向けAI教育の実践的な授業活動アイデアを紹介。創造性と批判的思考を育むグループワークやプロジェクトベースの学習方法を解説します。",
       category: "教室活動レポート",
@@ -28,7 +58,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-classroom-activities"
     },
     {
-      id: 2,
+      id: 5,
       title: "子ども向けAIツール5選：安全に使える創作支援ツール",
       excerpt: "子どもでも安全に使えるAIツールを厳選して紹介します。アート制作、作文サポート、音楽作曲など、創造力を育むツールばかりです。",
       category: "AI教育最新情報",
@@ -38,7 +68,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-tools-for-kids"
     },
     {
-      id: 3,
+      id: 6,
       title: "子どもの創造性を育む5つの習慣：日常生活でできること",
       excerpt: "創造性は、これからの時代を生きる子どもたちにとって重要なスキルです。家庭で簡単に取り入れられる、創造性を育む習慣について解説します。",
       category: "保護者向けコラム",
@@ -48,7 +78,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "creativity-development"
     },
     {
-      id: 4,
+      id: 7,
       title: "子ども向けプログラミング入門：AIを活用した学習法",
       excerpt: "プログラミング初心者の子どもでも楽しく学べるAI活用法を紹介。コードを書く前に概念を理解する新しいアプローチです。",
       category: "AI教育最新情報",
@@ -58,7 +88,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-programming-for-kids"
     },
     {
-      id: 5,
+      id: 8,
       title: "2025年のAI教育トレンド：世界の最新事例から学ぶ",
       excerpt: "世界各国で進むAI教育の最新トレンドを紹介します。日本の教育現場にも取り入れられそうな先進的な事例を解説します。",
       category: "AI教育最新情報",
@@ -68,7 +98,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-education-trends-2025"
     },
     {
-      id: 6,
+      id: 9,
       title: "デジタルとリアルのバランス：子どものスクリーンタイムを考える",
       excerpt: "デジタルツールの活用とリアル体験のバランスをどう取るべきか。子どもの発達段階に合わせたスクリーンタイムの考え方を専門家が解説します。",
       category: "保護者向けコラム",
@@ -78,7 +108,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "screen-time-balance"
     },
     {
-      id: 7,
+      id: 10,
       title: "AIアートで子どもの創造性を育む：デジタル時代の芸術教育",
       excerpt: "AIツールを使った芸術教育の可能性を探ります。子どもたちの創造性と技術的スキルを同時に伸ばす新しい学習アプローチを紹介します。",
       category: "AI教育最新情報",
@@ -88,7 +118,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-art-education"
     },
     {
-      id: 8,
+      id: 11,
       title: "家族で学ぶAI：親子で楽しむテクノロジー体験",
       excerpt: "AIを家族で学ぶことの意義と、楽しみながら学べる具体的な方法を紹介。テクノロジーを通じて家族の絆を深める新しい学習スタイルです。",
       category: "保護者向けコラム",
@@ -98,7 +128,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-family-learning"
     },
     {
-      id: 9,
+      id: 12,
       title: "AIと音楽創作：子どもの音楽的想像力を解き放つ",
       excerpt: "AIツールを使った音楽創作の可能性を探ります。子どもたちが自由に音楽を生み出す新しい学習方法を紹介します。",
       category: "AI教育最新情報",
@@ -108,7 +138,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "ai-music-creation"
     },
     {
-      id: 10,
+      id: 13,
       title: "港区の創造性教育：地域で育むAI時代の学び",
       excerpt: "港区における先進的な創造性教育の取り組みを紹介。地域全体で子どもたちの未来を支える教育モデルを解説します。",
       category: "教室活動レポート",
@@ -118,7 +148,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "minatoku-creativity-education"
     },
     {
-      id: 11,
+      id: 14,
       title: "港区のAI教育最前線：未来を見据えた学びの革新",
       excerpt: "港区における最新のAI教育の取り組みと、子どもたちの学びを変革する革新的なアプローチを詳しく解説します。",
       category: "AI教育最新情報",
@@ -128,7 +158,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "minatoku-education"
     },
     {
-      id: 12,
+      id: 15,
       title: "子どもの絵画教室選びガイド",
       excerpt: "港区周辺の子ども向け絵画教室の比較や選び方、年齢別の才能開発法、家庭でできる創造性育成のポイントまで。子どもの芸術的才能を見つけ、伸ばすための総合ガイド",
       category: "AI教育最新情報",
@@ -138,7 +168,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "how-to-choice-minatokuArtClass"
     },
     {
-      id: 13,
+      id: 16,
       title: "子どものための音楽教育入門",
       excerpt: "港区周辺の子ども向け音楽教室の比較や選び方、家庭でできる音感育成法、AIを活用した音楽創作まで。子どもの音楽的才能を見つけ、伸ばすための総合ガイド",
       category: "AI教育最新情報",
