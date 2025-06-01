@@ -296,7 +296,7 @@ export default function BlogPost() {
               <h3 className="text-xl font-bold mb-3">5-7歳（幼児〜小学校低学年）</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <h4 className="font-bold mb-2 text-green-800">📋 推奨：対面 > オンライン</h4>
+                  <h4 className="font-bold mb-2 text-green-800">📋 推奨：対面 &gt オンライン</h4>
                   <p className="text-sm mb-2">
                     この年齢では対面学習を強く推奨。集中力の維持が困難で、
                     講師の直接的なサポートが学習効果に大きく影響します。
