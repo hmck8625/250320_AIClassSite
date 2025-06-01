@@ -19,6 +19,16 @@ const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
+      title: "港区ロボティクス教室完全ガイド：選び方から料金まで徹底比較【2025年版】",
+      excerpt: "港区のロボティクス教室を徹底比較！ヒューマンアカデミー、クレファス、LITALICOワンダーなど人気教室の料金・特徴・口コミを詳しく解説。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年6月1日",
+      image: "/images/blog/EYE-robotics-education.jpg",
+      slug: "minato-robotics-classrooms-guide"
+    },
+    {
+      id: 2,
       title: "港区で子どもの創造性を育む：麻布・青山・六本木エリア別教育ガイド",
       excerpt: "港区の麻布、青山、六本木エリアの教育環境を分析し、AI時代に必要な創造性を育む最適な学習環境の選び方を専門家が解説します。",
       category: "保護者向けコラム",
@@ -28,7 +38,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "minato-creativity-education-areas"
     },
     {
-      id: 2,
+      id: 3,
       title: "港区インターナショナルスクール生の保護者が注目するAI教育トレンド",
       excerpt: "港区のインターナショナルスクール環境でのAI教育の最新動向と、グローバル人材育成のための創造的AI学習アプローチを専門家が解説します。",
       category: "AI教育最新情報",

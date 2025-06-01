@@ -18,7 +18,36 @@ export default function CategoryPage() {
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
           <div className="h-48 bg-gray-200 relative overflow-hidden">
             <Image 
-              src="/images/sample/parakeets-9190236_1280.jpg"
+              src="/images/blog/EYE-ai-education-future.jpg"
+              alt="港区インターナショナルスクール生の保護者が注目するAI教育トレンド"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">AI教育最新情報</span>
+              <span className="text-gray-500 text-xs">2025年6月1日</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/international-school-ai-education" className="hover:text-primary">
+                港区インターナショナルスクール生の保護者が注目するAI教育トレンド
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              港区のインターナショナルスクール環境でのAI教育の最新動向と、グローバル人材育成のための創造的AI学習アプローチを専門家が解説します。
+            </p>
+            <Link href="/blog/international-school-ai-education" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+        
+        {/* 記事2 */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-ai-education-future.jpg"
               alt="AI時代の教育とは？"
               fill
               className="object-cover"
@@ -26,7 +55,7 @@ export default function CategoryPage() {
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
-              <span className="bg-primary text-white text-xs px-2 py-1 rounded mr-2">特集</span>
+              <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">AI教育最新情報</span>
               <span className="text-gray-500 text-xs">2025年3月15日</span>
             </div>
             <h3 className="text-lg font-bold mb-2">
@@ -45,11 +74,11 @@ export default function CategoryPage() {
           </div>
         </div>
         
-        {/* 記事2 */}
+        {/* 記事3 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
           <div className="h-48 bg-gray-200 relative overflow-hidden">
             <Image 
-              src="/images/sample/parakeets-9190236_1280.jpg"
+              src="/images/blog/EYE-ai-tools-for-kids.jpg"
               alt="子ども向けAIツール5選"
               fill
               className="object-cover"
@@ -75,12 +104,15 @@ export default function CategoryPage() {
           </div>
         </div>
         
-        {/* 記事3 */}
+        {/* 記事4 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-48 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">記事画像</p>
-            </div>
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-ai-education-trends-2025.jpg"
+              alt="2025年のAI教育トレンド"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
@@ -101,29 +133,62 @@ export default function CategoryPage() {
             </Link>
           </div>
         </div>
-        
-        {/* 記事4 */}
+
+        {/* 記事5 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-48 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">記事画像</p>
-            </div>
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-programing.jpg"
+              alt="AI時代のプログラミング教育"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
               <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">AI教育最新情報</span>
-              <span className="text-gray-500 text-xs">2025年1月20日</span>
+              <span className="text-gray-500 text-xs">2025年1月25日</span>
             </div>
             <h3 className="text-lg font-bold mb-2">
-              <Link href="/blog/ai-education-policy" className="hover:text-primary">
-                文部科学省が発表したAI教育推進ガイドラインの要点
+              <Link href="/blog/ai-programming-for-kids" className="hover:text-primary">
+                AI時代のプログラミング教育：子どもに本当に必要なスキルとは？
               </Link>
             </h3>
             <p className="text-gray-700 text-sm mb-3 line-clamp-3">
-              文部科学省が発表した「AI時代の教育推進ガイドライン」の要点を解説します。
-              学校教育におけるAI活用の方針と今後の展望について詳しく紹介します。
+              AI時代に子どもたちが身につけるべきプログラミングスキルについて詳しく解説します。
+              従来のプログラミング教育とどこが違うのか、専門家の視点から解説します。
             </p>
-            <Link href="/blog/ai-education-policy" className="text-primary text-sm hover:underline">
+            <Link href="/blog/ai-programming-for-kids" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+
+        {/* 記事6 */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-ai-education-current-state.jpg"
+              alt="AI教育の現状分析"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded mr-2">AI教育最新情報</span>
+              <span className="text-gray-500 text-xs">2025年1月10日</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/ai-education-current-state" className="hover:text-primary">
+                AI教育の現状分析：日本と世界の取り組み比較
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              日本国内のAI教育の現状を世界各国の取り組みと比較分析します。
+              今後の展望と課題について専門家の視点から詳しく解説します。
+            </p>
+            <Link href="/blog/ai-education-current-state" className="text-primary text-sm hover:underline">
               続きを読む →
             </Link>
           </div>

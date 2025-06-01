@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CategoryPage() {
   return (
@@ -15,10 +16,100 @@ export default function CategoryPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
         {/* 記事1 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-48 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">記事画像</p>
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-robotics-education.jpg"
+              alt="港区ロボティクス教室完全ガイド"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
+              <span className="text-gray-500 text-xs">2025年6月1日</span>
             </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/minato-robotics-classrooms-guide" className="hover:text-primary">
+                港区ロボティクス教室完全ガイド：選び方から料金まで徹底比較【2025年版】
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              港区のロボティクス教室を徹底比較！ヒューマンアカデミー、クレファス、LITALICOワンダーなど人気教室の料金・特徴・口コミを詳しく解説。
+            </p>
+            <Link href="/blog/minato-robotics-classrooms-guide" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+        
+        {/* 記事2 */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-creativity-development.jpg"
+              alt="港区で子どもの創造性を育む"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
+              <span className="text-gray-500 text-xs">2025年6月1日</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/minato-creativity-education-areas" className="hover:text-primary">
+                港区で子どもの創造性を育む：麻布・青山・六本木エリア別教育ガイド
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              港区の麻布、青山、六本木エリアの教育環境を分析し、AI時代に必要な創造性を育む最適な学習環境の選び方を専門家が解説します。
+            </p>
+            <Link href="/blog/minato-creativity-education-areas" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+        
+        {/* 記事3 */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-ai-education-trends-2025.jpg"
+              alt="年収1000万円世帯の教育投資戦略"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="p-4">
+            <div className="flex items-center mb-2">
+              <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
+              <span className="text-gray-500 text-xs">2025年6月1日</span>
+            </div>
+            <h3 className="text-lg font-bold mb-2">
+              <Link href="/blog/high-income-education-investment-strategy" className="hover:text-primary">
+                年収1000万円世帯の教育投資戦略：AI時代に向けた港区での選択肢
+              </Link>
+            </h3>
+            <p className="text-gray-700 text-sm mb-3 line-clamp-3">
+              年収1000万円以上の港区世帯向けに、AI時代の教育投資戦略と費用対効果の高い教育選択肢を専門家が詳しく解説します。
+            </p>
+            <Link href="/blog/high-income-education-investment-strategy" className="text-primary text-sm hover:underline">
+              続きを読む →
+            </Link>
+          </div>
+        </div>
+        
+        {/* 記事4 */}
+        <div className="bg-white rounded-lg overflow-hidden shadow-md">
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-creativity-development.jpg"
+              alt="子どもの創造性を育む方法"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
@@ -40,12 +131,15 @@ export default function CategoryPage() {
           </div>
         </div>
         
-        {/* 記事2 */}
+        {/* 記事5 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-48 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">記事画像</p>
-            </div>
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-screen-time-balance.jpg"
+              alt="デジタルとリアルのバランス"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
@@ -66,29 +160,32 @@ export default function CategoryPage() {
             </Link>
           </div>
         </div>
-        
-        {/* 記事3 */}
+
+        {/* 記事6 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
-          <div className="h-48 bg-gray-200 relative">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500">記事画像</p>
-            </div>
+          <div className="h-48 bg-gray-200 relative overflow-hidden">
+            <Image 
+              src="/images/blog/EYE-ai-family-learning.jpg"
+              alt="AI時代の家族学習"
+              fill
+              className="object-cover"
+            />
           </div>
           <div className="p-4">
             <div className="flex items-center mb-2">
               <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded mr-2">保護者向けコラム</span>
-              <span className="text-gray-500 text-xs">2025年1月10日</span>
+              <span className="text-gray-500 text-xs">2025年1月20日</span>
             </div>
             <h3 className="text-lg font-bold mb-2">
-              <Link href="/blog/nurturing-curiosity" className="hover:text-primary">
-                子どもの好奇心を育てる質問の仕方
+              <Link href="/blog/ai-family-learning" className="hover:text-primary">
+                家族で学ぶAI時代：親子で取り組む未来スキル習得法
               </Link>
             </h3>
             <p className="text-gray-700 text-sm mb-3 line-clamp-3">
-              子どもの「なぜ？」に対する答え方で、好奇心や探究心は大きく変わります。
-              AI時代に必要な思考力を育む会話術を解説します。
+              AI時代に必要なスキルを家族全員で学ぶ方法を紹介します。
+              親子で一緒に取り組める具体的なアクティビティと学習法を専門家が解説します。
             </p>
-            <Link href="/blog/nurturing-curiosity" className="text-primary text-sm hover:underline">
+            <Link href="/blog/ai-family-learning" className="text-primary text-sm hover:underline">
               続きを読む →
             </Link>
           </div>

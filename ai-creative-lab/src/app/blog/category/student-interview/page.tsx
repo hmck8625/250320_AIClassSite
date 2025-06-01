@@ -11,8 +11,22 @@ export default function CategoryPage() {
         </p>
       </div>
       
+      {/* 工事中メッセージ */}
+      <div className="text-center py-16">
+        <div className="bg-purple-50 border border-purple-200 rounded-lg p-8 max-w-2xl mx-auto">
+          <h2 className="text-2xl font-bold text-purple-800 mb-4">🚧 コンテンツ準備中 🚧</h2>
+          <p className="text-purple-700 mb-4">
+            生徒インタビューカテゴリのコンテンツを準備中です。<br />
+            生徒たちの成長ストーリーや作品紹介は、近日中に公開予定です。
+          </p>
+          <p className="text-sm text-purple-600">
+            教室の様子については、<Link href="/contact" className="text-primary hover:underline">お問い合わせページ</Link>から見学のご相談もお受けしています。
+          </p>
+        </div>
+      </div>
+
       {/* 記事一覧 */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 hidden">
         {/* 記事1 */}
         <div className="bg-white rounded-lg overflow-hidden shadow-md">
           <div className="h-48 bg-gray-200 relative">

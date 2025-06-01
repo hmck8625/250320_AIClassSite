@@ -214,7 +214,7 @@ export default function ScreenTimeBalancePage() {
             </div>
             <div className="p-5">
               <h4 className="font-bold text-lg mb-3 line-clamp-2">
-                <Link href="/blog/creativity-habits" className="hover:text-primary transition-colors">
+                <Link href="/blog/creativity-development" className="hover:text-primary transition-colors">
                   子どもの創造性を育む5つの習慣：日常生活でできること
                 </Link>
               </h4>

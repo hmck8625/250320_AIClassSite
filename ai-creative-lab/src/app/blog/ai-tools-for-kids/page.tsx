@@ -47,7 +47,7 @@ export default function BlogPostPage() {
       {/* 記事本文 */}
       <article className="prose prose-lg md:prose-xl max-w-none mb-16">
         <p className="text-xl leading-relaxed mb-8">
-          AIテクノロジーの急速な発展により、子どもたちの創造性を育むための<Link href="/blog/ai-creativity-education" className="text-primary hover:underline">AIツール</Link>が次々と登場しています。しかし、すべてのAIツールが子どもに適しているわけではありません。安全性や<Link href="/blog/ai-education-principles" className="text-primary hover:underline">教育的価値</Link>、使いやすさなど、子ども向けツールには特別な配慮が必要です。本記事では、厳選した子ども向けAIツール5選と、それらを効果的に活用するためのポイントを紹介します。
+          AIテクノロジーの急速な発展により、子どもたちの創造性を育むための<Link href="/blog/creativity-development" className="text-primary hover:underline">AIツール</Link>が次々と登場しています。しかし、すべてのAIツールが子どもに適しているわけではありません。安全性や教育的価値、使いやすさなど、子ども向けツールには特別な配慮が必要です。本記事では、厳選した子ども向けAIツール5選と、それらを効果的に活用するためのポイントを紹介します。
         </p>
         
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">子ども向けAIツールの選び方</h2>
@@ -68,7 +68,7 @@ export default function BlogPostPage() {
         </div>
         
         <p>
-          これらのポイントを踏まえて、当編集部が実際に試用し、<Link href="/blog/digital-literacy-for-kids" className="text-primary hover:underline">子どものデジタルリテラシー</Link>育成にも役立つと判断した5つのAIツールを紹介します。
+          これらのポイントを踏まえて、当編集部が実際に試用し、子どものデジタルリテラシー育成にも役立つと判断した5つのAIツールを紹介します。
         </p>
         
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">1. Qubena（キュビナ） - AIが子どもの進捗にペースを合わせるEラーニング学習ツール</h2>
@@ -76,7 +76,7 @@ export default function BlogPostPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://qubena.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Qubena</a>は、AIのサポートにより、子どもたちのペースに合わせて最適化した学習を実現する算数・数学にターゲットをしぼったEラーニング学習ツールです。シンプルなインターフェースで操作が簡単なため、<Link href="/blog/digital-tools-elementary" className="text-primary hover:underline">小学校低学年の子ども</Link>でも使いこなせます。
+              <a href="https://qubena.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Qubena</a>は、AIのサポートにより、子どもたちのペースに合わせて最適化した学習を実現する算数・数学にターゲットをしぼったEラーニング学習ツールです。シンプルなインターフェースで操作が簡単なため、小学校低学年の子どもでも使いこなせます。
             </p>
             
             <p>
@@ -95,7 +95,7 @@ export default function BlogPostPage() {
             </div>
             
             <p>
-              <Link href="/blog/art-education-digital-age" className="text-primary hover:underline">デジタル時代の教育</Link>において、Qubenaは子どもの学習意欲を刺激し、「もっと学びたい」という気持ちを育みます。また、AIの助けを借りることで、つまずきやすいポイントを効率的に克服し、<Link href="/blog/art-confidence-building" className="text-primary hover:underline">学習への自信</Link>を育てる効果も期待できます。
+              デジタル時代の教育において、Qubenaは子どもの学習意欲を刺激し、「もっと学びたい」という気持ちを育みます。また、AIの助けを借りることで、つまずきやすいポイントを効率的に克服し、学習への自信を育てる効果も期待できます。
             </p>
           </div>
           
@@ -118,7 +118,7 @@ export default function BlogPostPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.museumbox.jp/musio/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Musio</a>は、AIを搭載した英会話学習ロボットです。自然な英会話ができる点が最大の特徴で、会話の意味を理解した上で、微妙な感情までも表情にしながら会話してくれるため、<Link href="/blog/collaborative-storytelling" className="text-primary hover:underline">実践的な会話練習</Link>が可能です。
+              <a href="https://www.museumbox.jp/musio/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Musio</a>は、AIを搭載した英会話学習ロボットです。自然な英会話ができる点が最大の特徴で、会話の意味を理解した上で、微妙な感情までも表情にしながら会話してくれるため、実践的な会話練習が可能です。
             </p>
             
             <p>
@@ -137,7 +137,7 @@ export default function BlogPostPage() {
             </div>
             
             <p>
-              Musioは<Link href="/blog/language-development-ai" className="text-primary hover:underline">言語能力の発達</Link>や<Link href="/blog/narrative-skills-children" className="text-primary hover:underline">コミュニケーション能力</Link>の向上にも効果的です。また、ロボットとの自然な対話体験は、子どもの英語への興味を高め、学習意欲を育みます。
+              Musioは言語能力の発達やコミュニケーション能力の向上にも効果的です。また、ロボットとの自然な対話体験は、子どもの英語への興味を高め、学習意欲を育みます。
             </p>
           </div>
           
@@ -160,7 +160,7 @@ export default function BlogPostPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.makeblock.com/jp/steam-kits/codey-rocky" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">codey rocky</a>は、AI対応のSTEM教育ロボットです。論理的思考、問題解決能力、創造力/想像力がプログラミング学習によって得られるように設計されており、<Link href="/blog/music-education-basics" className="text-primary hover:underline">STEM教育</Link>の入門として最適です。
+              <a href="https://www.makeblock.com/jp/steam-kits/codey-rocky" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">codey rocky</a>は、AI対応のSTEM教育ロボットです。論理的思考、問題解決能力、創造力/想像力がプログラミング学習によって得られるように設計されており、<Link href="/blog/steam-education" className="text-primary hover:underline">STEM教育</Link>の入門として最適です。
             </p>
             
             <p>
@@ -179,7 +179,7 @@ export default function BlogPostPage() {
             </div>
             
             <p>
-              codey rockyは<Link href="/blog/musical-intelligence-development" className="text-primary hover:underline">論理的思考力</Link>の発達だけでなく、問題解決能力や創造的思考の育成にも効果的です。自分でプログラムしたロボットが動く体験は、子どもの自己効力感と創造的自信を育みます。
+              codey rockyは論理的思考力の発達だけでなく、問題解決能力や創造的思考の育成にも効果的です。自分でプログラムしたロボットが動く体験は、子どもの自己効力感と創造的自信を育みます。
             </p>
           </div>
           
@@ -202,7 +202,7 @@ export default function BlogPostPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://www.amazon.co.jp/Coder-Mindz-AI-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E3%81%8C%E5%AD%A6%E3%81%B9%E3%82%8B-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%AD%A3%E8%A6%8F%E5%93%81-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E4%BB%98%E3%81%8D/dp/B07Z5NCN3D/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Coder Mindz</a>は、9歳のアメリカ人少女が開発したAI学習ツールです。<Link href="/blog/programming-education-children" className="text-primary hover:underline">プログラミング学習</Link>をボードゲームという形で提供する画期的なアプローチが特徴です。
+              <a href="https://www.amazon.co.jp/Coder-Mindz-AI-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0-%E3%81%8C%E5%AD%A6%E3%81%B9%E3%82%8B-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-%E6%AD%A3%E8%A6%8F%E5%93%81-%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E4%BB%98%E3%81%8D/dp/B07Z5NCN3D/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Coder Mindz</a>は、9歳のアメリカ人少女が開発したAI学習ツールです。<Link href="/blog/ai-programming-for-kids" className="text-primary hover:underline">プログラミング学習</Link>をボードゲームという形で提供する画期的なアプローチが特徴です。
             </p>
             
             <p>
@@ -221,7 +221,7 @@ export default function BlogPostPage() {
             </div>
             
             <p>
-              Coder Mindzは<Link href="/blog/computational-thinking-skills" className="text-primary hover:underline">計算論的思考</Link>や<Link href="/blog/problem-solving-for-kids" className="text-primary hover:underline">問題解決能力</Link>の育成に効果的です。また、デジタルデバイスに依存せずにAIの基本概念を学べるため、スクリーンタイムを気にする家庭にも最適な<Link href="/blog/digital-creation-skills" className="text-primary hover:underline">学習ツール</Link>です。
+              Coder Mindzは計算論的思考や問題解決能力の育成に効果的です。また、デジタルデバイスに依存せずにAIの基本概念を学べるため、スクリーンタイムを気にする家庭にも最適な学習ツールです。
             </p>
           </div>
           
@@ -244,7 +244,7 @@ export default function BlogPostPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
           <div className="md:col-span-2">
             <p>
-              <a href="https://ja.duolingo.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Duolingo</a>は、世界で最もダウンロードされている語学アプリで、<Link href="/blog/scientific-inquiry-process" className="text-primary hover:underline">科学的アプローチ</Link>に基づいた言語学習を提供しています。AIと言語科学の長所を組み合わせたレッスンは、一人ひとりの学習状況によって常に変化するため、誰もが最適なレベルとペースで学習することができます。
+              <a href="https://ja.duolingo.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Duolingo</a>は、世界で最もダウンロードされている語学アプリで、科学的アプローチに基づいた言語学習を提供しています。AIと言語科学の長所を組み合わせたレッスンは、一人ひとりの学習状況によって常に変化するため、誰もが最適なレベルとペースで学習することができます。
             </p>
             
             <p>
@@ -263,7 +263,7 @@ export default function BlogPostPage() {
             </div>
             
             <p>
-              Duolingoは<Link href="/blog/scientific-literacy-importance" className="text-primary hover:underline">言語リテラシー</Link>の育成だけでなく、<Link href="/blog/curiosity-driven-learning" className="text-primary hover:underline">好奇心駆動型の学習</Link>を促進します。特に子ども向けには「Duolingo ABC」という専用アプリがあり、3歳から8歳の子供を対象にデザインされており、単語のつづりと発音を関連付けながら読み方が学べる楽しいフォーマットになっています。
+              Duolingoは言語リテラシーの育成だけでなく、好奇心駆動型の学習を促進します。特に子ども向けには「Duolingo ABC」という専用アプリがあり、3歳から8歳の子供を対象にデザインされており、単語のつづりと発音を関連付けながら読み方が学べる楽しいフォーマットになっています。
             </p>
           </div>
           
@@ -284,7 +284,7 @@ export default function BlogPostPage() {
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">AIツールを子どもと一緒に使う際のポイント</h2>
         
         <p>
-          これらのツールは教育的価値が高いですが、使い方によってはAIへの依存や創造性の阻害につながる可能性もあります。<Link href="/blog/healthy-technology-use" className="text-primary hover:underline">健全なテクノロジー利用</Link>のために、以下のポイントを意識して、子どもと一緒に活用しましょう。
+          これらのツールは教育的価値が高いですが、使い方によってはAIへの依存や創造性の阻害につながる可能性もあります。健全なテクノロジー利用のために、以下のポイントを意識して、子どもと一緒に活用しましょう。
         </p>
         
         <div className="bg-indigo-50 p-6 rounded-lg my-8 shadow-sm">
@@ -300,7 +300,7 @@ export default function BlogPostPage() {
             </li>
             <li>
               <span className="font-bold">AIの限界を教える</span>
-              <p className="mt-1">AIは便利なツールであり、すべてを知っているわけではないことを伝えましょう。時には間違った情報を提供することもあるため、<Link href="/blog/critical-thinking-digital-age" className="text-primary hover:underline">批判的思考</Link>の重要性を教えましょう。</p>
+              <p className="mt-1">AIは便利なツールであり、すべてを知っているわけではないことを伝えましょう。時には間違った情報を提供することもあるため、批判的思考の重要性を教えましょう。</p>
             </li>
             <li>
               <span className="font-bold">創作の主体は子ども自身</span>
@@ -308,7 +308,7 @@ export default function BlogPostPage() {
             </li>
             <li>
               <span className="font-bold">デジタルとリアルを融合させる</span>
-              <p className="mt-1">AIツールでの創作体験を、実際の手を使った活動や体験学習につなげましょう。例えば、AIで作った物語を実際に演じてみたり、AIの科学実験提案を実際にやってみたりすることで、<Link href="/blog/blended-learning-approaches" className="text-primary hover:underline">学びの深化</Link>が期待できます。</p>
+              <p className="mt-1">AIツールでの創作体験を、実際の手を使った活動や体験学習につなげましょう。例えば、AIで作った物語を実際に演じてみたり、AIの科学実験提案を実際にやってみたりすることで、学びの深化が期待できます。</p>
             </li>
           </ol>
         </div>
@@ -323,10 +323,10 @@ export default function BlogPostPage() {
           <h3 className="text-2xl font-bold mb-4 text-gray-800">AI創造スタジオの特徴的なプログラム</h3>
           <ul className="list-disc pl-6 space-y-2">
             <li><Link href="/courses/ai-art" className="text-primary hover:underline"><span className="font-bold">AIアートコース</span></Link>：最新のAIアートツールを活用し、デジタルからアナログ表現へと発展させる創作活動</li>
-            <li><Link href="/courses/ai-storytelling" className="text-primary hover:underline"><span className="font-bold">AIストーリーテリングコース</span></Link>：AIを活用した物語創作と発表活動</li>
-            <li><Link href="/courses/ai-music" className="text-primary hover:underline"><span className="font-bold">AI音楽創作コース</span></Link>：AIを使った作曲体験と音楽理論学習</li>
-            <li><Link href="/courses/ai-programming" className="text-primary hover:underline"><span className="font-bold">AIプログラミングコース</span></Link>：Qubenaやcodey rockyを活用したプログラミング基礎からゲーム開発まで</li>
-            <li><Link href="/courses/ai-language" className="text-primary hover:underline"><span className="font-bold">AI言語学習コース</span></Link>：DuolingoやMusioを使った実践的な言語学習</li>
+            <li><span className="font-bold">AIストーリーテリングコース</span>：AIを活用した物語創作と発表活動</li>
+            <li><Link href="/courses/music" className="text-primary hover:underline"><span className="font-bold">AI音楽創作コース</span></Link>：AIを使った作曲体験と音楽理論学習</li>
+            <li><Link href="/courses/app-dev" className="text-primary hover:underline"><span className="font-bold">AIプログラミングコース</span></Link>：Qubenaやcodey rockyを活用したプログラミング基礎からゲーム開発まで</li>
+            <li><span className="font-bold">AI言語学習コース</span>：DuolingoやMusioを使った実践的な言語学習</li>
           </ul>
           <p className="mt-4">
             各コースでは、AIツールを「入口」として活用し、徐々に本格的な創作活動へと導いていきます。AIに依存するのではなく、AIを創造的に使いこなす力を育てることを重視しています。
@@ -348,21 +348,21 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          本記事で紹介した5つのツールは、いずれも子どもの安全と教育的価値を重視して設計されています。これらを適切に活用することで、子どもたちは<Link href="/blog/future-skills-ai-era" className="text-primary hover:underline">AI時代に必要なスキル</Link>を楽しみながら身につけることができるでしょう。
+          本記事で紹介した5つのツールは、いずれも子どもの安全と教育的価値を重視して設計されています。これらを適切に活用することで、子どもたちはAI時代に必要なスキルを楽しみながら身につけることができるでしょう。
         </p>
         
         <p>
-          AI創造スタジオでは、これらのツールを活用した<Link href="/blog/creative-workshops-children" className="text-primary hover:underline">創作ワークショップ</Link>や<Link href="/courses" className="text-primary hover:underline">定期コース</Link>を提供しています。子どもたちがAIと創造的に関わりながら、未来を切り拓く力を育む場として、ぜひご活用ください。
+          AI創造スタジオでは、これらのツールを活用した創作ワークショップや<Link href="/courses" className="text-primary hover:underline">定期コース</Link>を提供しています。子どもたちがAIと創造的に関わりながら、未来を切り拓く力を育む場として、ぜひご活用ください。
         </p>
         
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
           <h4 className="text-xl font-bold text-blue-700 mb-3">関連リソース</h4>
           <ul className="list-disc pl-6 space-y-2 text-blue-800">
-            <li><Link href="/blog/ai-education-principles" className="hover:underline">子どものAI教育の原則：何を教え、何に気をつけるべきか</Link></li>
-            <li><Link href="/blog/digital-literacy-for-kids" className="hover:underline">子どものためのデジタルリテラシー：年齢別の身につけたいスキル</Link></li>
+            <li><Link href="/blog/ai-education-current-state" className="hover:underline">子どものAI教育の現状：何を教え、何に気をつけるべきか</Link></li>
+            <li><Link href="/blog/ai-programming-for-kids" className="hover:underline">子どものためのAIプログラミング：年齢別の身につけたいスキル</Link></li>
             <li><Link href="/blog/screen-time-balance" className="hover:underline">デジタルとリアルのバランス：子どものスクリーンタイムを考える</Link></li>
-            <li><Link href="/blog/ai-creativity-education" className="hover:underline">AIを活用した子どもの創造性開発：港区の新しい教育アプローチ</Link></li>
-            <li><Link href="/blog/parent-guide-ai-tools" className="hover:underline">保護者のためのAIツールガイド：子どもと一緒に学ぶための基礎知識</Link></li>
+            <li><Link href="/blog/creativity-development" className="hover:underline">AIを活用した子どもの創造性開発：港区の新しい教育アプローチ</Link></li>
+            <li><Link href="/blog/ai-family-learning" className="hover:underline">保護者のためのAIツールガイド：子どもと一緒に学ぶための基礎知識</Link></li>
           </ul>
         </div>
       </article>
@@ -396,7 +396,7 @@ export default function BlogPostPage() {
           <div className="bg-white rounded-xl overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
             <div className="h-48 bg-gray-200 relative">
               <Image 
-                src="/images/sample/top/image_programming_icon.jpg"
+                src="/images/blog/EYE-screen-time-balance.jpg"
                 alt="デジタルとリアルのバランス"
                 fill
                 className="object-cover"
