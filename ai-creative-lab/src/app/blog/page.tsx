@@ -19,6 +19,36 @@ const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
       id: 1,
+      title: "中学受験×AI教育の相乗効果：有名私立中学が求める「未来型スキル」とは【2025年版】",
+      excerpt: "中学受験にAI教育がもたらす驚きの効果を徹底解説。麻布・開成・桜蔭など名門校が注目する思考力・表現力を、AIプログラミングで効率的に伸ばす方法を港区の専門家が詳しく紹介。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年6月2日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "middle-school-ai-education-synergy"
+    },
+    {
+      id: 2,
+      title: "AI動画編集で子どもYouTuber育成：安全なコンテンツ創造の完全ガイド【2025年版】",
+      excerpt: "子どもの夢を叶えるAI動画編集ツールの活用法を徹底解説。安全性に配慮したYouTube動画制作、著作権教育、保護者管理まで港区の専門家が詳しく紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月2日",
+      image: "/images/blog/EYE-game.jpg",
+      slug: "ai-video-editing-youtuber-education"
+    },
+    {
+      id: 3,
+      title: "白金・赤坂・六本木エリア別AI教室完全ガイド：通いやすさで選ぶ最適な学習環境【2025年版】",
+      excerpt: "港区の白金高輪、赤坂、六本木エリア別にAI教室を徹底比較。アクセス、料金、特徴を詳しく解説。高所得世帯の保護者が重視する立地条件も考慮した選び方ガイド。",
+      category: "保護者向けコラム",
+      categoryColor: "green",
+      date: "2025年6月2日",
+      image: "/images/blog/EYE-ai-education-future.jpg",
+      slug: "minato-area-ai-classroom-guide"
+    },
+    {
+      id: 4,
       title: "ChatGPT子ども安全活用ガイド：小学生の学習を変える正しい使い方【保護者必読】",
       excerpt: "文科省ガイドライン準拠。小学生がChatGPTを安全に学習活用するための保護者必読ガイド。年齢制限、安全設定、具体的活用法を港区の教育専門家が解説。",
       category: "保護者向けコラム",
@@ -28,7 +58,7 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "chatgpt-safe-guide-for-kids"
     },
     {
-      id: 2,
+      id: 5,
       title: "子どもがハマるゲーム開発プログラミング教室：ScratchからUnityまで完全ガイド",
       excerpt: "子どもの興味を引くゲーム開発でプログラミングを学習。Scratch、Unity対応の教室比較から、年齢別学習ロードマップ、人気ジャンル別ガイドまで解説。",
       category: "AI教育最新情報",
@@ -38,7 +68,27 @@ const pageData: { [key: number]: ArticleData[] } = {
       slug: "game-development-programming-guide"
     },
     {
-      id: 3,
+      id: 6,
+      title: "3Dモデリング×AI入門：子どもが楽しく学ぶデジタル創作の新世界【2025年版】",
+      excerpt: "3DモデリングとAIを組み合わせた創造教育の魅力を徹底解説。Blender、Tinkercad、AI画像生成を使った年齢別学習法、将来のメタバース時代に必要なスキルを港区の専門家が詳しく紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月2日",
+      image: "/images/blog/EYE-art.jpg",
+      slug: "3d-modeling-ai-introduction"
+    },
+    {
+      id: 7,
+      title: "AIネイティブ世代の多言語学習法：ChatGPT・Claude・Geminiで広がる国際教育の新境地【2025年版】",
+      excerpt: "生成AIを活用した革新的な多言語学習法を徹底解説。ChatGPT、Claude、Geminiを使った効果的な語学習得、文化理解、国際感覚の育成方法を港区のインターナショナル教育専門家が詳しく紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月2日",
+      image: "/images/blog/EYE-ai-education-trends-2025.jpg",
+      slug: "ai-native-multilingual-learning"
+    },
+    {
+      id: 8,
       title: "オンライン vs 対面プログラミング教室：子どもに最適な学習スタイルの選び方【2025年版】",
       excerpt: "プログラミング教室のオンラインと対面、どちらが子どもに適している？年齢別推奨、メリット・デメリット、ハイブリッド学習まで港区の教育専門家が詳しく解説。",
       category: "保護者向けコラム",
@@ -46,6 +96,36 @@ const pageData: { [key: number]: ArticleData[] } = {
       date: "2025年1月6日",
       image: "/images/blog/online-vs-offline-programming-classes.jpg",
       slug: "online-vs-offline-programming-classes"
+    },
+    {
+      id: 21,
+      title: "AI自由研究アイデア集：夏休みの宿題を創造的に解決する方法【2025年版】",
+      excerpt: "ChatGPT・Claude・Geminiを使った斬新な自由研究テーマ50選。小学生が楽しみながら学べるAI活用方法を学年別・分野別に紹介。保護者のサポート方法も解説。",
+      category: "夏休み特集",
+      categoryColor: "yellow",
+      date: "2025年6月2日",
+      image: "/images/blog/ai-summer-research-ideas.jpg",
+      slug: "ai-summer-research-ideas"
+    },
+    {
+      id: 22,
+      title: "マインクラフトでプログラミング学習：子どもが夢中になる教育効果とは【2025年版】",
+      excerpt: "マイクラでプログラミングを学ぶメリットと具体的な学習方法を徹底解説。教育版Minecraft、MakeCode、Python連携まで。港区で人気の教室情報も紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月2日",
+      image: "/images/blog/minecraft-programming-learning.jpg",
+      slug: "minecraft-programming-learning"
+    },
+    {
+      id: 23,
+      title: "プロンプトエンジニアリング入門：子どもが身につけるべき「AI対話スキル」とは【2025年版】",
+      excerpt: "ChatGPT、Claude、Geminiと上手に対話する方法を小学生でも分かりやすく解説。将来必須スキル「プロンプトエンジニアリング」を楽しく学ぶ実践ガイド。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年6月2日",
+      image: "/images/blog/prompt-engineering-for-kids.jpg",
+      slug: "prompt-engineering-for-kids"
     },
     {
       id: 4,
