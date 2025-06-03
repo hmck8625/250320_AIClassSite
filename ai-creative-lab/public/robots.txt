@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ai-creative-lab.netlify.app
+
+# Sitemaps
+Sitemap: https://ai-creative-lab.netlify.app/sitemap.xml

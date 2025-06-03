@@ -18,6 +18,56 @@ type ArticleData = {
 const pageData: { [key: number]: ArticleData[] } = {
   1: [
     {
+      id: 101,
+      title: "高校生のためのAI時代キャリア設計：2025年からの進路選択と大学受験戦略完全ガイド",
+      excerpt: "AI時代を見据えた高校生の進路選択とキャリア設計を徹底解説。大学受験での差別化戦略、理系・文系別おすすめ学部、就職に直結するスキル習得法まで、港区の進路指導専門家が最新情報をお届けします。",
+      category: "進路指導",
+      categoryColor: "blue",
+      date: "2025年4月10日",
+      image: "/images/blog/003.png",
+      slug: "high-school-ai-career-design"
+    },
+    {
+      id: 102,
+      title: "3〜5歳から始める幼児AI教育完全ガイド：発達段階に合わせた安全な学習法【2025年版】",
+      excerpt: "3歳、4歳、5歳の発達段階に応じたAI教育の始め方を専門家が詳しく解説。スクリーンタイムの適切な管理、安全なAIツール、創造性を伸ばす実践方法まで、港区の幼児AI教育をリードします。",
+      category: "早期教育",
+      categoryColor: "pink",
+      date: "2025年3月15日",
+      image: "/images/blog/002.png",
+      slug: "early-childhood-ai-education-guide"
+    },
+    {
+      id: 103,
+      title: "【2025年4月新学期】AI時代の習い事選び完全ガイド：今から間に合う教室探しのコツ",
+      excerpt: "新学期に向けたAI教育・プログラミング教室の選び方を徹底解説。港区で人気の教室情報、体験スケジュール、準備すべきことをまとめました。今からでも4月入会に間に合います！",
+      category: "季節特集",
+      categoryColor: "green",
+      date: "2025年2月20日",
+      image: "/images/blog/001.png",
+      slug: "new-semester-ai-education-guide"
+    },
+    {
+      id: 104,
+      title: "メタバース×NFT創造教育：子どもが学ぶデジタル経済と未来スキル【2025年版】",
+      excerpt: "メタバース時代の創造教育とNFTを活用した学習法を徹底解説。Roblox、Minecraft、VRChat等での世界構築から、デジタルアート、ブロックチェーン基礎まで、港区の専門家が詳しく紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年5月15日",
+      image: "/images/blog/004.png",
+      slug: "metaverse-nft-creative-education"
+    },
+    {
+      id: 105,
+      title: "AI agent時代の教育革命：子どもが身につけるべき「AI協働スキル」とは【2025年版】",
+      excerpt: "ChatGPT、Claude、Gemini等のAIエージェントとの協働が当たり前になる時代に、子どもたちが身につけるべきスキルを徹底解説。プロンプトエンジニアリングから批判的思考まで、港区の教育専門家が詳しく紹介。",
+      category: "AI教育最新情報",
+      categoryColor: "blue",
+      date: "2025年5月20日",
+      image: "/images/blog/005.png",
+      slug: "ai-agent-education-future"
+    },
+    {
       id: 1,
       title: "中学受験×AI教育の相乗効果：有名私立中学が求める「未来型スキル」とは【2025年版】",
       excerpt: "中学受験にAI教育がもたらす驚きの効果を徹底解説。麻布・開成・桜蔭など名門校が注目する思考力・表現力を、AIプログラミングで効率的に伸ばす方法を港区の専門家が詳しく紹介。",
@@ -389,9 +439,9 @@ const featuredArticle: FeaturedArticle = {
   slug: "ai-education-future"
 };
 
-export default function BlogPage(props: any) {
+export default async function BlogPage(props: { searchParams?: Promise<{ [key: string]: string | string[] | undefined }> }) {
  
-  const searchParams = props.searchParams || {};
+  const searchParams = await props.searchParams || {};
   const pageParam = searchParams.page;
   const currentPage = pageParam ? parseInt(pageParam as string) : 1;
 
