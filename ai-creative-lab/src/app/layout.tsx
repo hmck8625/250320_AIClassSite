@@ -31,6 +31,7 @@ export default function RootLayout({
     <html lang="ja">
       <head>
         <link rel="icon" href="/icons/site_icon.png" />
+        <link rel="preload" as="image" href="/images/sample/top/image_boy_idea.jpg" />
       </head>
       {/* Google Tag Manager */}
       <Script id="google-tag-manager" strategy="afterInteractive">
