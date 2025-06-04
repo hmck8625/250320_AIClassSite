@@ -6,6 +6,25 @@
   body {
     @apply bg-white text-gray-900;
   }
+  
+  /* スマホ向けパフォーマンス最適化 */
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* 画像の遅延読み込み最適化 */
+  img {
+    content-visibility: auto;
+  }
+  
+  /* スマホでの画像表示最適化 */
+  @media (max-width: 768px) {
+    img {
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+    }
+  }
 }
 
 @layer components {

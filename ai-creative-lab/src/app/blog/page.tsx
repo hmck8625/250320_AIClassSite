@@ -1,5 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 import { Button } from '@/components/ui/button';
 
 // ページごとの記事データの型定義
@@ -439,11 +443,10 @@ const featuredArticle: FeaturedArticle = {
   slug: "ai-education-future"
 };
 
-export default async function BlogPage(props: { searchParams?: Promise<{ [key: string]: string | string[] | undefined }> }) {
- 
-  const searchParams = await props.searchParams || {};
-  const pageParam = searchParams.page;
-  const currentPage = pageParam ? parseInt(pageParam as string) : 1;
+function BlogContent() {
+  const searchParams = useSearchParams();
+  const pageParam = searchParams.get('page');
+  const currentPage = pageParam ? parseInt(pageParam) : 1;
 
   // 現在のページの記事データを取得
   const currentArticles = pageData[currentPage] || pageData[1];
@@ -482,6 +485,9 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
                     alt={featuredArticle.title}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 66vw, 50vw"
+                    priority
+                    quality={85}
                   />
                 </div>
                 <div className="p-6">
@@ -516,6 +522,9 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
                       alt={article.title}
                       fill
                       className="object-cover"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      loading="lazy"
+                      quality={80}
                     />
                   ) : (
                     <div className="absolute inset-0 flex items-center justify-center">
@@ -631,6 +640,9 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
                     alt="AI教育クラスルーム活動ガイド"
                     fill
                     className="object-cover rounded"
+                    sizes="64px"
+                    loading="lazy"
+                    quality={75}
                   />
                 </div>
                 <div>
@@ -647,6 +659,9 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
                     alt="AI時代の教育"
                     fill
                     className="object-cover rounded"
+                    sizes="64px"
+                    loading="lazy"
+                    quality={75}
                   />
                 </div>
                 <div>
@@ -663,6 +678,9 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
                     alt="子どもの創造性を育む"
                     fill
                     className="object-cover rounded"
+                    sizes="64px"
+                    loading="lazy"
+                    quality={75}
                   />
                 </div>
                 <div>
@@ -688,5 +706,13 @@ export default async function BlogPage(props: { searchParams?: Promise<{ [key: s
         </div>
       </div>
     </div>
+  );
+}
+
+export default function BlogPage() {
+  return (
+    <Suspense fallback={<div className="container mx-auto py-12 text-center">Loading...</div>}>
+      <BlogContent />
+    </Suspense>
   );
 }
