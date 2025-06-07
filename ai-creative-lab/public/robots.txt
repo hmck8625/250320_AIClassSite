@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ai-creative-lab.netlify.app
+Host: https://tokyo-ai-classschool.com
 
 # Sitemaps
-Sitemap: https://ai-creative-lab.netlify.app/sitemap.xml
+Sitemap: https://tokyo-ai-classschool.com/sitemap.xml
