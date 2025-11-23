@@ -10,12 +10,6 @@ import 'keen-slider/keen-slider.min.css';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
-declare global {
-  interface Window {
-    dataLayer?: Array<Record<string, unknown>>;
-  }
-}
-
 
 const campaignCode = '#AZB2311';
 const defaultMessage = `体験希望 ${campaignCode}`;
@@ -200,9 +194,6 @@ const LineCtaSection = ({
         <div className="flex flex-col lg:flex-row items-center gap-10">
           <div className="flex-1 space-y-6">
             <div>
-              <p className={cn('text-sm font-semibold uppercase tracking-wide', isDark ? 'text-[#7EB5FF]' : 'text-[#2F7CFF]')}>
-                LINE CTA
-              </p>
               <h2 className="text-3xl font-bold mt-2">{title}</h2>
               <p className={cn('mt-4 text-lg leading-relaxed', isDark ? 'text-white/90' : 'text-[#0A1E3F]/80')}>
                 {description}
@@ -321,18 +312,15 @@ const HeroSection = ({
         <div className="space-y-6">
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center rounded-full bg-[#FF7A00] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
-              体験会募集！
+              特別体験会招待中！！
             </span>
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#7EB5FF]">
-              ATELIER SPARK
-            </p>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-snug">
-            AIネイティブ教育で<br />子供の興味を育み才能を発掘<br />
+          たった120分で我が子が<br />「作曲家」「漫画家」に！？
 
           </h1>
           <p className="text-xl text-white/90">
-            子供が楽しみながらアート/音楽/創作を生み出す教室。<br />AIをフル活用するから「できなくてつまらない」が起こらない<br />これから必須の“AI活用”も一緒に学べる
+          楽器の練習も、絵の修行もいらない。 <br />生成AIという「魔法の杖」で、子供の頭の中にある想像を今すぐ形にする。 <br />次世代のアート教室が始まります！
           </p>
           <div className="flex flex-wrap gap-4">
             <Button
@@ -505,50 +493,14 @@ export default function LandingPage() {
         <section id="why" className="py-20 bg-white">
           <div className="container mx-auto px-4 space-y-12 max-w-6xl">
             <div className="space-y-8">
-              <div>
-                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#2F7CFF]">WHY NOW</p>
-                <h2 className="text-3xl lg:text-4xl font-bold leading-tight mt-3">
-                  AIの発達で必要な能力は激変。“尖った能力”が問われる時代へ。
-                </h2>
-                <p className="mt-4 text-lg leading-8 text-gray-700">
-                  これまでできなかったことが急速にできるようになっています。AIを活用すれば、ゲームづくり・漫画づくり・映像づくり・音楽づくりが手のひらで完結します。
-                  今や<span className="font-semibold">5歳の子供でもテトリスが作れる時代</span>。幼少期からAIに触れることでAIネイティブな世代をつくり、才能の発掘をサポートします。
-                </p>
-              </div>
 
-              <div className="space-y-4">
-                <p className="text-sm font-semibold text-[#0A1E3F]/70">本教室で得られる3つのこと</p>
-                <div className="grid gap-4">
-                  {[
-                    {
-                      title: '何が学べるの？',
-                      body: '生成AIの基本的な使い方と、それを用いてアートや音楽・プログラミングをする方法を学びます。',
-                    },
-                    {
-                      title: 'わかりやすい楽しさ！',
-                      body: '映像や音楽を作るので小さなお子さんでも視覚的に「楽しい」と感じられ、親御さんも一緒に楽しめます。',
-                    },
-                    {
-                      title: '本当にできるの？',
-                      body: 'AIを使うことで従来の「長い練習」「座学のインプット」がほぼ不要。お子様は飽きることなくアイデアを形にできます。',
-                    },
-                  ].map(({ title, body }) => (
-                    <div key={title} className="flex items-start gap-4 rounded-2xl border border-[#E1E8FF] p-5 shadow-sm">
-                      <Sparkles className="h-6 w-6 text-[#2F7CFF]" aria-hidden />
-                      <div>
-                        <p className="text-lg font-semibold leading-snug">{title}</p>
-                        <p className="text-gray-700 leading-7">{body}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#2F7CFF]">WHAT</p>
               <p className="text-xl font-bold text-[#0A1E3F]">
                 あなたのお子さまもこんな作品が作れるようになります！
               </p>
 
               <div className="relative">
+
                 <div ref={sliderRef} className="keen-slider">
                   {storySlides.map((slide) => (
                     <div
@@ -671,6 +623,45 @@ export default function LandingPage() {
                         )}
                       />
                     </button>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.3em] text-[#2F7CFF]">WHY NOW</p>
+                <h2 className="text-3xl lg:text-4xl font-bold leading-tight mt-3">
+                  AIの発達で必要な能力は激変。“尖った能力”が問われる時代へ。
+                </h2>
+                <p className="mt-4 text-lg leading-8 text-gray-700">
+                  これまでできなかったことが急速にできるようになっています。AIを活用すれば、ゲームづくり・漫画づくり・映像づくり・音楽づくりが手のひらで完結します。
+                  今や<span className="font-semibold">5歳の子供でもテトリスが作れる時代</span>。幼少期からAIに触れることでAIネイティブな世代をつくり、才能の発掘をサポートします。
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <p className="text-sm font-semibold text-[#0A1E3F]/70">本教室で得られる3つのこと</p>
+                <div className="grid gap-4">
+                  {[
+                    {
+                      title: '何が学べるの？',
+                      body: '生成AIの基本的な使い方と、それを用いてアートや音楽・プログラミングをする方法を学びます。',
+                    },
+                    {
+                      title: 'わかりやすい楽しさ！',
+                      body: '映像や音楽を作るので小さなお子さんでも視覚的に「楽しい」と感じられ、親御さんも一緒に楽しめます。',
+                    },
+                    {
+                      title: '本当にできるの？',
+                      body: 'AIを使うことで従来の「長い練習」「座学のインプット」がほぼ不要。お子様は飽きることなくアイデアを形にできます。',
+                    },
+                  ].map(({ title, body }) => (
+                    <div key={title} className="flex items-start gap-4 rounded-2xl border border-[#E1E8FF] p-5 shadow-sm">
+                      <Sparkles className="h-6 w-6 text-[#2F7CFF]" aria-hidden />
+                      <div>
+                        <p className="text-lg font-semibold leading-snug">{title}</p>
+                        <p className="text-gray-700 leading-7">{body}</p>
+                      </div>
+                    </div>
                   ))}
                 </div>
               </div>

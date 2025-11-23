@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="ja">
+    <html lang="ja" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/icons/site_icon.png" />
         <link rel="preload" as="image" href="/images/sample/top/image_boy_idea.jpg" />
