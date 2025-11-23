@@ -10,6 +10,12 @@ import 'keen-slider/keen-slider.min.css';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
+declare global {
+  interface Window {
+    dataLayer?: Array<Record<string, unknown>>;
+  }
+}
+
 
 const campaignCode = '#AZB2311';
 const defaultMessage = `体験希望 ${campaignCode}`;
