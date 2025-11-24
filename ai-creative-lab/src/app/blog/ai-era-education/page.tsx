@@ -3,9 +3,9 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: 'AI時代の子育てと教育 - 港区の先進的取り組みに学ぶ未来型スキルの育み方 | AI創造スタジオ',
+  title: 'AI時代の子育てと教育 - 港区の先進的取り組みに学ぶ未来型スキルの育み方 | AIアソビあとりえ',
   description: 'AIが急速に発展する現代社会で、子どもたちに必要な力とは？港区の先進的な教育・子育て支援の取り組み事例と、家庭でできるAIリテラシー教育のポイントを解説します。',
-  keywords: 'AI 教育, AI 子育て, 未来型スキル, 港区 AI教育, 子ども AI, デジタル教育, AIリテラシー, 生成AI 学習, 港区 子育て支援, AI創造スタジオ',
+  keywords: 'AI 教育, AI 子育て, 未来型スキル, 港区 AI教育, 子ども AI, デジタル教育, AIリテラシー, 生成AI 学習, 港区 子育て支援, AIアソビあとりえ',
   openGraph: {
     title: 'AI時代の子育てと教育 - 港区の先進的取り組みに学ぶ未来型スキルの育み方',
     description: 'AIが急速に発展する現代社会で、子どもたちに必要な力と家庭でのAI教育のポイントを解説します。',
@@ -216,7 +216,7 @@ export default function AIEducationParentingPage() {
         
         <h3 className="text-2xl font-bold mt-10 mb-5 text-gray-800">1. AIを「魔法の箱」ではなく「道具」として理解させる</h3>
         <p>
-          AIは万能ではなく、特定の目的のために設計された道具です。「東京AI創造スタジオ」では、AIを「ゴール」ではなく「入口」として位置づけ、子どもたち自身の創造性や思考力を引き出すアプローチを採用しています。
+          AIは万能ではなく、特定の目的のために設計された道具です。「AIアソビあとりえ」では、AIを「ゴール」ではなく「入口」として位置づけ、子どもたち自身の創造性や思考力を引き出すアプローチを採用しています。
         </p>
         
         <p>
@@ -272,7 +272,7 @@ export default function AIEducationParentingPage() {
         
         <h3 className="text-2xl font-bold mt-10 mb-5 text-gray-800">4. 年齢に応じたAI学習機会の提供</h3>
         <p>
-          子どもの発達段階に合わせて、適切なAI学習の機会を提供することも重要です。「東京AI創造スタジオ」では、年齢別のアプローチを取り入れ、子どもの成長に合わせた学びを提供しています。
+          子どもの発達段階に合わせて、適切なAI学習の機会を提供することも重要です。「AIアソビあとりえ」では、年齢別のアプローチを取り入れ、子どもの成長に合わせた学びを提供しています。
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-8">
@@ -367,7 +367,7 @@ export default function AIEducationParentingPage() {
         </p>
         
         <p>
-          「東京AI創造スタジオ」では、AIを「ゴール」ではなく「入口」として位置づけ、子どもたちの創造性と本質的な思考力を育むプログラムを提供しています。家庭でも同様のアプローチで、AIと適切に関わりながら、子どもたち自身の力を伸ばす環境づくりを心がけましょう。
+          「AIアソビあとりえ」では、AIを「ゴール」ではなく「入口」として位置づけ、子どもたちの創造性と本質的な思考力を育むプログラムを提供しています。家庭でも同様のアプローチで、AIと適切に関わりながら、子どもたち自身の力を伸ばす環境づくりを心がけましょう。
         </p>
         
         <p>
@@ -375,9 +375,9 @@ export default function AIEducationParentingPage() {
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">東京AI創造スタジオからのお知らせ</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえからのお知らせ</h3>
           <p className="mb-4">
-            「東京AI創造スタジオ」では、AI時代を生きる子どもたちのための様々なプログラムを提供しています。4月からは「親子で学ぶAIリテラシー講座」を新たに開講予定です。
+            「AIアソビあとりえ」では、AI時代を生きる子どもたちのための様々なプログラムを提供しています。4月からは「親子で学ぶAIリテラシー講座」を新たに開講予定です。
           </p>
           <p>
             また、カリキュラム完成に向けて先行無料モニターも募集中です。港区および周辺地域にお住まいの小中学生とその保護者の方で、AI教育に興味のある方はぜひお問い合わせください。
@@ -406,7 +406,7 @@ export default function AIEducationParentingPage() {
               </h4>
               <p className="text-sm text-gray-600 mb-3">2025年3月28日</p>
               <p className="text-gray-700 line-clamp-3">
-                AIを活用した子ども向け音楽創作の可能性と方法を解説。港区のAI教室「東京AI創造スタジオ」が提案する、AIを入口とした音楽的才能開発のアプローチを紹介します。
+                AIを活用した子ども向け音楽創作の可能性と方法を解説。港区のAI教室「AIアソビあとりえ」が提案する、AIを入口とした音楽的才能開発のアプローチを紹介します。
               </p>
             </div>
           </div>
@@ -461,7 +461,7 @@ export default function AIEducationParentingPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">お子さまのAI時代の力を育てませんか？</h3>
         <p className="mb-6 text-lg">
-          東京AI創造スタジオでは、AIを入口として子どもたちの創造性と思考力を育む独自のプログラムを提供しています。
+          AIアソビあとりえでは、AIを入口として子どもたちの創造性と思考力を育む独自のプログラムを提供しています。
           4月からの新講座や無料モニターにぜひご参加ください。
         </p>
         <div className="flex flex-wrap gap-4">

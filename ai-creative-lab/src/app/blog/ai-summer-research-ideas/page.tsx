@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI自由研究アイデア集：夏休みの宿題を創造的に解決する方法【2025年版】 | 東京AI創造スタジオ",
+  title: "AI自由研究アイデア集：夏休みの宿題を創造的に解決する方法【2025年版】 | AIアソビあとりえ",
   description: "ChatGPT・Claude・Geminiを使った斬新な自由研究テーマ50選。小学生が楽しみながら学べるAI活用方法を学年別・分野別に紹介。保護者のサポート方法も解説。",
   keywords: ["AI 自由研究", "夏休み 宿題 AI", "小学生 自由研究 2025", "ChatGPT 自由研究", "AI 工作", "プログラミング 自由研究", "港区 AI教育"],
   openGraph: {
@@ -797,7 +797,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-yellow-50 to-orange-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">夏休みAI自由研究サポートプログラム</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、夏休み限定で自由研究をサポートする
+          AIアソビあとりえでは、夏休み限定で自由研究をサポートする
           特別プログラムを開催します。専門講師が研究の進め方から
           発表準備まで丁寧にサポートいたします。
         </p>
@@ -882,7 +882,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「2024年度夏休み自由研究作品集」（2024年9月）
+                • AIアソビあとりえ「2024年度夏休み自由研究作品集」（2024年9月）
               </li>
             </ul>
           </div>

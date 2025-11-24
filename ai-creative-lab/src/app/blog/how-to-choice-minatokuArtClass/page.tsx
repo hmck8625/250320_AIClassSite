@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: '子どもの絵画教室選びガイド - 港区周辺の人気教室と才能を伸ばすポイント | AI創造スタジオ',
+  title: '子どもの絵画教室選びガイド - 港区周辺の人気教室と才能を伸ばすポイント | AIアソビあとりえ',
   description: '港区周辺の子ども向け絵画教室の比較や選び方、年齢別の才能開発法、家庭でできる創造性育成のポイントまで。子どもの芸術的才能を見つけ、伸ばすための総合ガイド。',
   keywords: '子供 絵画教室, 港区 子供 アート, 子ども お絵描き 才能, 幼児 絵画教育, 子供 デッサン, 絵画 才能 伸ばし方',
   openGraph: {
@@ -243,7 +243,7 @@ export default function BlogPostPage() {
               <li><span className="font-bold">強み</span>：現代的なスキルの習得、テクノロジーと芸術の融合、新しい表現方法の開拓</li>
               <li><span className="font-bold">弱み</span>：デジタル機器への依存、基礎的な手技術が疎かになる可能性</li>
               <li><span className="font-bold">向いている子</span>：テクノロジーに興味がある子、新しいものが好きな子</li>
-              <li><span className="font-bold">代表例</span>：東京AI創造スタジオ（アートコース）、デジタルキッズアート（六本木）</li>
+              <li><span className="font-bold">代表例</span>：AIアソビあとりえ（アートコース）、デジタルキッズアート（六本木）</li>
             </ul>
           </div>
         </div>
@@ -321,7 +321,7 @@ export default function BlogPostPage() {
                 <td className="py-3 px-4">絵画、彫刻、工作、ミックスメディア</td>
               </tr>
               <tr className="border-b hover:bg-gray-50">
-                <td className="py-3 px-4 font-medium">東京AI創造スタジオ アートコース</td>
+                <td className="py-3 px-4 font-medium">AIアソビあとりえ アートコース</td>
                 <td className="py-3 px-4">デジタルとアナログの融合、AIツール活用、創造性重視</td>
                 <td className="py-3 px-4">小学1年〜中学3年</td>
                 <td className="py-3 px-4">15,000円〜20,000円</td>
@@ -388,7 +388,7 @@ export default function BlogPostPage() {
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
           <h4 className="text-xl font-bold text-yellow-700 mb-3">事例3：新しいアプローチへの挑戦</h4>
           <p className="text-yellow-800 mb-3">
-            9歳の息子さんを持つCさん家族は、デジタル機器に興味がある息子さんのために、従来の絵画とデジタル技術を融合させた「東京AI創造スタジオ」のアートコースを選びました。AIを活用したデジタルアート創作から始め、そこで生まれたアイデアを従来の画材でも表現する活動に息子さんは夢中になり、表現の幅が大きく広がったそうです。
+            9歳の息子さんを持つCさん家族は、デジタル機器に興味がある息子さんのために、従来の絵画とデジタル技術を融合させた「AIアソビあとりえ」のアートコースを選びました。AIを活用したデジタルアート創作から始め、そこで生まれたアイデアを従来の画材でも表現する活動に息子さんは夢中になり、表現の幅が大きく広がったそうです。
           </p>
           <p className="text-yellow-800">
             <span className="font-bold">成功のポイント</span>：子どもの興味（デジタル技術）を活かせる教室を選んだこと。新しいアプローチに挑戦する柔軟性。デジタルとアナログの両方を経験できる環境を重視したこと。
@@ -516,7 +516,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          東京AI創造スタジオでは、AIを「入口」として子どもの創造性を引き出し、徐々に本格的な芸術創作へと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どもの芸術的な成長を効果的に支援できるでしょう。
+          AIアソビあとりえでは、AIを「入口」として子どもの創造性を引き出し、徐々に本格的な芸術創作へと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どもの芸術的な成長を効果的に支援できるでしょう。
         </p>
         
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">子どもの芸術的才能の見極め方と伸ばし方</h2>
@@ -649,7 +649,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          また、AIなどの最新技術も、子どもの創造性を引き出す「入口」として活用することで、より豊かな芸術体験につながります。東京AI創造スタジオでは、AIを活用したデジタルアート創作から始め、徐々に本格的な芸術表現へと導く段階的なアプローチを採用しています。
+          また、AIなどの最新技術も、子どもの創造性を引き出す「入口」として活用することで、より豊かな芸術体験につながります。AIアソビあとりえでは、AIを活用したデジタルアート創作から始め、徐々に本格的な芸術表現へと導く段階的なアプローチを採用しています。
         </p>
         
         <p>
@@ -657,9 +657,9 @@ export default function BlogPostPage() {
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">東京AI創造スタジオ アートコースのご案内</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえ アートコースのご案内</h3>
           <p className="mb-4">
-            東京AI創造スタジオでは、AIを「入口」として子どもの芸術的創造性を引き出す独自のプログラムを提供しています。AIを活用したデジタルアート体験から始め、徐々に従来の画材や技法も取り入れながら、子どもたちの創造力と表現力を育みます。
+            AIアソビあとりえでは、AIを「入口」として子どもの芸術的創造性を引き出す独自のプログラムを提供しています。AIを活用したデジタルアート体験から始め、徐々に従来の画材や技法も取り入れながら、子どもたちの創造力と表現力を育みます。
           </p>
           <p className="mb-4">
             従来の絵画教室とは異なり、「技術」だけでなく「創造力」「表現力」「芸術的思考力」を総合的に育成するプログラムです。AIツールを活用することで、専門知識がなくても芸術創作の喜びを体験できるため、美術初心者のお子さんでも安心して始められます。
@@ -746,7 +746,7 @@ export default function BlogPostPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">お子様の芸術的才能を見つけ、伸ばしませんか？</h3>
         <p className="mb-6 text-lg">
-          東京AI創造スタジオでは、AIを活用したデジタルアートから始める新しい芸術教育プログラムを提供しています。
+          AIアソビあとりえでは、AIを活用したデジタルアートから始める新しい芸術教育プログラムを提供しています。
           創造性を重視した独自のアプローチで、お子様の芸術的才能を見つけ、伸ばすお手伝いをします。
           無料体験レッスンも随時開催していますので、ぜひお気軽にご参加ください。
         </p>

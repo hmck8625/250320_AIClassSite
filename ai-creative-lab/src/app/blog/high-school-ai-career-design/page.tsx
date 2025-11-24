@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "高校生のためのAI時代キャリア設計：2025年からの進路選択と大学受験戦略完全ガイド | 東京AI創造スタジオ",
+  title: "高校生のためのAI時代キャリア設計：2025年からの進路選択と大学受験戦略完全ガイド | AIアソビあとりえ",
   description: "AI時代を見据えた高校生の進路選択とキャリア設計を徹底解説。大学受験での差別化戦略、理系・文系別おすすめ学部、就職に直結するスキル習得法まで、港区の進路指導専門家が最新情報をお届けします。",
   keywords: ["高校生 AI キャリア", "大学受験 プログラミング", "進路選択 AI時代", "就職活動 AI スキル", "理系 文系 AI学部", "高校生 将来性 AI", "進学塾 港区 AI"],
   openGraph: {
@@ -1013,7 +1013,7 @@ export default function BlogPost() {
                     <li>• TechAcademy（オンライン完結）</li>
                     <li>• CodeCamp（マンツーマン指導）</li>
                     <li>• N予備校（プログラミング）</li>
-                    <li>• 東京AI創造スタジオ（総合AI教育）</li>
+                    <li>• AIアソビあとりえ（総合AI教育）</li>
                   </ul>
                 </div>
               </div>
@@ -1446,7 +1446,7 @@ export default function BlogPost() {
                 • World Economic Forum「Future of Jobs Report 2025」（2025年）
               </li>
               <li>
-                • 東京AI創造スタジオ「高校生AI教育効果検証報告書」（2025年）
+                • AIアソビあとりえ「高校生AI教育効果検証報告書」（2025年）
               </li>
             </ul>
           </div>

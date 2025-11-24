@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AIエージェント時代の子ども教育：自動化されない創造的スキルの育て方【2025年版】 | 東京AI創造スタジオ",
+  title: "AIエージェント時代の子ども教育：自動化されない創造的スキルの育て方【2025年版】 | AIアソビあとりえ",
   description: "AIエージェントが日常化する未来で、子どもたちに必要な「人間にしかできない」創造的スキルとは？港区の教育専門家が、AI時代を生き抜く力の育成法を徹底解説。",
   keywords: ["AI エージェント 教育", "AI 自動化 教育", "未来型スキル 子ども", "創造性 AI時代", "人間性 教育", "港区 AI教育", "21世紀型スキル"],
   openGraph: {
@@ -941,7 +941,7 @@ export default function BlogPost() {
             <h3 className="font-bold mb-2">実践事例・教育現場</h3>
             <ul className="space-y-1 text-gray-700">
               <li>
-                • 東京AI創造スタジオ「AIエージェント時代の教育実践報告」（2025年）
+                • AIアソビあとりえ「AIエージェント時代の教育実践報告」（2025年）
               </li>
               <li>
                 • 日本STEM教育学会「創造性教育の効果測定研究」（2025年）

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "3Dモデリング×AI入門：子どもが楽しく学ぶデジタル創作の新世界【2025年版】 | 東京AI創造スタジオ",
+  title: "3Dモデリング×AI入門：子どもが楽しく学ぶデジタル創作の新世界【2025年版】 | AIアソビあとりえ",
   description: "3DモデリングとAIを組み合わせた創造教育の魅力を徹底解説。Blender、Tinkercad、AI画像生成を使った年齢別学習法、将来のメタバース時代に必要なスキルを港区の専門家が詳しく紹介。",
   keywords: ["3Dモデリング 子ども", "AI 3D創作", "Blender 小学生", "デジタルファブリケーション", "メタバース 教育", "港区 3D教室", "STEAM教育 3D"],
   openGraph: {
@@ -897,7 +897,7 @@ export default function BlogPost() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">8-18歳</td>
                   <td className="border border-gray-300 p-3 text-center">22,000円〜</td>
                   <td className="border border-gray-300 p-3 text-center">🟢 完全対応</td>
@@ -1171,7 +1171,7 @@ export default function BlogPost() {
                 • MIT Media Lab「Creative Computing with AI」（2024年）
               </li>
               <li>
-                • 東京AI創造スタジオ「3D×AI教育効果検証レポート」（2024年）
+                • AIアソビあとりえ「3D×AI教育効果検証レポート」（2024年）
               </li>
             </ul>
           </div>

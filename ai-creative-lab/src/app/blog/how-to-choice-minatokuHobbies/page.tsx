@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: '港区の子供向け習い事完全ガイド - 人気の習い事と選び方のポイント | AI創造スタジオ',
+  title: '港区の子供向け習い事完全ガイド - 人気の習い事と選び方のポイント | AIアソビあとりえ',
   description: '港区周辺の子ども向け習い事の比較や選び方、年齢別のおすすめ習い事、子どもの才能を伸ばすポイントまで。子どもの可能性を広げる習い事選びの総合ガイド。',
   keywords: '港区 子供 習い事, 子ども 習い事 選び方, 港区 習い事 比較, 幼児 教室 港区, 小学生 習い事 おすすめ, 子供 才能 伸ばし方',
   openGraph: {
@@ -358,7 +358,7 @@ export default function BlogPostPage() {
             <ul className="list-disc pl-6 space-y-2 text-sm">
               <li><span className="font-bold">おすすめ年齢</span>：6歳〜</li>
               <li><span className="font-bold">費用目安</span>：月額10,000円〜20,000円</li>
-              <li><span className="font-bold">港区の主要教室</span>：テックアカデミーJr.、東京AI創造スタジオ、ロボットプログラミングスクール</li>
+              <li><span className="font-bold">港区の主要教室</span>：テックアカデミーJr.、AIアソビあとりえ、ロボットプログラミングスクール</li>
               <li><span className="font-bold">選ぶポイント</span>：使用言語・ツール、プロジェクトベースか、少人数制か</li>
             </ul>
           </div>
@@ -419,7 +419,7 @@ export default function BlogPostPage() {
             <ul className="list-disc pl-6 space-y-2 text-sm">
               <li><span className="font-bold">おすすめ年齢</span>：3歳〜</li>
               <li><span className="font-bold">費用目安</span>：月額6,000円〜15,000円</li>
-              <li><span className="font-bold">港区の主要教室</span>：アトリエ・ド・バロン、キッズ・クリエイティブ・アート、東京AI創造スタジオ</li>
+              <li><span className="font-bold">港区の主要教室</span>：アトリエ・ド・バロン、キッズ・クリエイティブ・アート、AIアソビあとりえ</li>
               <li><span className="font-bold">選ぶポイント</span>：創造性重視か技術習得重視か、使用素材の多様性、展示会の有無</li>
             </ul>
           </div>
@@ -763,9 +763,9 @@ export default function BlogPostPage() {
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">東京AI創造スタジオからのメッセージ</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえからのメッセージ</h3>
           <p className="mb-4">
-            東京AI創造スタジオでは、AIを「入口」として子どもたちの創造性と才能を引き出す独自のプログラムを提供しています。プログラミング、アート、音楽など様々な創造分野において、AIを活用した新しい学びの形を体験できます。
+            AIアソビあとりえでは、AIを「入口」として子どもたちの創造性と才能を引き出す独自のプログラムを提供しています。プログラミング、アート、音楽など様々な創造分野において、AIを活用した新しい学びの形を体験できます。
           </p>
           <p className="mb-4">
             子どもたちの興味や適性に合わせたパーソナライズされたアプローチで、一人ひとりの可能性を最大限に引き出します。また、専門分野への興味が深まった場合は、港区内の専門教室とも連携し、子どもの才能を継続的に伸ばすサポートも行っています。
@@ -852,7 +852,7 @@ export default function BlogPostPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">お子様の可能性を広げる第一歩を踏み出しませんか？</h3>
         <p className="mb-6 text-lg">
-          東京AI創造スタジオでは、AIを活用した新しい創造教育プログラムを提供しています。
+          AIアソビあとりえでは、AIを活用した新しい創造教育プログラムを提供しています。
           お子様の興味や適性に合わせたパーソナライズされたアプローチで、創造性と才能を引き出すお手伝いをします。
           無料体験レッスンも随時開催していますので、ぜひお気軽にご参加ください。
         </p>

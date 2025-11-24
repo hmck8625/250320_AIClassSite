@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: '子ども向けAIツール5選：安全に使える創作支援ツール | AI創造スタジオ',
+  title: '子ども向けAIツール5選：安全に使える創作支援ツール | AIアソビあとりえ',
   description: '子どもの創造性を育む安全なAIツールを厳選紹介。絵画、物語創作、音楽、プログラミング、科学学習をサポートする教育的価値の高いAIアプリと効果的な活用法。',
   keywords: '子ども AI ツール, 子供 AI アプリ, 安全 AI 創作, 子ども プログラミング AI, AI 教育 小学生, 創造性 AI 子ども',
   openGraph: {
@@ -313,14 +313,14 @@ export default function BlogPostPage() {
           </ol>
         </div>
         
-        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">AI創造スタジオでの取り組み</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">AIアソビあとりえでの取り組み</h2>
         
         <p>
-          <Link href="/" className="text-primary hover:underline">AI創造スタジオ</Link>では、これらのツールを活用した創作活動を各コースに取り入れています。子どもたちがAIを「使いこなす」経験を通じて、未来を生きる力を育んでいます。
+          <Link href="/" className="text-primary hover:underline">AIアソビあとりえ</Link>では、これらのツールを活用した創作活動を各コースに取り入れています。子どもたちがAIを「使いこなす」経験を通じて、未来を生きる力を育んでいます。
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">AI創造スタジオの特徴的なプログラム</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえの特徴的なプログラム</h3>
           <ul className="list-disc pl-6 space-y-2">
             <li><Link href="/courses/ai-art" className="text-primary hover:underline"><span className="font-bold">AIアートコース</span></Link>：最新のAIアートツールを活用し、デジタルからアナログ表現へと発展させる創作活動</li>
             <li><span className="font-bold">AIストーリーテリングコース</span>：AIを活用した物語創作と発表活動</li>
@@ -352,7 +352,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          AI創造スタジオでは、これらのツールを活用した創作ワークショップや<Link href="/courses" className="text-primary hover:underline">定期コース</Link>を提供しています。子どもたちがAIと創造的に関わりながら、未来を切り拓く力を育む場として、ぜひご活用ください。
+          AIアソビあとりえでは、これらのツールを活用した創作ワークショップや<Link href="/courses" className="text-primary hover:underline">定期コース</Link>を提供しています。子どもたちがAIと創造的に関わりながら、未来を切り拓く力を育む場として、ぜひご活用ください。
         </p>
         
         <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
@@ -443,7 +443,7 @@ export default function BlogPostPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">子どもの創造性を広げるAI活用法を学びませんか？</h3>
         <p className="mb-6 text-lg">
-          AI創造スタジオでは、本記事で紹介したツールを活用した創作活動を体験できる無料ワークショップを定期的に開催しています。
+          AIアソビあとりえでは、本記事で紹介したツールを活用した創作活動を体験できる無料ワークショップを定期的に開催しています。
           子どもたちがAIを創造的に使いこなす力を育む、新しい学びの場にぜひご参加ください。
         </p>
         <div className="flex flex-wrap gap-4">

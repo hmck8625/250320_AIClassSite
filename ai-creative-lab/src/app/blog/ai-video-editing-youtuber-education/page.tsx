@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI動画編集で子どもYouTuber育成：安全なコンテンツ創造の完全ガイド【2025年版】 | 東京AI創造スタジオ",
+  title: "AI動画編集で子どもYouTuber育成：安全なコンテンツ創造の完全ガイド【2025年版】 | AIアソビあとりえ",
   description: "子どもの夢を叶えるAI動画編集ツールの活用法を徹底解説。安全性に配慮したYouTube動画制作、著作権教育、保護者管理まで港区の専門家が詳しく紹介。",
   keywords: ["AI 動画編集 子ども", "YouTuber 教育", "動画制作 小学生", "AI ビデオ編集", "子ども向け 動画ツール", "港区 動画教室", "YouTube 安全利用"],
   openGraph: {
@@ -823,7 +823,7 @@ export default function BlogPost() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">8-18歳</td>
                   <td className="border border-gray-300 p-3 text-center">18,000円〜</td>
                   <td className="border border-gray-300 p-3">AI特化、少人数制、YouTube運営支援</td>
@@ -999,7 +999,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-red-50 to-orange-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">AI動画制作を学ぶ夏期講座</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、夏休み期間中にAI動画制作の
+          AIアソビあとりえでは、夏休み期間中にAI動画制作の
           集中講座を開催予定です。プロの指導で、安全な動画制作と
           YouTubeチャンネル運営を学べます。
         </p>
@@ -1100,7 +1100,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「動画制作における著作権教育ガイド」（2024年）
+                • AIアソビあとりえ「動画制作における著作権教育ガイド」（2024年）
               </li>
             </ul>
           </div>

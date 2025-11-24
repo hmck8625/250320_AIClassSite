@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "プロンプトエンジニアリング入門：子どもが身につけるべき「AI対話スキル」とは【2025年版】 | 東京AI創造スタジオ",
+  title: "プロンプトエンジニアリング入門：子どもが身につけるべき「AI対話スキル」とは【2025年版】 | AIアソビあとりえ",
   description: "ChatGPT、Claude、Geminiと上手に対話する方法を小学生でも分かりやすく解説。将来必須スキル「プロンプトエンジニアリング」を楽しく学ぶ実践ガイド。",
   keywords: ["プロンプトエンジニアリング 子ども", "AI対話 教育", "生成AI 指示 テクニック", "ChatGPT 使い方 小学生", "プロンプト 書き方", "港区 AI教育", "将来スキル"],
   openGraph: {
@@ -1276,7 +1276,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">プロンプトエンジニアリング体験会</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、子ども向けプロンプトエンジニアリング
+          AIアソビあとりえでは、子ども向けプロンプトエンジニアリング
           講座を開催しています。ChatGPT、Claude、Geminiを使った
           実践的なワークショップで、楽しくスキルを身につけましょう！
         </p>
@@ -1361,7 +1361,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「子ども向けプロンプト教育実践報告」（2024年）
+                • AIアソビあとりえ「子ども向けプロンプト教育実践報告」（2024年）
               </li>
             </ul>
           </div>

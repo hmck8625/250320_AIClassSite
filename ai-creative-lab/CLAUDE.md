@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a Next.js 15 website for "東京AI創造スタジオ" (Tokyo AI Creative Studio), an AI education platform for children. The site promotes AI-powered creative learning across multiple disciplines including art, music, game development, and programming.
+This is a Next.js 15 website for "AIアソビあとりえ" (AI Asobi Atelier), an AI education platform for children. The site promotes AI-powered creative learning across multiple disciplines including art, music, game development, and programming.
 
 ## Development Commands
 

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "オンライン vs 対面プログラミング教室：子どもに最適な学習スタイルの選び方【2025年版】 | 東京AI創造スタジオ",
+  title: "オンライン vs 対面プログラミング教室：子どもに最適な学習スタイルの選び方【2025年版】 | AIアソビあとりえ",
   description: "プログラミング教室のオンラインと対面、どちらが子どもに適している？年齢別推奨、メリット・デメリット、ハイブリッド学習まで港区の教育専門家が詳しく解説。",
   keywords: ["オンライン 対面 プログラミング教室", "AI教室 選び方", "子ども プログラミング 学習方法", "オンライン学習 効果", "プログラミング教室 比較", "港区 プログラミング教育"],
   openGraph: {
@@ -639,7 +639,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">学習スタイル診断＆無料体験</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、お子様に最適な学習スタイルを見つけるための
+          AIアソビあとりえでは、お子様に最適な学習スタイルを見つけるための
           個別診断と、オンライン・対面両方の無料体験をご用意しています。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -739,7 +739,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ独自調査「受講生学習効果測定」（2024年度）
+                • AIアソビあとりえ独自調査「受講生学習効果測定」（2024年度）
               </li>
             </ul>
           </div>

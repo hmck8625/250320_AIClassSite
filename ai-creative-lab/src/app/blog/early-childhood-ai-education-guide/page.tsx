@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "3〜5歳から始める幼児AI教育完全ガイド：発達段階に合わせた安全な学習法【2025年版】 | 東京AI創造スタジオ",
+  title: "3〜5歳から始める幼児AI教育完全ガイド：発達段階に合わせた安全な学習法【2025年版】 | AIアソビあとりえ",
   description: "3歳、4歳、5歳の発達段階に応じたAI教育の始め方を専門家が詳しく解説。スクリーンタイムの適切な管理、安全なAIツール、創造性を伸ばす実践方法まで、港区の幼児AI教育をリードします。",
   keywords: ["幼児 AI教育 始め方", "3歳 4歳 5歳 プログラミング", "早期 AI教育 効果", "幼児 デジタル教育 港区", "スクリーンタイム 管理", "創造性 AI 幼児", "発達段階 デジタル学習"],
   openGraph: {
@@ -1200,7 +1200,7 @@ export default function BlogPost() {
             <h3 className="font-bold mb-2">安全性・ガイドライン</h3>
             <ul className="space-y-1 text-gray-700">
               <li>
-                • 東京AI創造スタジオ「幼児AI教育安全実践ガイド」（2025年）
+                • AIアソビあとりえ「幼児AI教育安全実践ガイド」（2025年）
               </li>
               <li>
                 • <a 

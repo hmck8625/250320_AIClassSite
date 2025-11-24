@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: '子どものための音楽教育入門 - 港区の音楽教室と家庭でできる音感育成法 | AI創造スタジオ',
+  title: '子どものための音楽教育入門 - 港区の音楽教室と家庭でできる音感育成法 | AIアソビあとりえ',
   description: '港区周辺の子ども向け音楽教室の比較や選び方、家庭でできる音感育成法、AIを活用した音楽創作まで。子どもの音楽的才能を見つけ、伸ばすための総合ガイド。',
   keywords: '子供 音楽教室, 港区 子供 音楽, 子ども 音感 育成, 幼児 音楽教育, 子供 作曲, 音楽 才能 伸ばし方',
   openGraph: {
@@ -279,7 +279,7 @@ export default function BlogPostPage() {
               <li><span className="font-bold">弱み</span>：基礎技術の習得が遅れる可能性、比較的新しいアプローチで実績が少ない</li>
               <li><span className="font-bold">向いている子</span>：創造的な活動が好きな子、好奇心旺盛な子、従来の枠にとらわれない子</li>
               <li><span className="font-bold">費用目安</span>：月額12,000円〜18,000円</li>
-              <li><span className="font-bold">代表例</span>：東京AI創造スタジオ（音楽コース）、クリエイティブ・ミュージック・ラボ</li>
+              <li><span className="font-bold">代表例</span>：AIアソビあとりえ（音楽コース）、クリエイティブ・ミュージック・ラボ</li>
             </ul>
           </div>
           
@@ -341,7 +341,7 @@ export default function BlogPostPage() {
                 <td className="py-3 px-4">リトミック、幼児音楽、打楽器</td>
               </tr>
               <tr className="border-b hover:bg-gray-50">
-                <td className="py-3 px-4 font-medium">東京AI創造スタジオ 音楽コース</td>
+                <td className="py-3 px-4 font-medium">AIアソビあとりえ 音楽コース</td>
                 <td className="py-3 px-4">AIを活用した創造的音楽教育、作曲・編曲重視</td>
                 <td className="py-3 px-4">小学1年〜中学3年</td>
                 <td className="py-3 px-4">15,000円〜20,000円</td>
@@ -398,7 +398,7 @@ export default function BlogPostPage() {
         <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
           <h4 className="text-xl font-bold text-green-700 mb-3">事例2：創造性を重視した選択</h4>
           <p className="text-green-800 mb-3">
-            創造的な活動が好きな8歳の息子さんを持つBさん家族は、従来型のピアノ教室ではなく、作曲や即興演奏も学べる「東京AI創造スタジオ」の音楽コースを選びました。AIを活用した作曲体験から始まり、徐々に音楽理論や本格的な作曲技法も学べるカリキュラムに息子さんは夢中になり、オリジナル曲を作るようになりました。
+            創造的な活動が好きな8歳の息子さんを持つBさん家族は、従来型のピアノ教室ではなく、作曲や即興演奏も学べる「AIアソビあとりえ」の音楽コースを選びました。AIを活用した作曲体験から始まり、徐々に音楽理論や本格的な作曲技法も学べるカリキュラムに息子さんは夢中になり、オリジナル曲を作るようになりました。
           </p>
           <p className="text-green-800">
             <span className="font-bold">成功のポイント</span>：子どもの創造的な性向を活かせる教室を選んだこと。技術習得だけでなく創作活動も重視したアプローチが合っていたこと。
@@ -535,7 +535,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          東京AI創造スタジオでは、AIを「入口」として子どもの創造性を引き出し、徐々に本格的な音楽創作へと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どもの音楽的な成長を効果的に支援できるでしょう。
+          AIアソビあとりえでは、AIを「入口」として子どもの創造性を引き出し、徐々に本格的な音楽創作へと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どもの音楽的な成長を効果的に支援できるでしょう。
         </p>
         
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">子どもの音楽的才能の見極め方と伸ばし方</h2>
@@ -667,7 +667,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          また、AIなどの最新技術も、子どもの創造性を引き出す「入口」として活用することで、より豊かな音楽体験につながります。東京AI創造スタジオでは、AIを活用した音楽創作から始め、徐々に本格的な音楽理論や演奏技術へと導く段階的なアプローチを採用しています。
+          また、AIなどの最新技術も、子どもの創造性を引き出す「入口」として活用することで、より豊かな音楽体験につながります。AIアソビあとりえでは、AIを活用した音楽創作から始め、徐々に本格的な音楽理論や演奏技術へと導く段階的なアプローチを採用しています。
         </p>
         
         <p>
@@ -675,9 +675,9 @@ export default function BlogPostPage() {
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">東京AI創造スタジオ 音楽コースのご案内</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえ 音楽コースのご案内</h3>
           <p className="mb-4">
-            東京AI創造スタジオでは、AIを「入口」として子どもの音楽的創造性を引き出す独自のプログラムを提供しています。AIを活用した作曲体験から始め、徐々に音楽理論や本格的な音楽制作技術へと導く段階的なアプローチで、子どもたちの創造力と表現力を育みます。
+            AIアソビあとりえでは、AIを「入口」として子どもの音楽的創造性を引き出す独自のプログラムを提供しています。AIを活用した作曲体験から始め、徐々に音楽理論や本格的な音楽制作技術へと導く段階的なアプローチで、子どもたちの創造力と表現力を育みます。
           </p>
           <p className="mb-4">
             従来の音楽教室とは異なり、「演奏技術」だけでなく「創造力」「表現力」「音楽的思考力」を総合的に育成するプログラムです。AIツールを活用することで、専門知識がなくても音楽創作の喜びを体験できるため、音楽初心者のお子さんでも安心して始められます。
@@ -764,7 +764,7 @@ export default function BlogPostPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">お子様の音楽的才能を見つけ、伸ばしませんか？</h3>
         <p className="mb-6 text-lg">
-          東京AI創造スタジオでは、AIを活用した音楽創作から始める新しい音楽教育プログラムを提供しています。
+          AIアソビあとりえでは、AIを活用した音楽創作から始める新しい音楽教育プログラムを提供しています。
           創造性を重視した独自のアプローチで、お子様の音楽的才能を見つけ、伸ばすお手伝いをします。
           無料体験レッスンも随時開催していますので、ぜひお気軽にご参加ください。
         </p>

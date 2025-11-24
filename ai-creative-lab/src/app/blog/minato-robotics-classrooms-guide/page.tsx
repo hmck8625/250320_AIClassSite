@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '港区ロボティクス教室完全ガイド：選び方から料金まで徹底比較【2025年版】 | AI創造スタジオ',
+  title: '港区ロボティクス教室完全ガイド：選び方から料金まで徹底比較【2025年版】 | AIアソビあとりえ',
   description: '港区のロボティクス教室を徹底比較！ヒューマンアカデミー、クレファス、LITALICOワンダーなど人気教室の料金・特徴・口コミを詳しく解説。無料体験情報も。',
   keywords: '港区, ロボティクス教室, ロボットプログラミング, ヒューマンアカデミー, クレファス, LITALICOワンダー, 子ども, 習い事',
   openGraph: {
@@ -32,7 +32,7 @@ export default function MinatoRoboticsClassroomsGuide() {
           <span className="text-orange-600">選び方から料金まで</span>徹底比較【2025年版】
         </h1>
         <div className="flex items-center text-sm text-gray-600">
-          <span className="mr-4 font-medium">著者: AI創造スタジオ編集部</span>
+          <span className="mr-4 font-medium">著者: AIアソビあとりえ編集部</span>
           <Link href="/blog/category/parent-column" className="text-primary hover:underline">
             カテゴリー: 保護者向けコラム
           </Link>
@@ -562,14 +562,14 @@ export default function MinatoRoboticsClassroomsGuide() {
           </div>
         </div>
 
-        <h2 id="ai-studio-advantage" className="scroll-mt-20">AI創造スタジオのロボティクス教育</h2>
+        <h2 id="ai-studio-advantage" className="scroll-mt-20">AIアソビあとりえのロボティクス教育</h2>
 
         <p>
-          私たちAI創造スタジオでは、従来のロボティクス教育に最新のAI技術を組み合わせた独自のカリキュラムを提供しています。港区の教育環境を熟知したスタッフが、お子様一人ひとりの個性を活かした学習プランをご提案します。
+          私たちAIアソビあとりえでは、従来のロボティクス教育に最新のAI技術を組み合わせた独自のカリキュラムを提供しています。港区の教育環境を熟知したスタッフが、お子様一人ひとりの個性を活かした学習プランをご提案します。
         </p>
 
         <div className="bg-gradient-to-r from-orange-50 to-yellow-50 p-6 rounded-lg my-8">
-          <h3 className="text-xl font-bold mb-4">🚀 AI創造スタジオの特徴</h3>
+          <h3 className="text-xl font-bold mb-4">🚀 AIアソビあとりえの特徴</h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -724,7 +724,7 @@ export default function MinatoRoboticsClassroomsGuide() {
       <section className="bg-gradient-to-r from-orange-50 to-red-50 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">港区のロボティクス教育をお考えですか？</h3>
         <p className="mb-6 text-lg">
-          AI創造スタジオでは、従来のロボティクス教育に最新のAI技術を組み合わせた独自プログラムを提供。
+          AIアソビあとりえでは、従来のロボティクス教育に最新のAI技術を組み合わせた独自プログラムを提供。
           港区の国際的環境を活かし、お子様の創造性を最大限に引き出します。
         </p>
         <div className="flex flex-wrap gap-4">

@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '港区で子どもの創造性を育む：麻布・青山・六本木エリア別教育ガイド | AI創造スタジオ',
+  title: '港区で子どもの創造性を育む：麻布・青山・六本木エリア別教育ガイド | AIアソビあとりえ',
   description: '港区の麻布、青山、六本木エリアの教育環境を分析し、AI時代に必要な創造性を育む最適な学習環境の選び方を専門家が解説します。',
   keywords: '港区, 麻布, 青山, 六本木, AI教育, 創造性, 子ども教育, インターナショナルスクール, プログラミング教室',
   openGraph: {
@@ -32,7 +32,7 @@ export default function MinatoAreaEducationGuide() {
           <span className="text-green-600">麻布・青山・六本木</span>エリア別教育ガイド
         </h1>
         <div className="flex items-center text-sm text-gray-600">
-          <span className="mr-4 font-medium">著者: AI創造スタジオ編集部</span>
+          <span className="mr-4 font-medium">著者: AIアソビあとりえ編集部</span>
           <Link href="/blog/category/parent-column" className="text-primary hover:underline">
             カテゴリー: 保護者向けコラム
           </Link>
@@ -271,9 +271,9 @@ export default function MinatoAreaEducationGuide() {
         </p>
         
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
-          <h3 className="text-xl font-bold text-yellow-700 mb-3">港区在住者限定：AI創造スタジオ特別プログラム</h3>
+          <h3 className="text-xl font-bold text-yellow-700 mb-3">港区在住者限定：AIアソビあとりえ特別プログラム</h3>
           <p className="text-yellow-800 mb-4">
-            私たちAI創造スタジオでは、港区の各エリアの特性を活かした専門プログラムを提供しています。お子様の個性と居住エリアに合わせて、最適な学習プランをご提案いたします。
+            私たちAIアソビあとりえでは、港区の各エリアの特性を活かした専門プログラムを提供しています。お子様の個性と居住エリアに合わせて、最適な学習プランをご提案いたします。
           </p>
           <ul className="text-yellow-700 space-y-2">
             <li>• 麻布コース：伝統×AI融合プログラム</li>
@@ -294,7 +294,7 @@ export default function MinatoAreaEducationGuide() {
         </p>
         
         <p>
-          港区という恵まれた環境を最大限に活用し、お子様の無限の可能性を引き出していきましょう。私たちAI創造スタジオは、港区の保護者の皆様と共に、次世代を担う創造的な人材の育成に取り組んでまいります。
+          港区という恵まれた環境を最大限に活用し、お子様の無限の可能性を引き出していきましょう。私たちAIアソビあとりえは、港区の保護者の皆様と共に、次世代を担う創造的な人材の育成に取り組んでまいります。
         </p>
 
         <h2 id="references" className="scroll-mt-20">参考文献・出典</h2>

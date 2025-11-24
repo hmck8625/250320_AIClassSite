@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "【2025年4月新学期】AI時代の習い事選び完全ガイド：今から間に合う教室探しのコツ | 東京AI創造スタジオ",
+  title: "【2025年4月新学期】AI時代の習い事選び完全ガイド：今から間に合う教室探しのコツ | AIアソビあとりえ",
   description: "新学期に向けたAI教育・プログラミング教室の選び方を徹底解説。港区で人気の教室情報、体験スケジュール、準備すべきことをまとめました。今からでも4月入会に間に合います！",
   keywords: ["新学期 習い事 AI", "4月 プログラミング教室", "新学年 AI教育", "春 習い事 選び方", "港区 新学期 教室", "AI教室 入会時期", "プログラミング 始め時"],
   openGraph: {
@@ -281,7 +281,7 @@ export default function BlogPost() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">総合AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">総合AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">6-18歳</td>
                   <td className="border border-gray-300 p-3 text-center">25,000-35,000円</td>
                   <td className="border border-gray-300 p-3">プログラミング、アート、音楽を統合</td>
@@ -772,7 +772,7 @@ export default function BlogPost() {
               <div className="bg-white p-4 rounded">
                 <h4 className="font-bold mb-2">白金・白金台エリア</h4>
                 <ul className="text-sm space-y-1">
-                  <li>• 総合AI創造スタジオ（白金高輪駅徒歩3分）</li>
+                  <li>• 総合AIアソビあとりえ（白金高輪駅徒歩3分）</li>
                   <li>• ロボティクス専門教室（白金台駅徒歩5分）</li>
                   <li>• 少人数制プログラミング（白金高輪駅徒歩7分）</li>
                 </ul>

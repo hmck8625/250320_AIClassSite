@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "メタバース創作教室：子どもが作る仮想世界とNFTアート【2025年トレンド】 | 東京AI創造スタジオ",
+  title: "メタバース創作教室：子どもが作る仮想世界とNFTアート【2025年トレンド】 | AIアソビあとりえ",
   description: "Roblox、Minecraft、Horizonで子どもが仮想世界を創造！NFTアートの基礎から安全な制作方法まで、港区の専門家が最新メタバース教育を徹底解説。",
   keywords: ["メタバース 創作 子ども", "子ども NFT アート", "Roblox 教育", "Minecraft 創作", "VR教育 港区", "デジタルアート 子ども", "Web3 教育"],
   openGraph: {
@@ -468,7 +468,7 @@ export default function BlogPost() {
           </h2>
 
           <p className="mb-6">
-            東京AI創造スタジオで実際に制作された
+            AIアソビあとりえで実際に制作された
             子どもたちの作品事例と、その教育効果を
             データと共にご紹介します。
           </p>
@@ -775,7 +775,7 @@ export default function BlogPost() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">6-18歳</td>
                   <td className="border border-gray-300 p-3 text-center">25,000円〜</td>
                   <td className="border border-gray-300 p-3">メタバース×NFT統合カリキュラム、少人数制</td>
@@ -942,7 +942,7 @@ export default function BlogPost() {
             <h3 className="font-bold mb-2">実践事例・研究報告</h3>
             <ul className="space-y-1 text-gray-700">
               <li>
-                • 東京AI創造スタジオ「メタバース創作教育実践報告書」（2025年）
+                • AIアソビあとりえ「メタバース創作教育実践報告書」（2025年）
               </li>
               <li>
                 • 港区教育委員会「VR/AR活用教育プロジェクト成果報告」（2025年）

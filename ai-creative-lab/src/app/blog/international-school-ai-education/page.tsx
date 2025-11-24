@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '港区インターナショナルスクール生の保護者が注目するAI教育トレンド | AI創造スタジオ',
+  title: '港区インターナショナルスクール生の保護者が注目するAI教育トレンド | AIアソビあとりえ',
   description: '港区のインターナショナルスクール環境でのAI教育の最新動向と、グローバル人材育成のための創造的AI学習アプローチを専門家が解説します。',
   keywords: '港区, インターナショナルスクール, AI教育, グローバル教育, バイリンガル, 国際教育, 創造性, STEAM教育',
   openGraph: {
@@ -32,7 +32,7 @@ export default function InternationalSchoolAIEducation() {
           <span className="text-blue-600">AI教育トレンド</span>
         </h1>
         <div className="flex items-center text-sm text-gray-600">
-          <span className="mr-4 font-medium">著者: AI創造スタジオ編集部</span>
+          <span className="mr-4 font-medium">著者: AIアソビあとりえ編集部</span>
           <Link href="/blog/category/ai-education" className="text-primary hover:underline">
             カテゴリー: AI教育最新情報
           </Link>
@@ -312,10 +312,10 @@ export default function InternationalSchoolAIEducation() {
           </div>
         </div>
         
-        <h2 id="ai-studio-program" className="scroll-mt-20">AI創造スタジオの港区インター生向け特別プログラム</h2>
+        <h2 id="ai-studio-program" className="scroll-mt-20">AIアソビあとりえの港区インター生向け特別プログラム</h2>
         
         <p>
-          私たちAI創造スタジオでは、港区のインターナショナルスクール生の特性を理解し、以下の特別プログラムを提供しています。
+          私たちAIアソビあとりえでは、港区のインターナショナルスクール生の特性を理解し、以下の特別プログラムを提供しています。
         </p>
         
         <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg my-8">

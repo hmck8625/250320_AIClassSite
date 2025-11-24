@@ -12,10 +12,10 @@ export default function Footer() {
     return (
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto text-center space-y-3">
-          <p className="text-lg font-semibold">東京AI創造スタジオ</p>
+          <p className="text-lg font-semibold">AIアソビあとりえ</p>
           <p className="text-sm text-gray-300">体験会・ご相談はLINEでお気軽にどうぞ。</p>
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} 東京AI創造スタジオ All Rights Reserved.
+            &copy; {new Date().getFullYear()} AIアソビあとりえ All Rights Reserved.
           </p>
         </div>
       </footer>
@@ -29,9 +29,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="relative w-8 h-8">
-                <Image src="/icons/site_icon.png" alt="東京AI創造スタジオ" fill className="object-contain" />
+                <Image src="/icons/site_icon.png" alt="AIアソビあとりえ" fill className="object-contain" />
               </div>
-              <h3 className="text-xl font-bold">東京AI創造スタジオ</h3>
+              <h3 className="text-xl font-bold">AIアソビあとりえ</h3>
             </div>
             <p className="mb-2">【オープン準備中】</p>
           </div>
@@ -70,7 +70,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} 東京AI創造スタジオ All Rights Reserved.
+            &copy; {new Date().getFullYear()} AIアソビあとりえ All Rights Reserved.
           </p>
           <div className="flex space-x-4 text-sm text-gray-400">
             <Link href="/privacy" className="hover:text-white">プライバシーポリシー</Link>

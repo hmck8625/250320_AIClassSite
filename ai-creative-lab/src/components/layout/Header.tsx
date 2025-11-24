@@ -24,9 +24,9 @@ export default function Header() {
           <div className="flex justify-between items-center">
             <Link href="/" className="flex items-center space-x-2">
               <div className="relative w-8 h-8">
-                <Image src="/icons/site_icon.png" alt="東京AI創造スタジオ" fill className="object-contain" />
+                <Image src="/icons/site_icon.png" alt="AIアソビあとりえ" fill className="object-contain" />
               </div>
-              <span className="font-bold text-xl">東京AI創造スタジオ</span>
+              <span className="font-bold text-xl">AIアソビあとりえ</span>
             </Link>
             <Button size="sm" className="bg-green-500 hover:bg-green-600" onClick={handleLineClick}>
               <Link href="https://lin.ee/kehl7g7" target="_blank">
@@ -45,9 +45,9 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center space-x-2">
             <div className="relative w-8 h-8">
-              <Image src="/icons/site_icon.png" alt="東京AI創造スタジオ" fill className="object-contain" />
+              <Image src="/icons/site_icon.png" alt="AIアソビあとりえ" fill className="object-contain" />
             </div>
-            <span className="font-bold text-xl">東京AI創造スタジオ</span>
+            <span className="font-bold text-xl">AIアソビあとりえ</span>
           </Link>
 
           <nav className="hidden md:flex space-x-6">

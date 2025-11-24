@@ -20,7 +20,7 @@ export default function AboutPage() {
           <div className="bg-gray-200 h-80 relative overflow-hidden">
             <Image 
               src="/images/sample/top/image_boy_idea.jpg"
-              alt="AI創造スタジオの教育理念"
+              alt="AIアソビあとりえの教育理念"
               fill
               className="object-cover"
             />
@@ -79,12 +79,12 @@ export default function AboutPage() {
       
       {/* CTA */}
       <div className="bg-gray-900 text-white p-8 rounded-lg text-center">
-        <h2 className="text-2xl font-bold mb-4">東京AI創造スタジオで、お子様の可能性を広げませんか？</h2>
+        <h2 className="text-2xl font-bold mb-4">AIアソビあとりえで、お子様の可能性を広げませんか？</h2>
         <p className="mb-6 max-w-2xl mx-auto">
           まずは無料体験会にお越しください。お子様の興味や適性を見ながら、最適なコースをご提案します。
         </p>
         <Button size="lg" className="bg-primary">
-          <Link href="/">東京AI創造スタジオについてもっと知る</Link>
+          <Link href="/">AIアソビあとりえについてもっと知る</Link>
         </Button>
       </div>
     </div>

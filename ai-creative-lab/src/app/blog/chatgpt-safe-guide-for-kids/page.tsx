@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "ChatGPT子ども安全活用ガイド：小学生の学習を変える正しい使い方【保護者必読】 | 東京AI創造スタジオ",
+  title: "ChatGPT子ども安全活用ガイド：小学生の学習を変える正しい使い方【保護者必読】 | AIアソビあとりえ",
   description: "文科省ガイドライン準拠。小学生がChatGPTを安全に学習活用するための保護者必読ガイド。年齢制限、安全設定、具体的活用法を港区の教育専門家が解説。",
   keywords: ["ChatGPT 子ども 安全", "ChatGPT 小学生 教育", "AI 子ども 学習", "生成AI 教育 ガイドライン", "ChatGPT 年齢制限", "港区 AI教育", "保護者 AI活用"],
   openGraph: {
@@ -380,7 +380,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">AI教育についてもっと知りたい方へ</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、保護者の方向けにAIリテラシー講座を開催しています。
+          AIアソビあとりえでは、保護者の方向けにAIリテラシー講座を開催しています。
           ChatGPTをはじめとする生成AIの安全な活用方法を、実践的に学べます。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

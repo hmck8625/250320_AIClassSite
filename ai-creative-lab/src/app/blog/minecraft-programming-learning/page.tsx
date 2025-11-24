@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "マインクラフトでプログラミング学習：子どもが夢中になる教育効果とは【2025年版】 | 東京AI創造スタジオ",
+  title: "マインクラフトでプログラミング学習：子どもが夢中になる教育効果とは【2025年版】 | AIアソビあとりえ",
   description: "マイクラでプログラミングを学ぶメリットと具体的な学習方法を徹底解説。教育版Minecraft、MakeCode、Python連携まで。港区で人気の教室情報も紹介。",
   keywords: ["マインクラフト プログラミング", "マイクラ 教育版", "Minecraft Education", "子ども プログラミング", "MakeCode", "港区 マイクラ教室", "ゲーム プログラミング学習"],
   openGraph: {
@@ -885,7 +885,7 @@ generate_maze(20)`}</pre>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">15,000円〜</td>
                   <td className="border border-gray-300 p-3 text-center">5-15歳</td>
                   <td className="border border-gray-300 p-3">AI連携特化、少人数制</td>
@@ -948,7 +948,7 @@ generate_maze(20)`}</pre>
           </div>
 
           <div className="mt-6 p-4 bg-amber-50 border border-amber-300 rounded-lg">
-            <h4 className="font-bold mb-2">🎓 東京AI創造スタジオの特別プログラム</h4>
+            <h4 className="font-bold mb-2">🎓 AIアソビあとりえの特別プログラム</h4>
             <p className="text-sm mb-3">
               当スタジオでは、マインクラフトを使ったAI連携プログラミングコースを開講中。
               ChatGPTやStable Diffusionと組み合わせた、他にはない創造的な学習を提供しています。
@@ -1084,7 +1084,7 @@ generate_maze(20)`}</pre>
       <div className="mb-12 p-8 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">マインクラフト×AI プログラミング体験会</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、マインクラフトとAIを組み合わせた
+          AIアソビあとりえでは、マインクラフトとAIを組み合わせた
           最先端のプログラミング教育を体験できます。
           初心者でも楽しめる特別プログラムをご用意しています。
         </p>
@@ -1169,7 +1169,7 @@ generate_maze(20)`}</pre>
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「マインクラフト教育実践レポート2024」（2024年12月）
+                • AIアソビあとりえ「マインクラフト教育実践レポート2024」（2024年12月）
               </li>
             </ul>
           </div>

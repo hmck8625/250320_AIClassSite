@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "白金・赤坂・六本木エリア別AI教室完全ガイド：通いやすさで選ぶ最適な学習環境【2025年版】 | 東京AI創造スタジオ",
+  title: "白金・赤坂・六本木エリア別AI教室完全ガイド：通いやすさで選ぶ最適な学習環境【2025年版】 | AIアソビあとりえ",
   description: "港区の白金高輪、赤坂、六本木エリア別にAI教室を徹底比較。アクセス、料金、特徴を詳しく解説。高所得世帯の保護者が重視する立地条件も考慮した選び方ガイド。",
   keywords: ["白金 AI教室", "赤坂 プログラミング教室", "六本木 AI教育", "港区 エリア別 AI教室", "通いやすい AI教室", "白金高輪 子ども プログラミング"],
   openGraph: {
@@ -204,7 +204,7 @@ export default function BlogPost() {
           <div className="space-y-6">
             <div className="bg-white border-2 border-purple-200 rounded-lg p-6">
               <div className="flex justify-between items-start mb-4">
-                <h4 className="text-lg font-bold">東京AI創造スタジオ 白金校</h4>
+                <h4 className="text-lg font-bold">AIアソビあとりえ 白金校</h4>
                 <span className="bg-purple-100 text-purple-800 px-2 py-1 rounded text-sm">当スタジオ</span>
               </div>
               
@@ -920,7 +920,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「港区AI教室通学者アンケート調査」（2024年11月）
+                • AIアソビあとりえ「港区AI教室通学者アンケート調査」（2024年11月）
               </li>
             </ul>
           </div>

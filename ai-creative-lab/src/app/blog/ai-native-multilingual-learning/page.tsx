@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AIネイティブ世代の多言語学習法：ChatGPT・Claude・Geminiで広がる国際教育の新境地【2025年版】 | 東京AI創造スタジオ",
+  title: "AIネイティブ世代の多言語学習法：ChatGPT・Claude・Geminiで広がる国際教育の新境地【2025年版】 | AIアソビあとりえ",
   description: "生成AIを活用した革新的な多言語学習法を徹底解説。ChatGPT、Claude、Geminiを使った効果的な語学習得、文化理解、国際感覚の育成方法を港区のインターナショナル教育専門家が詳しく紹介。",
   keywords: ["AI 多言語学習", "ChatGPT 語学学習", "多言語教育 子ども", "AI 国際教育", "バイリンガル AI学習", "港区 国際教育", "AI語学教室"],
   openGraph: {
@@ -829,7 +829,7 @@ export default function BlogPost() {
               
               <div className="space-y-3">
                 <div className="bg-white p-3 rounded">
-                  <h5 className="font-bold text-sm">東京AI創造スタジオ</h5>
+                  <h5 className="font-bold text-sm">AIアソビあとりえ</h5>
                   <p className="text-xs mb-1">
                     AI学習60% + ネイティブ講師40%の最適配分。
                     個別カスタマイズ対応で各家庭のニーズに応じた調整可能。
@@ -1198,7 +1198,7 @@ export default function BlogPost() {
                 • 文部科学省「グローバル人材育成戦略」（2024年改訂）
               </li>
               <li>
-                • 東京AI創造スタジオ「AI多言語学習効果検証レポート」（2024年）
+                • AIアソビあとりえ「AI多言語学習効果検証レポート」（2024年）
               </li>
             </ul>
           </div>

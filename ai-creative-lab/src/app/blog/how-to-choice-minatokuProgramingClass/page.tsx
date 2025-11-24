@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 
 export const metadata = {
-  title: '港区のプログラミング教室選び完全ガイド - 子どもの才能を伸ばす教室比較と選び方 | AI創造スタジオ',
+  title: '港区のプログラミング教室選び完全ガイド - 子どもの才能を伸ばす教室比較と選び方 | AIアソビあとりえ',
   description: '港区周辺の子ども向けプログラミング教室の比較や選び方、年齢別の学習法、家庭でできるプログラミング教育まで。子どものIT才能を見つけ、伸ばすための総合ガイド。',
   keywords: '港区 子供 プログラミング教室, 子ども コーディング 習い事, 小学生 プログラミング 港区, プログラミング教室 比較, 子供 IT教育 選び方, AI プログラミング 子ども',
   openGraph: {
@@ -259,7 +259,7 @@ export default function BlogPostPage() {
               <li><span className="font-bold">強み</span>：最新技術への理解、未来志向の学び、実社会との接点</li>
               <li><span className="font-bold">弱み</span>：基礎が不十分になる可能性、技術の変化に伴うカリキュラム変更</li>
               <li><span className="font-bold">向いている子</span>：新しい技術に興味がある子、好奇心旺盛な子、応用力のある子</li>
-              <li><span className="font-bold">代表例</span>：東京AI創造スタジオ（麻布十番）、フューチャーテックラボ（六本木）</li>
+              <li><span className="font-bold">代表例</span>：AIアソビあとりえ（麻布十番）、フューチャーテックラボ（六本木）</li>
             </ul>
           </div>
           
@@ -322,7 +322,7 @@ export default function BlogPostPage() {
                 <td className="py-3 px-4">LEGO MINDSTORMS、SPIKE Prime、Arduino</td>
               </tr>
               <tr className="border-b hover:bg-gray-50">
-                <td className="py-3 px-4 font-medium">東京AI創造スタジオ</td>
+                <td className="py-3 px-4 font-medium">AIアソビあとりえ</td>
                 <td className="py-3 px-4">AI×プログラミング、創造性重視、多分野への発展</td>
                 <td className="py-3 px-4">小学1年〜中学3年</td>
                 <td className="py-3 px-4">15,000円〜20,000円</td>
@@ -389,7 +389,7 @@ export default function BlogPostPage() {
         <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 my-8">
           <h4 className="text-xl font-bold text-yellow-700 mb-3">事例3：新しい可能性への挑戦</h4>
           <p className="text-yellow-800 mb-3">
-            プログラミング未経験だった小学3年生の息子さんを持つCさん家族は、AIと創造性を重視する「東京AI創造スタジオ」を選びました。息子さんは理系科目が得意というわけではありませんでしたが、AIを活用した創作活動から始めることで、プログラミングへの敷居が低く感じられたそうです。現在は、AIを使った物語創作からプログラミングへと興味が広がり、自分のアイデアをコードで表現することに夢中になっています。
+            プログラミング未経験だった小学3年生の息子さんを持つCさん家族は、AIと創造性を重視する「AIアソビあとりえ」を選びました。息子さんは理系科目が得意というわけではありませんでしたが、AIを活用した創作活動から始めることで、プログラミングへの敷居が低く感じられたそうです。現在は、AIを使った物語創作からプログラミングへと興味が広がり、自分のアイデアをコードで表現することに夢中になっています。
           </p>
           <p className="text-yellow-800">
             <span className="font-bold">成功のポイント</span>：子どもの苦手意識に配慮した入口を選んだこと。創造性とテクノロジーのバランスを重視したこと。段階的に学べる環境を選んだこと。
@@ -516,7 +516,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          東京AI創造スタジオでは、AIを「入口」として子どものプログラミング的思考を引き出し、徐々に本格的なコーディングへと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どものIT能力を効果的に育成できるでしょう。
+          AIアソビあとりえでは、AIを「入口」として子どものプログラミング的思考を引き出し、徐々に本格的なコーディングへと導くアプローチを採用しています。家庭でもこのような段階的なアプローチを取り入れることで、子どものIT能力を効果的に育成できるでしょう。
         </p>
         
         <h2 className="text-3xl font-bold mt-12 mb-6 text-gray-800">子どものIT才能の見極め方と伸ばし方</h2>
@@ -650,7 +650,7 @@ export default function BlogPostPage() {
         </p>
         
         <p>
-          また、AIなどの最新技術も、子どもの学習をサポートする「入口」として活用することで、より効果的なプログラミング教育につながります。東京AI創造スタジオでは、AIを活用したプログラミング学習から始め、徐々に本格的なコーディングへと導く段階的なアプローチを採用しています。
+          また、AIなどの最新技術も、子どもの学習をサポートする「入口」として活用することで、より効果的なプログラミング教育につながります。AIアソビあとりえでは、AIを活用したプログラミング学習から始め、徐々に本格的なコーディングへと導く段階的なアプローチを採用しています。
         </p>
         
         <p>
@@ -658,9 +658,9 @@ export default function BlogPostPage() {
         </p>
         
         <div className="bg-gray-50 border-l-4 border-gray-500 p-6 my-8">
-          <h3 className="text-2xl font-bold mb-4 text-gray-800">東京AI創造スタジオ プログラミングコースのご案内</h3>
+          <h3 className="text-2xl font-bold mb-4 text-gray-800">AIアソビあとりえ プログラミングコースのご案内</h3>
           <p className="mb-4">
-            東京AI創造スタジオでは、AIを「入口」として子どものプログラミング的思考と創造性を引き出す独自のプログラムを提供しています。AIを活用した創作体験から始め、徐々に本格的なコーディングスキルも身につけながら、子どもたちの論理的思考力と創造力を育みます。
+            AIアソビあとりえでは、AIを「入口」として子どものプログラミング的思考と創造性を引き出す独自のプログラムを提供しています。AIを活用した創作体験から始め、徐々に本格的なコーディングスキルも身につけながら、子どもたちの論理的思考力と創造力を育みます。
           </p>
           <p className="mb-4">
             従来のプログラミング教室とは異なり、「技術」だけでなく「創造力」「問題解決能力」「論理的思考力」を総合的に育成するプログラムです。AIツールを活用することで、プログラミング初心者のお子さんでも挫折せず、楽しみながら学ぶことができます。
@@ -747,7 +747,7 @@ export default function BlogPostPage() {
       <section className="bg-gradient-to-r from-indigo-100 to-blue-100 p-8 rounded-xl mb-12 shadow-md">
         <h3 className="text-2xl font-bold mb-4 text-gray-800">お子様のIT才能を見つけ、伸ばしませんか？</h3>
         <p className="mb-6 text-lg">
-          東京AI創造スタジオでは、AIを活用した新しいプログラミング教育プログラムを提供しています。
+          AIアソビあとりえでは、AIを活用した新しいプログラミング教育プログラムを提供しています。
           創造性を重視した独自のアプローチで、お子様のIT才能を見つけ、伸ばすお手伝いをします。
           無料体験レッスンも随時開催していますので、ぜひお気軽にご参加ください。
         </p>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "中学受験×AI教育の相乗効果：有名私立中学が求める「未来型スキル」とは【2025年版】 | 東京AI創造スタジオ",
+  title: "中学受験×AI教育の相乗効果：有名私立中学が求める「未来型スキル」とは【2025年版】 | AIアソビあとりえ",
   description: "中学受験にAI教育がもたらす驚きの効果を徹底解説。麻布・開成・桜蔭など名門校が注目する思考力・表現力を、AIプログラミングで効率的に伸ばす方法を港区の専門家が詳しく紹介。",
   keywords: ["中学受験 AI教育", "私立中学 プログラミング", "思考力 育成", "論理的思考 中学受験", "未来型スキル 教育", "港区 中学受験対策", "21世紀型スキル"],
   openGraph: {
@@ -187,7 +187,7 @@ export default function BlogPost() {
           </p>
 
           <div className="mb-8 p-6 bg-green-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-4 text-green-800">📈 成績向上データ（東京AI創造スタジオ調査）</h3>
+            <h3 className="text-xl font-bold mb-4 text-green-800">📈 成績向上データ（AIアソビあとりえ調査）</h3>
             
             <div className="overflow-x-auto mb-6">
               <table className="w-full border-collapse border border-gray-300 text-sm">
@@ -753,7 +753,7 @@ export default function BlogPost() {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">小1-中3</td>
                   <td className="border border-gray-300 p-3 text-center">20,000円〜</td>
                   <td className="border border-gray-300 p-3 text-center">🟢 完全対応</td>
@@ -918,7 +918,7 @@ export default function BlogPost() {
                   </a>
               </li>
               <li>
-                • 東京AI創造スタジオ「AI教育併用生徒の学習効果測定調査」（2024年）
+                • AIアソビあとりえ「AI教育併用生徒の学習効果測定調査」（2024年）
               </li>
             </ul>
           </div>

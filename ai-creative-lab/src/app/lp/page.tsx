@@ -463,7 +463,7 @@ export default function LandingPage() {
       description: '遊んで、作って、飾って帰る「出版型」AI体験会。LINEから参加申込できます。',
       organizer: {
         '@type': 'Organization',
-        name: '東京AI創造スタジオ / ATELIER SPARK',
+        name: 'AIアソビあとりえ / ATELIER SPARK',
         url: 'https://tokyo-ai-creative.studio',
       },
       offers: {

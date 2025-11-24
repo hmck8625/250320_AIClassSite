@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '年収1000万円世帯の教育投資戦略：AI時代に向けた港区での選択肢 | AI創造スタジオ',
+  title: '年収1000万円世帯の教育投資戦略：AI時代に向けた港区での選択肢 | AIアソビあとりえ',
   description: '年収1000万円以上の港区世帯向けに、AI時代の教育投資戦略と費用対効果の高い教育選択肢を専門家が詳しく解説します。',
   keywords: '年収1000万円, 教育投資, 港区, AI教育, 教育費, 投資対効果, 富裕層教育, 習い事, 塾選び',
   openGraph: {
@@ -32,7 +32,7 @@ export default function HighIncomeEducationInvestment() {
           <span className="text-yellow-600">AI時代に向けた港区での選択肢</span>
         </h1>
         <div className="flex items-center text-sm text-gray-600">
-          <span className="mr-4 font-medium">著者: AI創造スタジオ編集部</span>
+          <span className="mr-4 font-medium">著者: AIアソビあとりえ編集部</span>
           <Link href="/blog/category/parent-column" className="text-primary hover:underline">
             カテゴリー: 保護者向けコラム
           </Link>
@@ -429,10 +429,10 @@ export default function HighIncomeEducationInvestment() {
           </ul>
         </div>
         
-        <h2 id="ai-studio-advantage" className="scroll-mt-20">AI創造スタジオ：高所得世帯のための戦略的教育投資</h2>
+        <h2 id="ai-studio-advantage" className="scroll-mt-20">AIアソビあとりえ：高所得世帯のための戦略的教育投資</h2>
         
         <p>
-          私たちAI創造スタジオは、港区の年収1000万円以上の世帯の教育ニーズを理解し、お子様の将来を見据えたAI創造教育プログラムを提供しています。従来の習い事とは一線を画す、創造性とテクノロジーを融合した教育で、次世代のリーダーを育成します。
+          私たちAIアソビあとりえは、港区の年収1000万円以上の世帯の教育ニーズを理解し、お子様の将来を見据えたAI創造教育プログラムを提供しています。従来の習い事とは一線を画す、創造性とテクノロジーを融合した教育で、次世代のリーダーを育成します。
         </p>
         
         
@@ -456,7 +456,7 @@ export default function HighIncomeEducationInvestment() {
         </div>
         
         <p className="font-bold text-lg mt-8">
-          教育投資の成功は、正しい戦略と継続的な最適化にかかっています。AI創造スタジオが、お子様の輝かしい未来に向けた最適な投資パートナーとなることをお約束いたします。
+          教育投資の成功は、正しい戦略と継続的な最適化にかかっています。AIアソビあとりえが、お子様の輝かしい未来に向けた最適な投資パートナーとなることをお約束いたします。
         </p>
         
         <h2 id="references" className="scroll-mt-20">参考文献・データ出典</h2>

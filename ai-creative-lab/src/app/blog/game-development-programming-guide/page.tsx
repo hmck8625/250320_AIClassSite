@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "子どもがハマるゲーム開発プログラミング教室：ScratchからUnityまで完全ガイド | 東京AI創造スタジオ",
+  title: "子どもがハマるゲーム開発プログラミング教室：ScratchからUnityまで完全ガイド | AIアソビあとりえ",
   description: "子どもの興味を引くゲーム開発でプログラミングを学習。Scratch、Unity対応の教室比較から、年齢別学習ロードマップ、人気ジャンル別ガイドまで港区の専門家が解説。",
   keywords: ["ゲーム開発 子ども 教室", "子ども プログラミング ゲーム", "Scratch ゲーム 作り方", "Unity 小学生", "マインクラフト プログラミング", "港区 ゲーム開発教室"],
   openGraph: {
@@ -554,7 +554,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">ゲーム開発で学ぶプログラミング体験</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、Scratchから本格的なUnity開発まで、
+          AIアソビあとりえでは、Scratchから本格的なUnity開発まで、
           お子様の興味と学習ペースに合わせたゲーム開発コースをご用意しています。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

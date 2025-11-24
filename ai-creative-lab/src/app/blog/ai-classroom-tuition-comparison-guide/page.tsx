@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "AI教室の料金相場を徹底比較：港区で賢い教育投資をするために【2025年版】 | 東京AI創造スタジオ",
+  title: "AI教室の料金相場を徹底比較：港区で賢い教育投資をするために【2025年版】 | AIアソビあとりえ",
   description: "港区のAI・プログラミング教室の料金相場を詳細比較。月謝、入会金、教材費まで隠れたコストを含めた年間総額と、コスパの良い教室選びを解説。",
   keywords: ["AI教室 料金 相場", "プログラミング教室 月謝 港区", "AI教育 費用", "習い事 料金 比較", "港区 教育投資", "プログラミング 月謝"],
   openGraph: {
@@ -210,7 +210,7 @@ export default function BlogPost() {
                   <td className="border border-gray-300 p-3 text-center font-bold text-orange-600">221,100円</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-300 p-3 font-medium">東京AI創造スタジオ</td>
+                  <td className="border border-gray-300 p-3 font-medium">AIアソビあとりえ</td>
                   <td className="border border-gray-300 p-3 text-center">13,200円</td>
                   <td className="border border-gray-300 p-3 text-center">11,000円</td>
                   <td className="border border-gray-300 p-3 text-center">月550円</td>
@@ -229,7 +229,7 @@ export default function BlogPost() {
             <div className="bg-blue-50 border border-blue-200 p-4 rounded-lg">
               <h4 className="font-bold text-blue-800 mb-2">💙 標準価格帯</h4>
               <p className="text-sm">年間17万円〜22万円</p>
-              <p className="text-xs text-gray-600">東京AI創造スタジオ、CotoMirai</p>
+              <p className="text-xs text-gray-600">AIアソビあとりえ、CotoMirai</p>
             </div>
             <div className="bg-red-50 border border-red-200 p-4 rounded-lg">
               <h4 className="font-bold text-red-800 mb-2">❤️ プレミアム価格帯</h4>
@@ -257,7 +257,7 @@ export default function BlogPost() {
               </p>
               <ul className="text-sm space-y-1">
                 <li>• 無料: Tech Kids School、プログラボ</li>
-                <li>• 11,000円: QUREO、ヒューマンアカデミー、東京AI創造スタジオ</li>
+                <li>• 11,000円: QUREO、ヒューマンアカデミー、AIアソビあとりえ</li>
                 <li>• 16,500円: LITALICOワンダー、CotoMirai</li>
               </ul>
             </div>
@@ -642,7 +642,7 @@ export default function BlogPost() {
       <div className="mb-12 p-8 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg text-center">
         <h3 className="text-2xl font-bold mb-4">料金について詳しく相談したい方へ</h3>
         <p className="mb-6">
-          東京AI創造スタジオでは、ご家庭の予算に合わせた最適なコース提案を行っています。
+          AIアソビあとりえでは、ご家庭の予算に合わせた最適なコース提案を行っています。
           料金体系の詳細説明から、割引制度のご案内まで、お気軽にご相談ください。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

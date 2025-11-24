@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: 'AI創造スタジオ | 港区の子ども向けAI教室',
+  title: 'AIアソビあとりえ | 港区の子ども向けAI教室',
   description: 'AIを入口に、子どもの創造力と才能を引き出す港区の教室',
   keywords: '港区, AI教室, 子供, プログラミング, 創造力, AI教育',
   icons: {
